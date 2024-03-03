@@ -20,7 +20,7 @@ jobs:
       - name: Download APK from private repo release
         uses: dsaltares/fetch-gh-release-asset@master
         with:
-          repo: "your-private-repo-owner/your-private-repo-name"
+          repo: "likeich/console-launcher"
           version: "tags/${{ github.event.inputs.tag_name }}"
           file: "${{ github.event.inputs.file_name }}"
           token: ${{ secrets.PAT }}
