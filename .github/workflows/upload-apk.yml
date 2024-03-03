@@ -17,10 +17,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Download APK artifact
-        uses: actions/download-artifact@v3
+      - name: Download APK from private repo release
+        uses: dsaltares/fetch-gh-release-asset@master
         with:
-          name: console-launcher-apk
+          repo: "your-private-repo-owner/your-private-repo-name"
+          version: "tags/${{ github.event.inputs.tag_name }}"
+          file: "${{ github.event.inputs.file_name }}"
+          token: ${{ secrets.PAT }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
 
       - name: Upload APK to Release
         uses: actions/upload-release-asset@v1
@@ -28,6 +33,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: https://api.github.com/repos/likeich/console-launcher/releases/tags/${{ github.event.inputs.tag_name }}
-          asset_path: ./console-launcher-apk/${{ github.event.inputs.file_name }}
+          asset_path: ./${{ github.event.inputs.file_name }}
           asset_name: ${{ github.event.inputs.file_name }}
           asset_content_type: application/vnd.android.package-archive
