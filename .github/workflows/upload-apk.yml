@@ -1,0 +1,28 @@
+name: Upload APK to Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      apk_path:
+        description: 'Path to the APK file'
+        required: true
+      tag_name:
+        description: 'Release tag name'
+        required: true
+
+jobs:
+  upload-apk:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Upload APK to Release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: https://api.github.com/repos/likeich/console-launcher/releases/tags/${{ github.event.inputs.tag_name }}
+          asset_path: ${{ github.event.inputs.apk_path }}
+          asset_name: ConsoleLauncher-${{ github.event.inputs.tag_name }}.apk
+          asset_content_type: application/vnd.android.package-archive
