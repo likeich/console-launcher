@@ -18,14 +18,11 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Download APK from private repo release
-        uses: dsaltares/fetch-gh-release-asset@master
+        uses: actions/download-artifact@v3
         with:
-          repo: "likeich/Console-Launcher-Native"
-          version: "tags/${{ github.event.inputs.tag_name }}"
-          file: "${{ github.event.inputs.file_name }}"
+          name: console-launcher-apk
+          repository: "likeich/Console-Launcher-Native"
           token: ${{ secrets.PAT }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
 
       - name: Upload APK to Release
         uses: actions/upload-release-asset@v1
