@@ -4,11 +4,11 @@ import glob
 
 class ThemeConfig:
     def __init__(self, baseUrl, themeList):
-        self.baseUri = baseUrl
+        self.baseUrl = baseUrl
         self.themeList = themeList
 
     def __str__(self):
-        return f"ThemeConfig(baseUri={self.baseUri}, themeList={self.themeList})"
+        return f"ThemeConfig(baseUri={self.baseUrl}, themeList={self.themeList})"
 
     def save_to_file(self, filename):
         with open(filename, 'w') as file:
