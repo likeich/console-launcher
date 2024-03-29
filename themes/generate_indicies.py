@@ -43,7 +43,7 @@ class Theme:
 
 
 config = ThemeConfig(
-    baseUrl="https://github.com/likeich/console-launcher/tree/main/themes/",
+    baseUrl="https://raw.githubusercontent.com/likeich/console-launcher/main/themes/",
     themeList=[name for name in os.listdir() if os.path.isdir(name) and name != "platform_icons_packs"]
 )
 config.save_to_file("themes.json")
