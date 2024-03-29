@@ -14,9 +14,10 @@ class ThemeConfig:
         with open(filename, 'w') as file:
             json.dump(self.__dict__, file, indent=4)
 
-class IconPack:
-    def __init__(self, name, description, authors, sources, newImageCost, artistContact, previewFilename, iconList, bannerList, posterList):
+class Theme:
+    def __init__(self, name, folderName, description, authors, sources, newImageCost, artistContact, previewFilename, iconList, bannerList, posterList):
         self.name = name
+        self.folderName = folderName
         self.description = description
         self.authors = authors
         self.sources = sources
@@ -50,7 +51,8 @@ config.save_to_file("themes.json")
 valid_extensions = [".jpg", ".jpeg", ".png", ".gif", ".webp", ".bmp", ".svg"]
 image_folders = ["icons", "banners", "posters"]
 for theme in config.themeList:
-    icon_pack = IconPack.load_from_file(f"{theme}/theme.json")
+    icon_pack = Theme.load_from_file(f"{theme}/theme.json")
+    icon_pack.folderName = theme
 
     for folder in image_folders:
         file_list = [os.path.basename(filename) for ext in valid_extensions for filename in glob.glob(f'{theme}/{folder}/*{ext}')]
