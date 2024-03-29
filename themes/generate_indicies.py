@@ -3,8 +3,8 @@ import os
 import glob
 
 class ThemeConfig:
-    def __init__(self, baseUri, themeList):
-        self.baseUri = baseUri
+    def __init__(self, baseUrl, themeList):
+        self.baseUri = baseUrl
         self.themeList = themeList
 
     def __str__(self):
@@ -43,7 +43,7 @@ class Theme:
 
 
 config = ThemeConfig(
-    baseUri="https://github.com/likeich/console-launcher/tree/main/themes",
+    baseUrl="https://github.com/likeich/console-launcher/tree/main/themes/",
     themeList=[name for name in os.listdir() if os.path.isdir(name) and name != "platform_icons_packs"]
 )
 config.save_to_file("themes.json")
