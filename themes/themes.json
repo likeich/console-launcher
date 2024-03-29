@@ -1,7 +1,7 @@
 {
     "baseUrl": "https://raw.githubusercontent.com/likeich/console-launcher/main/themes/",
     "themeList": [
-        "x-retro",
-        "minimal-cl"
+        "minimal-cl",
+        "x-retro"
     ]
 }
