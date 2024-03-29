@@ -55,7 +55,7 @@ for theme in config.themeList:
     icon_pack.folderName = theme
 
     for folder in image_folders:
-        file_list = [os.path.basename(filename) for ext in valid_extensions for filename in glob.glob(f'{theme}/{folder}/*{ext}')]
+        file_list = sorted([os.path.basename(filename) for ext in valid_extensions for filename in glob.glob(f'{theme}/{folder}/*{ext}')])
         if folder == "icons":
             icon_pack.iconList = file_list
         elif folder == "banners":
