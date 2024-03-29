@@ -1,0 +1,60 @@
+{
+    "name": "X-Retro",
+    "description": "This pack contains icons that show the individual console in a box art style.",
+    "authors": [
+        "Mr XBlocks"
+    ],
+    "sources": [
+        "https://www.deviantart.com/masterq2"
+    ],
+    "newImageCost": 10,
+    "artistContact": "Contact me on Discord: mrxblocksgraphicsartist",
+    "previewFilename": "preview.png",
+    "iconList": [
+        "psp.png",
+        "snes.png",
+        "ps2.png",
+        "n64.png",
+        "gba.png",
+        "gbc.png",
+        "gc.png",
+        "gb.png",
+        "wii.png",
+        "nes.png",
+        "switch.png",
+        "3ds.png",
+        "nds.png",
+        "psx.png",
+        "genesis.png",
+        "dreamcast.png",
+        "saturn.png"
+    ],
+    "bannerList": [
+        "gba.png",
+        "gbc.png",
+        "com.mojang.minecraftpe.png",
+        "3ds.png",
+        "nds.png"
+    ],
+    "posterList": [
+        "psp.png",
+        "snes.png",
+        "ps2.png",
+        "n64.png",
+        "gba.png",
+        "master.png",
+        "neogeo.png",
+        "gbc.png",
+        "gb.png",
+        "wii.png",
+        "com.mojang.minecraftpe.png",
+        "nes.png",
+        "switch.png",
+        "3ds.png",
+        "nds.png",
+        "genesis.png",
+        "dreamcast.png",
+        "msx.png",
+        "saturn.png"
+    ]
+}
