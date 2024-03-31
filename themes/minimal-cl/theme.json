@@ -1,6 +1,6 @@
 {
     "name": "Minimal-CL",
-    "folderName": "minimal-cl",
+    "previewFilename": "minimal-cl.png",
     "description": "This pack contains minimalistic icons with a white console logo on a gradient background.",
     "authors": [
         "arcreation",
@@ -12,7 +12,7 @@
     ],
     "newImageCost": "",
     "artistContact": "",
-    "previewFilename": "minimal-cl.png",
+    "folderName": "minimal-cl",
     "iconList": [
         "3do.png",
         "3ds.png",

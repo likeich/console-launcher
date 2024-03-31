@@ -17,13 +17,13 @@ class ThemeConfig:
 class Theme:
     def __init__(self, name, folderName, description, authors, sources, newImageCost, artistContact, previewFilename, iconList, bannerList, posterList):
         self.name = name
-        self.folderName = folderName
+        self.previewFilename = previewFilename
         self.description = description
         self.authors = authors
         self.sources = sources
         self.newImageCost = newImageCost
         self.artistContact = artistContact
-        self.previewFilename = previewFilename
+        self.folderName = folderName
         self.iconList = iconList
         self.bannerList = bannerList
         self.posterList = posterList

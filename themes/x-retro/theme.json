@@ -1,6 +1,6 @@
 {
     "name": "X-Retro",
-    "folderName": "x-retro",
+    "previewFilename": "preview.png",
     "description": "This pack contains icons that show the individual console in a box art style.",
     "authors": [
         "Mr XBlocks"
@@ -10,7 +10,7 @@
     ],
     "newImageCost": "$15 for an icon, banner, and poster set.",
     "artistContact": "on Discord: mrxblocksgraphicsartist",
-    "previewFilename": "preview.png",
+    "folderName": "x-retro",
     "iconList": [
         "3ds.png",
         "dreamcast.png",
