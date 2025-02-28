@@ -42,5 +42,22 @@
       "https://play-lh.googleusercontent.com/pTbd3-0MGLhTMzSs2ueHCQp-Tbz2JDvYzD_EIGgcG5ROmkiwtNszw9rXFtvZqypZHD8=w2560-h1440-rw",
       "https://play-lh.googleusercontent.com/3nPi8OHpP9tekl1ppzcHaKRXyogXMTswOZ5EvXAodZHq1ghjPlGoYcsV00ZksLnMxw=w2560-h1440-rw"
     ]
+  },
+  {
+    "name": "Dolphin Emulator",
+    "category": ["Emulation", "Nintendo"],
+    "description": "RetroArch is an open-source project that makes use of a powerful development interface called Libretro. Libretro is an interface that allows you to make cross-platform applications that can use rich features such as OpenGL, cross-platform camera support, location support, and more in the future.",
+    "sources": [
+      "https://dolphin-emu.org/download/",
+      "https://play.google.com/store/apps/details?id=org.dolphinemu.dolphinemu"
+    ],
+    "price": "Free",
+    "price_description": "Open Source",
+    "controller_support": true,
+    "main_image": "https://play-lh.googleusercontent.com/-09r-5hc-kmCEVcEMydcgpiaJjdbKxdzdB7D1t3V27uF5UVRvuspY7tEovedw67beO8=w240-h480-rw",
+    "images": [
+      "https://play-lh.googleusercontent.com/Q4BKZMo23U5c9b33KbUfnkD68nzdbHuAAcNqZ-UhJfrbg_-2DHfvwZKpcXhHbeW0lg=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/IjF5ioOknAqCPwsogJfN7YaIrCp-KVySw1-Vl3OIBbuqb6KMnAUR_BvyjXYTNbne1g=w2560-h1440-rw"
+    ]
   }
 ]
