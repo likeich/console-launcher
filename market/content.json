@@ -9,6 +9,22 @@
     "image": "https://images.launchbox-app.com//dbe079a3-4519-4a4f-bb97-42abb219cdf3.png"
   },
   {
+    "name": "Dead Cells",
+    "category": ["Games", "Action"],
+    "sources": ["https://play.google.com/store/apps/details?id=com.playdigious.deadcells.mobile"],
+    "price": "$8.99",
+    "controller_support": true,
+    "image": "https://images.launchbox-app.com//0877c296-d727-4192-883c-5c0585fe1189.jpg"
+  },
+  {
+    "name": "Discord",
+    "category": ["Social"],
+    "sources": ["https://play.google.com/store/apps/details?id=com.discord"],
+    "price": "Free",
+    "controller_support": false,
+    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxsG72wAo9EWJR4yQWyJJaDb6rYcBtJvTvH3UoAS4JFNDaxGhmKNaMwgElLURlRFeVkLCjkfnXmWtINWZIrPGYq0-&format=source"
+  },
+  {
     "name": "Dolphin Emulator",
     "category": ["Emulation", "Nintendo"],
     "sources": [
@@ -19,14 +35,6 @@
     "price_description": "Open Source",
     "controller_support": true,
     "image": "https://play-lh.googleusercontent.com/-09r-5hc-kmCEVcEMydcgpiaJjdbKxdzdB7D1t3V27uF5UVRvuspY7tEovedw67beO8=w240-h480-rw"
-  },
-  {
-    "name": "Dead Cells",
-    "category": ["Games", "Action"],
-    "sources": ["https://play.google.com/store/apps/details?id=com.playdigious.deadcells.mobile"],
-    "price": "$8.99",
-    "controller_support": true,
-    "image": "https://images.launchbox-app.com//0877c296-d727-4192-883c-5c0585fe1189.jpg"
   },
   {
     "name": "GRID™ Autosport",
