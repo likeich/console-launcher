@@ -9,6 +9,15 @@
     "image": "https://images.launchbox-app.com//dbe079a3-4519-4a4f-bb97-42abb219cdf3.png"
   },
   {
+    "name": "Call of Duty: Mobile",
+    "category": ["Games", "Action"],
+    "sources": ["https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter"],
+    "price": "Free",
+    "price_description": "IAP and Annoying Ads",
+    "controller_support": true,
+    "image": "https://images.launchbox-app.com//e565120b-c75b-4c53-804c-5cc8bf973f6a.png"
+  },
+  {
     "name": "Dead Cells",
     "category": ["Games", "Action"],
     "sources": ["https://play.google.com/store/apps/details?id=com.playdigious.deadcells.mobile"],
