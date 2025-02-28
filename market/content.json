@@ -63,6 +63,14 @@
     "image": "https://images.launchbox-app.com//28edeff4-8389-4e35-976c-1bfcb3d6572c.png"
   },
   {
+    "name": "NetherSX2",
+    "category": ["Emulation", "Sony"],
+    "sources": ["https://github.com/Trixarian/NetherSX2-patch"],
+    "price": "Free",
+    "controller_support": true,
+    "image": "https://github.com/Trixarian/NetherSX2-patch/raw/main/.github/assets/logo_light.png"
+  },
+  {
     "name": "RetroArch",
     "category": ["Emulation"],
     "sources": [
