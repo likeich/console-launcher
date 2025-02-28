@@ -56,5 +56,16 @@
     "price_description": "Open Source",
     "controller_support": true,
     "image": "https://play-lh.googleusercontent.com/v0-7CQhepv50kdT1iR71W2uYfJOhii7LVA0OzOy6MoZADcpRddi3i3KlKKrpbRBzP3Ht=w240-h480-rw"
+  },
+  {
+    "name": "Vampire Survivors",
+    "category": ["Games", "Action"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.poncle.vampiresurvivors"
+    ],
+    "price": "Free",
+    "price_description": "In-App Purchases",
+    "controller_support": true,
+    "image": "https://images.launchbox-app.com//539fb1eb-f582-45d9-8b97-e1dafcd5d600.jpg"
   }
 ]
