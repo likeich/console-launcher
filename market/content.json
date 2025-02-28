@@ -18,6 +18,15 @@
     "image": "https://images.launchbox-app.com//e565120b-c75b-4c53-804c-5cc8bf973f6a.png"
   },
   {
+    "name": "Cemu",
+    "category": ["Emulation", "Nintendo"],
+    "sources": ["https://github.com/XForYouX/Cemu-Android/releases"],
+    "price": "Free",
+    "price_description": "Open Source",
+    "controller_support": true,
+    "image": "https://wiki.cemu.info/images/3/32/CemuLogo2.png"
+  },
+  {
     "name": "Dead Cells",
     "category": ["Games", "Action"],
     "sources": ["https://play.google.com/store/apps/details?id=com.playdigious.deadcells.mobile"],
