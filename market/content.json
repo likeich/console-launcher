@@ -18,7 +18,7 @@
   },
   {
     "name": "Discord",
-    "category": ["Social"],
+    "category": ["Apps", "Social"],
     "sources": ["https://play.google.com/store/apps/details?id=com.discord"],
     "price": "Free",
     "controller_support": false,
@@ -75,5 +75,15 @@
     "price_description": "In-App Purchases",
     "controller_support": true,
     "image": "https://images.launchbox-app.com//539fb1eb-f582-45d9-8b97-e1dafcd5d600.jpg"
+  },
+  {
+    "name": "YouTube Music",
+    "category": ["Apps", "Music"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music"
+    ],
+    "price": "Free",
+    "controller_support": false,
+    "image": "https://play-lh.googleusercontent.com/zD8UA5CRdiPzbvTwGKtzR4KjQpxqEK6X0tGDpzEaOo0xPEvG6HUiC_0qkpTfzpuMTqU=w240-h480-rw"
   }
 ]
