@@ -25,7 +25,6 @@
     "category": ["Games", "Action"],
     "sources": ["https://play.google.com/store/apps/details?id=com.playdigious.deadcells.mobile"],
     "price": "$8.99",
-    "price_description": "",
     "controller_support": true,
     "image": "https://images.launchbox-app.com//0877c296-d727-4192-883c-5c0585fe1189.jpg"
   },
