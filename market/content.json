@@ -18,7 +18,7 @@
     "description": "Dive into an open world of building, crafting and survival in the ultimate sandbox builder. Gather resources, survive the night, and build whatever you can imagine one block at a time. Explore and craft your way through a completely open world where you can play with friends, build a block city, start a farm, mine deep into the ground, face mysterious enemies, or just experiment to the limits of your imagination!",
     "sources": ["https://play.google.com/store/apps/details?id=com.mojang.minecraftpe"],
     "price": "$6.99",
-    "price_description": "One-time purchase with optional in-app purchases",
+    "price_description": "Optional in-app purchases",
     "controller_support": true,
     "main_image": "https://images.launchbox-app.com//28edeff4-8389-4e35-976c-1bfcb3d6572c.png",
     "images": [
