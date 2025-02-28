@@ -29,6 +29,14 @@
     "image": "https://images.launchbox-app.com//0877c296-d727-4192-883c-5c0585fe1189.jpg"
   },
   {
+    "name": "GRID™ Autosport",
+    "category": ["Games", "Racing"],
+    "sources": ["https://play.google.com/store/apps/details?id=com.feralinteractive.gridas"],
+    "price": "$8.99",
+    "controller_support": true,
+    "image": "https://images.launchbox-app.com//21dd8c1a-fd53-46f7-bd74-2a1f2dbc2b61.jpg"
+  },
+  {
     "name": "Minecraft",
     "category": ["Games", "Survival"],
     "sources": ["https://play.google.com/store/apps/details?id=com.mojang.minecraftpe"],
