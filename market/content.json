@@ -75,6 +75,17 @@
     "image": "https://play-lh.googleusercontent.com/v0-7CQhepv50kdT1iR71W2uYfJOhii7LVA0OzOy6MoZADcpRddi3i3KlKKrpbRBzP3Ht=w240-h480-rw"
   },
   {
+    "name": "Spotify",
+    "category": ["Apps", "Music"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.spotify.music"
+    ],
+    "price": "Free",
+    "price_description": "Optional Paid Subscription",
+    "controller_support": false,
+    "image": "https://play-lh.googleusercontent.com/7ynvVIRdhJNAngCg_GI7i8TtH8BqkJYmffeUHsG-mJOdzt1XLvGmbsKuc5Q1SInBjDKN=w240-h480-rw"
+  },
+  {
     "name": "Vampire Survivors",
     "category": ["Games", "Action"],
     "sources": [
