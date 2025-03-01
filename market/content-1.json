@@ -80,6 +80,17 @@
     "image": "https://github.com/Trixarian/NetherSX2-patch/raw/main/.github/assets/logo_light.png"
   },
   {
+    "name": "PPSSPP",
+    "category": ["Emulation", "Sony"],
+    "sources": [
+      "https://www.ppsspp.org/download/",
+      "https://play.google.com/store/apps/details?id=org.ppsspp.ppsspp"
+    ],
+    "price": "Free",
+    "controller_support": true,
+    "image": "https://www.ppsspp.org/static/img/platform/ppsspp-icon.png"
+  },
+  {
     "name": "RetroArch",
     "category": ["Emulation"],
     "sources": [
@@ -103,6 +114,26 @@
     "image": "https://play-lh.googleusercontent.com/7ynvVIRdhJNAngCg_GI7i8TtH8BqkJYmffeUHsG-mJOdzt1XLvGmbsKuc5Q1SInBjDKN=w240-h480-rw"
   },
   {
+    "name": "Steam Link",
+    "category": ["Apps", "Streaming"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.valvesoftware.steamlink"
+    ],
+    "price": "Free",
+    "controller_support": true,
+    "image": "https://play-lh.googleusercontent.com/LJp18yPRgdNRXSykeH2rJtaqWH-wrR0S1amiwm1KTWKwe7bwblwzGpCsPg4Rqz19VDs=w240-h480-rw"
+  },
+  {
+    "name": "Twitch",
+    "category": ["Apps", "Streaming"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=tv.twitch.android.app"
+    ],
+    "price": "Free",
+    "controller_support": false,
+    "image": "https://play-lh.googleusercontent.com/Y6epalNGUKPgWyQpDCgVL621EgmOmXBWfQoJdaM8v0irKWEII5bEDvpaWp7Mey2MVg=w240-h480-rw"
+  },
+  {
     "name": "Vampire Survivors",
     "category": ["Games", "Action"],
     "sources": [
@@ -112,6 +143,16 @@
     "price_description": "In-App Purchases",
     "controller_support": true,
     "image": "https://images.launchbox-app.com//539fb1eb-f582-45d9-8b97-e1dafcd5d600.jpg"
+  },
+  {
+    "name": "Vita3K",
+    "category": ["Emulation", "Sony"],
+    "sources": [
+      "https://github.com/Vita3K/Vita3K-Android/releases/"
+    ],
+    "price": "Free",
+    "controller_support": true,
+    "image": "https://avatars.githubusercontent.com/u/34121543"
   },
   {
     "name": "YouTube Music",
