@@ -1,4 +1,10 @@
 {
   "baseUrl": "https://raw.githubusercontent.com/likeich/console-launcher/main/themes/",
-  "themeList": ["canvas-es-de-capsule", "colorful", "minimal-cl", "x-retro"]
+  "themeList": [
+    "canvas-es-de-capsule",
+    "canvas-es-de-controller",
+    "colorful",
+    "minimal-cl",
+    "x-retro"
+  ]
 }
