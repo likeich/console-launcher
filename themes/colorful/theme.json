@@ -1,35 +1,36 @@
 {
-    "name": "Colorful Hardware Icons",
-    "previewFilename": "COLORFUL.jpg",
-    "description": "This pack contains icons for retro platforms that show the system hardware.",
-    "authors": [
-        "viking"
-    ],
-    "sources": [
-        "https://forums.launchbox-app.com/profile/70421-viking/",
-        "https://forums.launchbox-app.com/files/file/3693-colorful-hardware-png-media-1x1"
-    ],
-    "newImageCost": "",
-    "artistContact": "",
-    "folderName": "colorful",
-    "iconList": [
-        "3ds.webp",
-        "android.webp",
-        "gb.webp",
-        "gba.webp",
-        "gbc.webp",
-        "gc.webp",
-        "mame.webp",
-        "n64.webp",
-        "nds.webp",
-        "nes.webp",
-        "ps2.webp",
-        "psp.webp",
-        "psx.webp",
-        "snes.webp",
-        "switch.webp",
-        "wii.webp"
-    ],
-    "bannerList": [],
-    "posterList": []
+  "name": "Colorful Hardware Icons",
+  "previewFilename": "COLORFUL.jpg",
+  "description": "This pack contains icons for retro platforms that show the system hardware.",
+  "authors": ["viking"],
+  "sources": [
+    "https://forums.launchbox-app.com/profile/70421-viking/",
+    "https://forums.launchbox-app.com/files/file/3693-colorful-hardware-png-media-1x1"
+  ],
+  "newImageCost": "",
+  "artistContact": "",
+  "folderName": "colorful",
+  "iconList": [
+    "3ds.webp",
+    "android.webp",
+    "gb.webp",
+    "gba.webp",
+    "gbc.webp",
+    "gc.webp",
+    "mame.webp",
+    "n64.webp",
+    "nds.webp",
+    "nes.webp",
+    "ps2.webp",
+    "psp.webp",
+    "psx.webp",
+    "saturn.webp",
+    "snes.webp",
+    "switch.webp",
+    "vita.webp",
+    "wii.webp",
+    "wiiu.webp"
+  ],
+  "bannerList": [],
+  "posterList": []
 }
