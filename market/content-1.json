@@ -2,16 +2,42 @@
   {
     "name": "Alien Isolation",
     "category": ["Games", "Horror"],
-    "sources": ["https://play.google.com/store/apps/details?id=com.feralinteractive.alienisolation_android"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.feralinteractive.alienisolation_android"
+    ],
     "price": "$13.50",
     "price_description": "First 2 levels free",
     "controller_support": true,
     "image": "https://images.launchbox-app.com//dbe079a3-4519-4a4f-bb97-42abb219cdf3.png"
   },
   {
+    "name": "ARK: Ultimate Mobile Edition",
+    "category": ["Games", "Survival"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.studiowildcard.arkuse"
+    ],
+    "price": "Free",
+    "price_description": "In-App Purchases",
+    "controller_support": true,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEl1fyeOy75WDfKhjBD7VfxGbNzbWhyGkqdQ&s"
+  },
+  {
+    "name": "Asphalt Legends Unite",
+    "category": ["Games", "Racing"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA9HM"
+    ],
+    "price": "Free",
+    "price_description": "In-App Purchases",
+    "controller_support": true,
+    "image": "https://static.wikia.nocookie.net/asphalt/images/e/ef/A9_v1.5_icon.png/revision/latest?cb=20190410200039"
+  },
+  {
     "name": "Call of Duty: Mobile",
     "category": ["Games", "Action"],
-    "sources": ["https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter"
+    ],
     "price": "Free",
     "price_description": "IAP and Annoying Ads",
     "controller_support": true,
@@ -29,7 +55,9 @@
   {
     "name": "Dead Cells",
     "category": ["Games", "Action"],
-    "sources": ["https://play.google.com/store/apps/details?id=com.playdigious.deadcells.mobile"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.playdigious.deadcells.mobile"
+    ],
     "price": "$8.99",
     "controller_support": true,
     "image": "https://images.launchbox-app.com//0877c296-d727-4192-883c-5c0585fe1189.jpg"
@@ -57,7 +85,9 @@
   {
     "name": "GRID™ Autosport",
     "category": ["Games", "Racing"],
-    "sources": ["https://play.google.com/store/apps/details?id=com.feralinteractive.gridas"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.feralinteractive.gridas"
+    ],
     "price": "$8.99",
     "controller_support": true,
     "image": "https://images.launchbox-app.com//21dd8c1a-fd53-46f7-bd74-2a1f2dbc2b61.jpg"
@@ -65,7 +95,9 @@
   {
     "name": "Minecraft",
     "category": ["Games", "Survival"],
-    "sources": ["https://play.google.com/store/apps/details?id=com.mojang.minecraftpe"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe"
+    ],
     "price": "$6.99",
     "price_description": "Optional in-app purchases",
     "controller_support": true,
@@ -100,7 +132,18 @@
     "price": "Free",
     "price_description": "Open Source",
     "controller_support": true,
-    "image": "https://play-lh.googleusercontent.com/v0-7CQhepv50kdT1iR71W2uYfJOhii7LVA0OzOy6MoZADcpRddi3i3KlKKrpbRBzP3Ht=w240-h480-rw"
+    "image": "https://play-lh.googleusercontent.com/v0-7CQhepv50kdT1iR71W2uYfJOhii7LVA0OzOy6MoZADcpRddi3i3KlKKrpbRBzP3Ht"
+  },
+  {
+    "name": "Retro City Rampage DX",
+    "category": ["Games", "Action"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.vblank.RCRDX"
+    ],
+    "price": "$2.99",
+    "price_description": "One Time Purchase",
+    "controller_support": true,
+    "image": "https://play-lh.googleusercontent.com/wony-7p6N4gTdeAgye54LUmnQCvYxVQA1lNqbPegdgVlWx1j4ZIx7tuxZPqJyZbSJOXq"
   },
   {
     "name": "Spotify",
@@ -147,9 +190,7 @@
   {
     "name": "Vita3K",
     "category": ["Emulation", "Sony"],
-    "sources": [
-      "https://github.com/Vita3K/Vita3K-Android/releases/"
-    ],
+    "sources": ["https://github.com/Vita3K/Vita3K-Android/releases/"],
     "price": "Free",
     "controller_support": true,
     "image": "https://avatars.githubusercontent.com/u/34121543"
