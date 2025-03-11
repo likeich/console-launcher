@@ -104,6 +104,18 @@
     "image": "https://images.launchbox-app.com//28edeff4-8389-4e35-976c-1bfcb3d6572c.png"
   },
   {
+    "name": "Moonlight Game Streaming",
+    "category": ["Apps", "Streaming"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.limelight",
+      "https://github.com/moonlight-stream/moonlight-android/releases"
+    ],
+    "price": "Free",
+    "price_description": "Open Source",
+    "controller_support": true,
+    "image": "https://play-lh.googleusercontent.com/QGBq_X2ewz_3HUR9AUI3NXcOjfVJd-Mf1l66-3D6zMzF-HN81f_KeZ-shqxRE633I3M"
+  },
+  {
     "name": "NetherSX2",
     "category": ["Emulation", "Sony"],
     "sources": ["https://github.com/Trixarian/NetherSX2-patch"],
@@ -121,6 +133,17 @@
     "price": "Free",
     "controller_support": true,
     "image": "https://www.ppsspp.org/static/img/platform/ppsspp-icon.png"
+  },
+  {
+    "name": "Razer Nexus",
+    "category": ["Apps", "Streaming"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.razer.bianca"
+    ],
+    "price": "Free",
+    "price_description": "",
+    "controller_support": true,
+    "image": "https://play-lh.googleusercontent.com/kWIPX6MJ2vZKSm9uyjpeAlKkIhCcNVdbH_gp2HUR0ohlY4WdJdG6OyVEkD1fMOe8Qaly"
   },
   {
     "name": "RetroArch",
@@ -154,7 +177,7 @@
     "price": "Free",
     "price_description": "Optional Paid Subscription",
     "controller_support": false,
-    "image": "https://play-lh.googleusercontent.com/7ynvVIRdhJNAngCg_GI7i8TtH8BqkJYmffeUHsG-mJOdzt1XLvGmbsKuc5Q1SInBjDKN=w240-h480-rw"
+    "image": "https://play-lh.googleusercontent.com/7ynvVIRdhJNAngCg_GI7i8TtH8BqkJYmffeUHsG-mJOdzt1XLvGmbsKuc5Q1SInBjDKN"
   },
   {
     "name": "Steam Link",
