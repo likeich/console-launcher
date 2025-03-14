@@ -3,7 +3,6 @@
 RetroAchievements is a system that allows you to unlock achievements in your favorite retro games. It is a community-driven project that aims to provide a fun and rewarding experience for retro gamers. RetroAchievements is available for a wide range of retro consoles and games, including the NES, SNES, Sega Genesis, and more.
 
 ### YouTube Video:
-
 [![Video Preview](https://img.youtube.com/vi/g0hmYv6czs8/0.jpg)](https://www.youtube.com/watch?v=g0hmYv6czs8)
 
 ## How do I use RetroAchievements?
