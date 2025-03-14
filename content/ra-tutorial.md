@@ -34,3 +34,4 @@ Console Launcher has built-in integration with RetroAchievements, allowing you t
 - [Frequently Asked Questions](https://docs.retroachievements.org/general/faq.html)
 - [Supported Emulators and Platforms](https://retroachievements.org/download.php)
 - [A More Detailed Tutorial](https://www.reddit.com/r/RetroAchievements/comments/1hwj9dq/so_you_want_to_earn_achievements_eh/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [A Detailed Video Tutorial](https://www.youtube.com/watch?v=CQbo19vPrdg)
