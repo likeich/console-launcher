@@ -29,6 +29,11 @@ Not all game files are compatible with RetroAchievements. Ensure you are using t
 ### 5. Sign in to Console Launcher
 Console Launcher has built-in integration with RetroAchievements, allowing you to view achievements, track your progress, and view your friends list. Sign in to Console Launcher using your RetroAchievements account to access these features. You can sign in by going to `Settings > Accounts > RetroAchievements` in Console Launcher and entering your username and Web API key. The API key can be found in your [Account Settings](https://retroachievements.org/settings).
 
+### 6. Play!
+When opening a game with RetroAchievements, RetroArch or the emulator you use should display a message saying that you are logged in or the number of achievements you have unlocked. If it does not, there is likely an error, potentially a mismatched game file or not being connected to the internet.
+
+![Achievements Loaded](https://github.com/user-attachments/assets/3b00728f-ab9b-465c-a14f-4cbd6bcc9301)
+
 ## More Information
 
 - [Frequently Asked Questions](https://docs.retroachievements.org/general/faq.html)
