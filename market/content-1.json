@@ -218,6 +218,18 @@
     "image": "https://avatars.githubusercontent.com/u/34121543"
   },
   {
+    "name": "Wallpaper Reactor",
+    "category": ["Apps", "Customization"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=app.wallpaperreactor",
+      "https://wallpaperreactor.app/releases/"
+    ],
+    "price": "Free",
+    "price_description": "Optional Paid Subscription",
+    "controller_support": false,
+    "image": "https://wallpaperreactor.app/assets/images/logo.png"
+  },
+  {
     "name": "YouTube Music",
     "category": ["Apps", "Music"],
     "sources": [
