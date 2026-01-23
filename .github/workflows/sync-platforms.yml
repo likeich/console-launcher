@@ -34,6 +34,10 @@ jobs:
 
       - name: Copy platforms directory
         run: |
+          # Backup custom files
+          cp platforms/.gitignore /tmp/.gitignore.bak 2>/dev/null || true
+          cp platforms/README.md /tmp/README.md.bak 2>/dev/null || true
+
           # Remove existing platforms directory
           rm -rf platforms
 
@@ -44,6 +48,10 @@ jobs:
           cd platforms
           rm -f *.deprecated *.test *.py
           cd ..
+
+          # Restore custom files
+          cp /tmp/.gitignore.bak platforms/.gitignore 2>/dev/null || true
+          cp /tmp/README.md.bak platforms/README.md 2>/dev/null || true
 
           # Show what changed
           git status
