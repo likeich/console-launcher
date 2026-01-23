@@ -47,6 +47,10 @@ jobs:
           # Remove unwanted files
           cd platforms
           rm -f *.deprecated *.test *.py
+
+          # Update baseUri in index.json to point to our repo
+          sed -i 's|https://raw.githubusercontent.com/magneticchen/Daijishou/main/platforms/|https://raw.githubusercontent.com/likeich/console-launcher/main/platforms/|g' index.json
+
           cd ..
 
           # Restore custom files
