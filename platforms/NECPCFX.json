@@ -1,0 +1,56 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 7,
+  "platform": {
+    "name": "NEC PC-FX",
+    "uniqueId": "pcfx",
+    "shortname": "pcfx",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:NEC - PC-FX"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      49
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "pcfx - Retroarch 64 - beetle pcfx",
+      "uniqueId": "pcfx.ra64.mednafen_pcfx",
+      "description": "Supported extensions: cue, ccd, toc, chd.",
+      "acceptedFilenameRegex": "^(.*).(?:cue|ccd|toc|chd)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO mednafen_pcfx\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pcfx - Retroarch 32 - beetle pcfx",
+      "uniqueId": "pcfx.ra32.mednafen_pcfx",
+      "description": "Supported extensions: cue, ccd, toc, chd.",
+      "acceptedFilenameRegex": "^(.*).(?:cue|ccd|toc|chd)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO mednafen_pcfx\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pcfx - Retroarch - beetle pcfx",
+      "uniqueId": "pcfx.ra.mednafen_pcfx",
+      "description": "Supported extensions: cue, ccd, toc, chd.",
+      "acceptedFilenameRegex": "^(.*).(?:cue|ccd|toc|chd)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO mednafen_pcfx\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

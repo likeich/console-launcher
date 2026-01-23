@@ -1,0 +1,56 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 5,
+  "platform": {
+    "name": "Sega Pico",
+    "uniqueId": "pico",
+    "shortname": "pico",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Sega - PICO"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 2,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      68
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "pico - RetroArch 64 - picodrive",
+      "uniqueId": "pico.ra64.picodrive",
+      "description": "Supported extensions: md, 7z, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:md|7z|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO picodrive\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pico - RetroArch 32 - picodrive",
+      "uniqueId": "pico.ra32.picodrive",
+      "description": "Supported extensions: md, 7z, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:md|7z|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO picodrive\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pico - RetroArch - picodrive",
+      "uniqueId": "pico.ra.picodrive",
+      "description": "Supported extensions: md, 7z, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:md|7z|zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO picodrive\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

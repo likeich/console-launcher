@@ -1,0 +1,42 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 7,
+  "platform": {
+    "name": "Sony PS Vita",
+    "uniqueId": "vita",
+    "shortname": "vita",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Sony - PlayStation Vita"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": true,
+    "customBoxArtAspectRatio": "256:327",
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": true,
+    "customScreenAspectRatio": "5:3",
+    "retroAchievementsConsoleIdList": [],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "vita - vita3k",
+      "description": "Supported extensions: dpt.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
+      "amStartArguments": "-n org.vita3k.emulator/org.vita3k.emulator.Emulator\n --esa AppStartParameters -r,{tags.vita_game_id}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "vita - vita3k zx",
+      "description": "Supported extensions: dpt.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
+      "amStartArguments": "-n org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator\n --esa AppStartParameters -r,{tags.vita_game_id}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

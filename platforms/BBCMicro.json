@@ -1,0 +1,52 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 4,
+  "platform": {
+    "name": "Acorn Computers BBC Micro",
+    "uniqueId": "bbcmicro",
+    "shortname": "bbcmicro",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "bbcmicro - RetroArch 64 - b2",
+      "uniqueId": "bbcmicro.ra64.b2",
+      "description": "Supported extensions: ssd, dsd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ssd|dsd)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO b2\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "bbcmicro - RetroArch 32 - b2",
+      "uniqueId": "bbcmicro.ra32.b2",
+      "description": "Supported extensions: ssd, dsd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ssd|dsd)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO b2\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "bbcmicro - RetroArch - b2",
+      "uniqueId": "bbcmicro.ra.b2",
+      "description": "Supported extensions: ssd, dsd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ssd|dsd)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO b2\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

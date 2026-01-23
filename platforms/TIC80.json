@@ -1,0 +1,56 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 3,
+  "platform": {
+    "name": "TIC-80",
+    "uniqueId": "tic80",
+    "shortname": "tic80",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:TIC-80"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": true,
+    "customBoxArtAspectRatio": "8:5",
+    "screenAspectRatioId": 6,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      65
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "tic80 - RetroArch 64 - tic80",
+      "uniqueId": "tic80.ra64.tic80",
+      "description": "Supported extensions: tic.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:tic)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO tic80\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "tic80 - RetroArch 32 - tic80",
+      "uniqueId": "tic80.ra32.tic80",
+      "description": "Supported extensions: tic.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:tic)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO tic80\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "tic80 - RetroArch - tic80",
+      "uniqueId": "tic80.ra.tic80",
+      "description": "Supported extensions: tic.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:tic)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO tic80\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

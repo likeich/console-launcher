@@ -1,0 +1,64 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 7,
+  "platform": {
+    "name": "WonderSwan Color",
+    "uniqueId": "wsc",
+    "shortname": "wsc",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Bandai - WonderSwan Color"
+    ],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 3,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "wsc - com.explusalpha.SwanEmu",
+      "uniqueId": "wsc.com.explusalpha.SwanEmu",
+      "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",
+      "amStartArguments": "-n com.explusalpha.SwanEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n   -t application/zip",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "wsc - Retroarch 64 - Beetle Cygne",
+      "uniqueId": "wsc.ra64.mednafen_wswan",
+      "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_wswan\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "wsc - Retroarch 32 - Beetle Cygne",
+      "uniqueId": "wsc.ra32.mednafen_wswan",
+      "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_wswan\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "wsc - Retroarch - Beetle Cygne",
+      "uniqueId": "wsc.ra.mednafen_wswan",
+      "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_wswan\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

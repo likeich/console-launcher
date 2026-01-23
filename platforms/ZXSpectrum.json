@@ -1,0 +1,58 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 9,
+  "platform": {
+    "name": "ZX Spectrum",
+    "uniqueId": "zxspectrum",
+    "shortname": "zxspectrum",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Sinclair - ZX Spectrum",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://openretro.org/browse/spectrum?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=img.game-cover%5Balt%3D%22front+image%22%5D&dsess_attribute=src&dsess_extractor=%5E%28%5B%5E%3F%5D%2A%29%3F.%2A.%2A",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://openretro.org/browse/spectrum?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=div.game-info-row%3Anth-child%289%29"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      59
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "zxspectrum - RetroArch 64 - fuse",
+      "uniqueId": "zxspectrum.ra64.fuse",
+      "description": "Supported extensions: dsk, rzx, scl, tap, trd, tzx, z80, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dsk|rzx|scl|tap|trd|tzx|z80|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO fuse\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "zxspectrum - RetroArch 32 - fuse",
+      "uniqueId": "zxspectrum.ra32.fuse",
+      "description": "Supported extensions: dsk, rzx, scl, tap, trd, tzx, z80, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dsk|rzx|scl|tap|trd|tzx|z80|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO fuse\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "zxspectrum - RetroArch - fuse",
+      "uniqueId": "zxspectrum.ra.fuse",
+      "description": "Supported extensions: dsk, rzx, scl, tap, trd, tzx, z80, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dsk|rzx|scl|tap|trd|tzx|z80|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO fuse\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

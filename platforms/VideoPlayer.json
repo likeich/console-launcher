@@ -1,0 +1,122 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 7,
+  "platform": {
+    "name": "Video Player",
+    "uniqueId": "videos",
+    "shortname": "videos",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 3,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "videos - VLC for Android",
+      "uniqueId": "videos.org.videolan.vlc",
+      "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
+      "amStartArguments": "-n org.videolan.vlc/org.videolan.vlc.gui.video.VideoPlayerActivity\n -a android.intent.action.VIEW\n -d {file.path} \n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "videos - mpv-android",
+      "uniqueId": "videos.is.xyz.mpv",
+      "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
+      "amStartArguments": "-n is.xyz.mpv/is.xyz.mpv.MPVActivity\n -a android.intent.action.VIEW\n -d {file.uri} \n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "videos - Next Player",
+      "uniqueId": "videos.dev.anilbeesetti.nextplayer",
+      "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
+      "amStartArguments": "-n dev.anilbeesetti.nextplayer/.feature.player.PlayerActivity\n -a android.intent.action.VIEW\n -d {file.path}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "videos - Nova Video Player",
+      "uniqueId": "videos.org.courville.nova",
+      "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
+      "amStartArguments": "-n org.courville.nova/com.archos.mediacenter.video.player.PlayerActivity\n -a android.intent.action.VIEW\n -d {file.path}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "videos - MXPlayer (Ad-sipported)",
+      "uniqueId": "videos.com.mxtech.videoplayer.ad",
+      "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
+      "amStartArguments": "-n com.mxtech.videoplayer.ad/.ActivityScreen\n -a android.intent.action.VIEW\n -d {file.path} \n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "videos - MXPlayer Pro",
+      "uniqueId": "videos.com.mxtech.videoplayer.pro",
+      "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
+      "amStartArguments": "-n com.mxtech.videoplayer.pro/.ActivityScreen\n -a android.intent.action.VIEW\n -d {file.path} \n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "videos - Kodi",
+      "uniqueId": "videos.org.xbmc.kodi",
+      "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
+      "amStartArguments": "-n org.xbmc.kodi/.Main\n -a android.intent.action.VIEW\n -d {file.path}\n",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "videos - RetroArch 64 - ffmpeg",
+      "uniqueId": "videos.ra64.ffmpeg",
+      "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO ffmpeg\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "videos - RetroArch 32 - ffmpeg",
+      "uniqueId": "videos.ra32.ffmpeg",
+      "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO ffmpeg\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "videos - RetroArch - ffmpeg",
+      "uniqueId": "videos.ra.ffmpeg",
+      "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO ffmpeg\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+name: Sync Platform Data from Daijishou
+
+on:
+  workflow_dispatch:
+    inputs:
+      create_pr:
+        description: 'Create a pull request instead of direct commit'
+        required: false
+        type: boolean
+        default: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add Daijishou as remote
+        run: |
+          git remote add upstream https://github.com/magneticchen/Daijishou.git || true
+          git fetch upstream main
+
+      - name: Copy platforms directory
+        run: |
+          # Remove existing platforms directory
+          rm -rf platforms
+
+          # Checkout platforms directory from upstream
+          git checkout upstream/main -- platforms/
+
+          # Remove unwanted files
+          cd platforms
+          rm -f *.deprecated *.test *.py
+          cd ..
+
+          # Show what changed
+          git status
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+          fi
+
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true' && inputs.create_pr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'chore: sync platform data from Daijishou'
+          title: 'Sync platform data from upstream Daijishou'
+          body: |
+            Automated sync of platform definitions from [magneticchen/Daijishou](https://github.com/magneticchen/Daijishou).
+
+            **Please review the changes carefully before merging.**
+
+            Changes may include:
+            - New platforms
+            - Updated emulator cores
+            - Changed file extensions
+            - Updated scraper configurations
+            - Revised RetroAchievements integration
+
+            Check the Files Changed tab to see what was modified.
+          branch: sync-platforms
+          delete-branch: true
+          labels: |
+            platforms
+            automated
+
+      - name: Direct Commit
+        if: steps.check_changes.outputs.has_changes == 'true' && !inputs.create_pr
+        run: |
+          git add platforms/
+          git commit -m "chore: sync platform data from Daijishou"
+          git push origin main
+
+      - name: Summary
+        run: |
+          if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
+            echo "✅ Platform data synced successfully"
+            if [ "${{ inputs.create_pr }}" == "true" ]; then
+              echo "📝 Pull request created for review"
+            else
+              echo "💾 Changes committed directly to main"
+            fi
+          else
+            echo "ℹ️ No changes detected - platform data is already up to date"
+          fi

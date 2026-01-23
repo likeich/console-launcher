@@ -1,0 +1,92 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 10,
+  "platform": {
+    "name": "Commodore Amiga",
+    "uniqueId": "amiga",
+    "shortname": "amiga",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Commodore - Amiga",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://openretro.org/browse/amiga?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=img.game-cover%5Balt%3D%22front+image%22%5D&dsess_attribute=src&dsess_extractor=%5E%28%5B%5E%3F%5D%2A%29%3F.%2A.%2A",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://openretro.org/browse/amiga?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=div.game-info-row%3Anth-child%289%29",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://openretro.org/browse/cd32?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=img.game-cover%5Balt%3D%22front+image%22%5D&dsess_attribute=src&dsess_extractor=%5E%28%5B%5E%3F%5D%2A%29%3F.%2A.%2A",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://openretro.org/browse/cd32?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=div.game-info-row%3Anth-child%289%29",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://openretro.org/browse/cdtv?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=img.game-cover%5Balt%3D%22front+image%22%5D&dsess_attribute=src&dsess_extractor=%5E%28%5B%5E%3F%5D%2A%29%3F.%2A.%2A",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://openretro.org/browse/cdtv?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=div.game-info-row%3Anth-child%289%29"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": true,
+    "customBoxArtAspectRatio": "5:6",
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": true,
+    "customScreenAspectRatio": "5:4",
+    "retroAchievementsConsoleIdList": [
+      35
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "amiga - RetroArch 64 - puae",
+      "uniqueId": "amiga.ra64.puae",
+      "description": "Supported extensions: 7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|adf|adz|ccd|chd|cue|dms|fdi|hdf|hdz|info|ipf|iso|lha|m3u|mds|nrg|rp9|slave|uae|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO puae\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "amiga - RetroArch 64 - puae2021",
+      "uniqueId": "amiga.ra64.puae2021",
+      "description": "Supported extensions: 7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|adf|adz|ccd|chd|cue|dms|fdi|hdf|hdz|info|ipf|iso|lha|m3u|mds|nrg|rp9|slave|uae|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO puae2021\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "amiga - RetroArch 32 - puae",
+      "uniqueId": "amiga.ra32.puae",
+      "description": "Supported extensions: 7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|adf|adz|ccd|chd|cue|dms|fdi|hdf|hdz|info|ipf|iso|lha|m3u|mds|nrg|rp9|slave|uae|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO puae\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "amiga - RetroArch 32 - puae2021",
+      "uniqueId": "amiga.ra32.puae2021",
+      "description": "Supported extensions: 7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|adf|adz|ccd|chd|cue|dms|fdi|hdf|hdz|info|ipf|iso|lha|m3u|mds|nrg|rp9|slave|uae|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO puae2021\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "amiga - RetroArch - puae",
+      "uniqueId": "amiga.ra.puae",
+      "description": "Supported extensions: 7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|adf|adz|ccd|chd|cue|dms|fdi|hdf|hdz|info|ipf|iso|lha|m3u|mds|nrg|rp9|slave|uae|zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO puae\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "amiga - RetroArch - puae2021",
+      "uniqueId": "amiga.ra.puae2021",
+      "description": "Supported extensions: 7z, adf, adz, ccd, chd, cue, dms, fdi, hdf, hdz, info, ipf, iso, lha, m3u, mds, nrg, rp9, slave, uae, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|adf|adz|ccd|chd|cue|dms|fdi|hdf|hdz|info|ipf|iso|lha|m3u|mds|nrg|rp9|slave|uae|zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO puae2021\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

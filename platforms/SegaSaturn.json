@@ -1,0 +1,168 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 12,
+  "platform": {
+    "name": "Sega Saturn",
+    "uniqueId": "saturn",
+    "shortname": "saturn",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
+    "scraperSourceList": [
+      "LIBRETRO:Sega - Saturn",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://openretro.org/browse/saturn?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=img.game-cover%5Balt%3D%22front+image%22%5D&dsess_attribute=src&dsess_extractor=%5E%28%5B%5E%3F%5D%2A%29%3F.%2A.%2A",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://openretro.org/browse/saturn?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=div.game-info-row%3Anth-child%289%29"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      39
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "saturn - YabaSanshiro 2 Pro",
+      "uniqueId": "saturn.org.devmiyax.yabasanshioro2.pro",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, toc, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|toc|zip)$",
+      "amStartArguments": "-n org.devmiyax.yabasanshioro2.pro/org.uoyabause.android.Yabause\n -a android.intent.action.MAIN\n -e org.uoyabause.android.FileNameUri {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - YabaSanshiro 2",
+      "uniqueId": "saturn.org.devmiyax.yabasanshioro2",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, toc, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|toc|zip)$",
+      "amStartArguments": "-n org.devmiyax.yabasanshioro2/org.uoyabause.android.Yabause\n -a android.intent.action.VIEW\n -e org.uoyabause.android.FileNameUri {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - YabaSanshiro Pro",
+      "uniqueId": "saturn.org.uoyabause.android.pro",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, toc, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|toc|zip)$",
+      "amStartArguments": "-n org.uoyabause.android.pro/org.uoyabause.android.Yabause\n -a android.intent.action.VIEW\n -e org.uoyabause.android.FileNameEx {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - YabaSanshiro",
+      "uniqueId": "saturn.org.uoyabause.android",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, toc, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|toc|zip)$",
+      "amStartArguments": "-n org.uoyabause.android/org.uoyabause.android.Yabause\n -a android.intent.action.VIEW\n -e org.uoyabause.android.FileNameEx {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - Saturn.EMU",
+      "uniqueId": "saturn.com.explusalpha.SaturnEmu",
+      "description": "Supported extensions: ccd, chd, cue, m3u, toc.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|toc)$",
+      "amStartArguments": "-n com.explusalpha.SaturnEmu/com.imagine.BaseActivity\n  -d {file.path}\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "saturn - RetroArch 64 - beetle saturn",
+      "uniqueId": "saturn.ra64.mednafen_saturn",
+      "description": "Supported extensions: ccd, chd, cue, m3u, toc.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|toc)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_saturn\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - RetroArch 64 - yabasanshiro",
+      "uniqueId": "saturn.ra64.yabasanshiro",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, mds, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|mds|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO yabasanshiro\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - RetroArch 64 - yabause",
+      "uniqueId": "saturn.ra64.yabause",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO yabause\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - RetroArch 32 - beetle saturn",
+      "uniqueId": "saturn.ra32.mednafen_saturn",
+      "description": "Supported extensions: ccd, chd, cue, m3u, toc.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|toc)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_saturn\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - RetroArch 32 - yabasanshiro",
+      "uniqueId": "saturn.ra32.yabasanshiro",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, mds, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|mds|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO yabasanshiro\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - RetroArch 32 - yabause",
+      "uniqueId": "saturn.ra32.yabause",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO yabause\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - RetroArch - beetle saturn",
+      "uniqueId": "saturn.ra.mednafen_saturn",
+      "description": "Supported extensions: ccd, chd, cue, m3u, toc.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|toc)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_saturn\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - RetroArch - yabasanshiro",
+      "uniqueId": "saturn.ra.yabasanshiro",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, mds, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|mds|zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO yabasanshiro\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - RetroArch - yabause",
+      "uniqueId": "saturn.ra.yabause",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO yabause\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

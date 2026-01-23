@@ -1,0 +1,94 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 7,
+  "platform": {
+    "name": "NeoGeo Pocket Color",
+    "uniqueId": "ngpc",
+    "shortname": "ngpc",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:SNK - Neo Geo Pocket Color"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "ngpc - NGP.EMU",
+      "uniqueId": "ngpc.com.explusalpha.NgpEmu",
+      "description": "Supported extensions: zip, ngp, ngc, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
+      "amStartArguments": "-n com.explusalpha.NgpEmu/com.imagine.BaseActivity\n  -d {file.path}\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ngpc - RetroArch 64 - Beetle NeoPop",
+      "uniqueId": "ngpc.ra64.mednafen_ngp",
+      "description": "Supported extensions: zip, ngp, ngc, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_ngp\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ngpc - RetroArch 64 - RACE",
+      "uniqueId": "ngpc.ra64.race",
+      "description": "Supported extensions: zip, ngp, ngc, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO race\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ngpc - RetroArch 32 - Beetle NeoPop",
+      "uniqueId": "ngpc.ra32.mednafen_ngp",
+      "description": "Supported extensions: zip, ngp, ngc, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_ngp\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ngpc - RetroArch 32 - RACE",
+      "uniqueId": "ngpc.ra32.race",
+      "description": "Supported extensions: zip, ngp, ngc, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO race\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ngpc - RetroArch - Beetle NeoPop",
+      "uniqueId": "ngpc.ra.mednafen_ngp",
+      "description": "Supported extensions: zip, ngp, ngc, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_ngp\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ngpc - RetroArch - RACE",
+      "uniqueId": "ngpc.ra.race",
+      "description": "Supported extensions: zip, ngp, ngc, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO race\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

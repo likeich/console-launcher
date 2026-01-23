@@ -1,0 +1,45 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 3,
+  "platform": {
+    "name": "Sony PlayStation 3",
+    "uniqueId": "ps3",
+    "shortname": "ps3",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Sony - PlayStation 3",
+      "LIBRETRO:Sony - PlayStation 3 (PSN)"
+    ],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": true,
+    "customBoxArtAspectRatio": "1:1.22",
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": true,
+    "customScreenAspectRatio": "16:9",
+    "retroAchievementsAlias": null,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "ps3 - aPS3e",
+      "uniqueId": "ps3.aenu.aps3e",
+      "description": "Supported extensions: iso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
+      "amStartArguments": "-n aenu.aps3e/aenu.aps3e.EmulatorActivity\n -a aenu.intent.action.APS3E\n -e iso_uri {file.uri}\n",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ps3 - aPS3e (Folder Style)",
+      "uniqueId": "ps3.aenu.aps3e.folder",
+      "description": "Supported extensions: ps3.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ps3folder)$",
+      "amStartArguments": "-n aenu.aps3e/aenu.aps3e.EmulatorActivity\n -a aenu.intent.action.APS3E\n -e game_dir {tags.ps3folder}\n",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 6,
+  "platform": {
+    "name": "NEC PC-98",
+    "uniqueId": "pc98",
+    "shortname": "pc98",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:NEC - PC-98"
+    ],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": true,
+    "customScreenAspectRatio": "8:5",
+    "retroAchievementsConsoleIdList": [
+      48
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "pc98 - Retroarch 64 - np2kai",
+      "uniqueId": "pc98.ra64.np2kai",
+      "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, hdn, nhd, tfd, thd, xdf, zip.",
+      "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|hdn|nhd|tfd|thd|xdf|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO np2kai\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pc98 - Retroarch 64 - nekop2",
+      "uniqueId": "pc98.ra64.nekop2",
+      "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip.",
+      "acceptedFilenameRegex": "^(.*).(?:cue|2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|nhd|tfd|thd|xdf|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO nekop2\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pc98 - Retroarch 32 - np2kai",
+      "uniqueId": "pc98.ra32.np2kai",
+      "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, hdn, nhd, tfd, thd, xdf, zip.",
+      "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|hdn|nhd|tfd|thd|xdf|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO np2kai\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pc98 - Retroarch 32 - nekop2",
+      "uniqueId": "pc98.ra32.nekop2",
+      "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip.",
+      "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|nhd|tfd|thd|xdf|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO nekop2\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pc98 - Retroarch - np2kai",
+      "uniqueId": "pc98.ra.np2kai",
+      "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, hdn, nhd, tfd, thd, xdf, zip.",
+      "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|hdn|nhd|tfd|thd|xdf|zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO np2kai\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pc98 - Retroarch - nekop2",
+      "uniqueId": "pc98.ra.nekop2",
+      "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip.",
+      "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|nhd|tfd|thd|xdf|zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO nekop2\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

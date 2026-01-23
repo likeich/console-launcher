@@ -1,0 +1,56 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 7,
+  "platform": {
+    "name": "ZX 81",
+    "uniqueId": "zx81",
+    "shortname": "zx81",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Sinclair - ZX 81"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": true,
+    "customBoxArtAspectRatio": "2:3",
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      31
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "zx81 - RetroArch 64 - 81",
+      "uniqueId": "zx81.ra64.81",
+      "description": "Supported extensions: p, t81, tzx.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:p|t81|tzx|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO 81\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "zx81 - RetroArch 32 - 81",
+      "uniqueId": "zx81.ra32.81",
+      "description": "Supported extensions: p, t81, tzx.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:p|t81|tzx|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO 81\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "zx81 - RetroArch - 81",
+      "uniqueId": "zx81.ra.81",
+      "description": "Supported extensions: p, t81, tzx.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:p|t81|tzx|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO 81\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

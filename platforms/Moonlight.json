@@ -1,0 +1,42 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 5,
+  "platform": {
+    "name": "Moonlight Streaming",
+    "uniqueId": "moonlight",
+    "shortname": "moonlight",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsAlias": null,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "artemis",
+      "uniqueId": "moonlight.com.limelight.noir",
+      "description": "Supported extensions: art",
+      "acceptedFilenameRegex": "^(.*)\\.(?:art)$",
+      "amStartArguments": "-n com.limelight.noir/com.limelight.ShortcutTrampoline\n -a android.intent.action.VIEW\n -d {file.uri}\n",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "moonlight",
+      "uniqueId": "moonlight.com.limelight",
+      "description": "Supported extensions: moonlight",
+      "acceptedFilenameRegex": "^(.*)\\.(?:moonlight)$",
+      "amStartArguments": "-n com.limelight/com.limelight.ShortcutTrampoline\n --es UUID UUIDHERE\n --es AppId {tags.moonlight_id}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

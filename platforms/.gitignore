@@ -1,0 +1,6 @@
+# Exclude test and deprecated platform files
+*.test
+*.deprecated
+
+# Exclude Python scripts
+*.py

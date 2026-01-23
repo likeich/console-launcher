@@ -1,0 +1,56 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 6,
+  "platform": {
+    "name": "Pokemon Mini",
+    "uniqueId": "pokemini",
+    "shortname": "pokemini",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Nintendo - Pokemon Mini"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 3,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      24
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "pokemini - RetroArch 64 - pokemini",
+      "uniqueId": "pokemini.ra64.pokemini",
+      "description": "Supported extensions: min.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:min|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO pokemini\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pokemini - RetroArch 32 - pokemini",
+      "uniqueId": "pokemini.ra32.pokemini",
+      "description": "Supported extensions: min.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:min|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO pokemini\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pokemini - RetroArch - pokemini",
+      "uniqueId": "pokemini.ra.pokemini",
+      "description": "Supported extensions: min.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:min|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO pokemini\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

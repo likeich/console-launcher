@@ -1,0 +1,32 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 2,
+  "platform": {
+    "name": "XBox Game Pass",
+    "uniqueId": "xcloud",
+    "shortname": "xcloud",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsAlias": null,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "xcloud - XBPlay - Remote Play",
+      "uniqueId": "xbplay.com.studio08.xbgamestream",
+      "description": "XBPlay Remote Play",
+      "acceptedFilenameRegex": "^(.*)\\.(?:xcloud)$",
+      "amStartArguments": "-a xcloudstart\n -n com.studio08.xbgamestream/com.studio08.xbgamestream.PWAMainMenuActivity\n --es titleId {tags.titleId}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 7,
+  "platform": {
+    "name": "Philips CD-i",
+    "uniqueId": "cdi",
+    "shortname": "cdi",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      42
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "cdi - Retroarch 64 - same_cdi",
+      "uniqueId": "cdi.ra64.same_cdi",
+      "description": "Supported extensions: cue, chd, iso",
+      "acceptedFilenameRegex": "^(.*).(?:cue|chd|iso)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO same_cdi\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "cdi - Retroarch 32 - same_cdi",
+      "uniqueId": "cdi.ra32.same_cdi",
+      "description": "Supported extensions: cue, chd, iso",
+      "acceptedFilenameRegex": "^(.*).(?:cue|chd|iso)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO same_cdi\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "cdi - Retroarch - same_cdi",
+      "uniqueId": "cdi.ra.same_cdi",
+      "description": "Supported extensions: cue, chd, iso",
+      "acceptedFilenameRegex": "^(.*).(?:cue|chd|iso)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO same_cdi\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

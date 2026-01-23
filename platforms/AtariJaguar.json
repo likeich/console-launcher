@@ -1,0 +1,66 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 6,
+  "platform": {
+    "name": "Atari Jaguar",
+    "uniqueId": "jaguar",
+    "shortname": "jaguar",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Atari - Jaguar"
+    ],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      17
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "jaguar - IrataJaguar",
+      "uniqueId": "jaguar.ru.vastness.altmer.iratajaguar",
+      "description": "Supported extensions: j64, jag, rom, abs, cof, bin, prg, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:j64|jag|rom|abs|cof|bin|prg|zip|7z)$",
+      "amStartArguments": "-n ru.vastness.altmer.iratajaguar/ru.vastness.altmer.iratajaguar.MainActivity\n  -e rom {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "jaguar - RetroArch 64 - Virtual Jaguar",
+      "uniqueId": "jaguar.ra64.virtualjaguar",
+      "description": "Supported extensions: j64, jag, rom, abs, cof, bin, prg, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:j64|jag|rom|abs|cof|bin|prg|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO virtualjaguar\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "jaguar - RetroArch 32 - Virtual Jaguar",
+      "uniqueId": "jaguar.ra32.virtualjaguar",
+      "description": "Supported extensions: j64, jag, rom, abs, cof, bin, prg, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:j64|jag|rom|abs|cof|bin|prg|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO virtualjaguar\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "jaguar - RetroArch - Virtual Jaguar",
+      "uniqueId": "jaguar.ra.virtualjaguar",
+      "description": "Supported extensions: j64, jag, rom, abs, cof, bin, prg, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:j64|jag|rom|abs|cof|bin|prg|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO virtualjaguar\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

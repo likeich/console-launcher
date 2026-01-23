@@ -1,0 +1,54 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 3,
+  "platform": {
+    "name": "RPG Maker",
+    "uniqueId": "rpgmaker",
+    "shortname": "rpgmaker",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:RPG Maker"
+    ],
+    "boxArtAspectRatioId": 1,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "rpgmaker - RetroArch 64 - easyrpg",
+      "uniqueId": "rpgmaker.ra64.easyrpg",
+      "description": "Supported extensions: easyrpg, ldb, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:easyrpg|ldb|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO easyrpg\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "rpgmaker - RetroArch 32 - easyrpg",
+      "uniqueId": "rpgmaker.ra32.easyrpg",
+      "description": "Supported extensions: easyrpg, ldb, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:easyrpg|ldb|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO easyrpg\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "rpgmaker - RetroArch - easyrpg",
+      "uniqueId": "rpgmaker.ra.easyrpg",
+      "description": "Supported extensions: easyrpg, ldb, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:easyrpg|ldb|zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO easyrpg\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

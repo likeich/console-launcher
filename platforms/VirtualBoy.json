@@ -1,0 +1,66 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 7,
+  "platform": {
+    "name": "Virtual Boy",
+    "uniqueId": "virtualboy",
+    "shortname": "virtualboy",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Nintendo - Virtual Boy"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 3,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      28
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "virtualboy - vvs",
+      "uniqueId": "virtualboy.com.simongellis.vvb",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:vb|zip)$",
+      "amStartArguments": "-n com.simongellis.vvb/com.simongellis.vvb.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "virtualboy - RetroArch 64 - mednafen_vb",
+      "uniqueId": "virtualboy.ra64.mednafen_vb",
+      "description": "Supported extensions: bin, vb, vboy.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|vb|vboy|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_vb\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "virtualboy - RetroArch 32 - mednafen_vb",
+      "uniqueId": "virtualboy.ra32.mednafen_vb",
+      "description": "Supported extensions: bin, vb, vboy.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|vb|vboy|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_vb\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "virtualboy - RetroArch - mednafen_vb",
+      "uniqueId": "virtualboy.ra.mednafen_vb",
+      "description": "Supported extensions: bin, vb, vboy.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|vb|vboy|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_vb\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 9,
+  "platform": {
+    "name": "Amstrad CPC",
+    "uniqueId": "cpc",
+    "shortname": "cpc",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Amstrad - CPC",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://openretro.org/browse/cpc?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=img.game-cover%5Balt%3D%22front+image%22%5D&dsess_attribute=src&dsess_extractor=%5E%28%5B%5E%3F%5D%2A%29%3F.%2A.%2A",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://openretro.org/browse/cpc?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=div.game-info-row%3Anth-child%289%29"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      37
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "cpc - RetroArch 64 - crocods",
+      "uniqueId": "cpc.ra64.crocods",
+      "description": "Supported extensions: dsk, kcr, sna.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dsk|kcr|sna)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO crocods\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "cpc - RetroArch 64 - cap32",
+      "uniqueId": "cpc.ra64.cap32",
+      "description": "Supported extensions: cdt, cpr, dsk, m3u, sna, tap, voc, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cdt|cpr|dsk|m3u|sna|tap|voc|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO cap32\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "cpc - RetroArch 32 - crocods",
+      "uniqueId": "cpc.ra32.crocods",
+      "description": "Supported extensions: dsk, kcr, sna.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dsk|kcr|sna)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO crocods\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "cpc - RetroArch 32 - cap32",
+      "uniqueId": "cpc.ra32.cap32",
+      "description": "Supported extensions: cdt, cpr, dsk, m3u, sna, tap, voc, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cdt|cpr|dsk|m3u|sna|tap|voc|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO cap32\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "cpc - RetroArch - crocods",
+      "uniqueId": "cpc.ra.crocods",
+      "description": "Supported extensions: dsk, kcr, sna.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dsk|kcr|sna)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO crocods\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "cpc - RetroArch - cap32",
+      "uniqueId": "cpc.ra.cap32",
+      "description": "Supported extensions: cdt, cpr, dsk, m3u, sna, tap, voc, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cdt|cpr|dsk|m3u|sna|tap|voc|zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO cap32\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

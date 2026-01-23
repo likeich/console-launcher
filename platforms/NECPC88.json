@@ -1,0 +1,54 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 6,
+  "platform": {
+    "name": "NEC PC-88",
+    "uniqueId": "pc88",
+    "shortname": "pc88",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": true,
+    "customScreenAspectRatio": "16:5",
+    "retroAchievementsConsoleIdList": [
+      47
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "pc88 - Retroarch 64 - quasi88",
+      "uniqueId": "pc88.ra64.quasi88",
+      "description": "Supported extensions: d88, m3u, u88.",
+      "acceptedFilenameRegex": "^(.*).(?:d88|m3u|u88)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO quasi88\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pc88 - Retroarch 32 - quasi88",
+      "uniqueId": "pc88.ra32.quasi88",
+      "description": "Supported extensions: d88, m3u, u88.",
+      "acceptedFilenameRegex": "^(.*).(?:d88|m3u|u88)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO quasi88\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pc88 - Retroarch - quasi88",
+      "uniqueId": "pc88.ra.quasi88",
+      "description": "Supported extensions: d88, m3u, u88.",
+      "acceptedFilenameRegex": "^(.*).(?:d88|m3u|u88)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO quasi88\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}
