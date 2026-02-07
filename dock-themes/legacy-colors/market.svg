@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="174" viewBox="0 0 175 174">
+  <path d="M125.24,60.11L98.47,87.15" fill="none" stroke="#a4ea24" stroke-width="2.00" stroke-linecap="butt"/>
+  <path d="M98.47,87.15L13.14,1.48" fill="none" stroke="#42e6a4" stroke-width="2.00" stroke-linecap="butt"/>
+  <path d="M98.47,87.15Q98.5,87.14 98.54,87.13" fill="none" stroke="#9dd080" stroke-width="2.00" stroke-linecap="butt"/>
+  <path d="M98.54,87.13L13.92,172.66" fill="none" stroke="#9d8099" stroke-width="2.00" stroke-linecap="butt"/>
+  <path d="M125.42,113.9L98.54,87.13" fill="none" stroke="#ff841a" stroke-width="2.00" stroke-linecap="butt"/>
+  <path d="M125.24,60.11L98.47,87.15L13.14,1.48Q16.03,0.56 18.74,2.02Q72.17,30.89 125.24,60.11Z" fill="#48ff48"/>
+  <path d="M13.14,1.48L98.47,87.15Q98.5,87.14 98.54,87.13L13.92,172.66C8.55,174.39 6.27,168.47 6.27,164.44Q6.22,87.72 6.27,11Q6.27,5.17 10.03,2.34Q12.12,0.77 13.14,1.48Z" fill="#3bccff"/>
+  <path d="M125.24,60.11Q144.81,70.64 164.05,81.45C170.65,85.16 167.1,91.04 162.11,93.78Q143.9,103.78 125.42,113.9L98.54,87.13Q98.5,87.14 98.47,87.15L125.24,60.11Z" fill="#ffd400"/>
+  <path d="M98.54,87.13L125.42,113.9Q40.65,160.56 18.5,172.5Q16.56,173.54 13.92,172.66L98.54,87.13Z" fill="#ff3333"/>
+</svg>
