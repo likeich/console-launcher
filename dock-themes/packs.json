@@ -6,6 +6,8 @@
     "material",
     "notoemoji",
     "openmoji-color",
-    "openmoji-black"
+    "openmoji-black",
+    "heroicons-outline",
+    "heroicons-solid"
   ]
 }
