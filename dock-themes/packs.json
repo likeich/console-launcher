@@ -1,4 +1,4 @@
 {
   "baseUrl": "https://raw.githubusercontent.com/likeich/console-launcher/main/dock-themes/",
-  "packList": ["legacy-colors", "lucide", "material"]
+  "packList": ["legacy-colors", "lucide", "material", "notoemoji"]
 }
