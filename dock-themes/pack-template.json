@@ -1,4 +1,5 @@
 {
   "name": "Phosphor Icons",
-  "extension": "webp"
+  "extension": "webp",
+  "tint": true
 }

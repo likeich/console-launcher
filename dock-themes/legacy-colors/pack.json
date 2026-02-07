@@ -1,4 +1,5 @@
 {
   "name": "Colored Icons (Legacy)",
-  "extension": "svg"
+  "extension": "svg",
+  "tint": false
 }

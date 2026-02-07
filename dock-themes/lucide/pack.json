@@ -1,4 +1,5 @@
 {
   "name": "Lucide Icons",
-  "extension": "svg"
+  "extension": "svg",
+  "tint": true
 }
