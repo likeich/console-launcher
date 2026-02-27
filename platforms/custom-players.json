@@ -1,0 +1,16 @@
+[
+  {
+    "file": "NintendoDS.json",
+    "insertAfter": "nds.com.dsemu.drastic",
+    "player": {
+      "name": "nds - Drastic (RG DS)",
+      "uniqueId": "nds.com.dsemu.drastic.rgds",
+      "description": "Supported extensions: bin, nds, rar, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|rar|zip|7z)$",
+      "amStartArguments": "-n com.dsemu.drastic/.DraSticActivity\n-d {file.path}\n--activity-clear-task\n--activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  }
+]
