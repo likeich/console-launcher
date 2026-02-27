@@ -1,13 +1,15 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Video Player",
     "uniqueId": "videos",
     "shortname": "videos",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
-    "scraperSourceList": [],
+    "scraperSourceList": [
+	"DSESS:BOX_ART:TAGS(scraperKeyword):https://theposterdb.com/search?term=%7BscraperKeyword%7D&section=shows&dsess_target_site_selector=a.btn.btn-dark-lighter&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Ftheposterdb%5C.com%5C%2Fposters%5C%2F%5Cd%2B&dsess_selector=picture%20source&dsess_attribute=srcset"
+	],
     "boxArtAspectRatioId": 2,
     "useCustomBoxArtAspectRatio": false,
     "customBoxArtAspectRatio": null,

@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 10,
+  "revisionNumber": 11,
   "platform": {
     "name": "PICO-8",
     "uniqueId": "pico8",
@@ -25,7 +25,7 @@
       "uniqueId": "pico8.io.wip.pico8",
       "description": "Supported extensions: p8, png.",
       "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
-      "amStartArguments": "-n io.wip.pico8/com.godot.game.GodotApp\n -d {file.uri}",
+      "amStartArguments": "-n io.wip.pico8/com.godot.game.GodotAppLauncher\n -d {file.uri}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 13,
+  "revisionNumber": 14,
   "platform": {
     "name": "Sega Genesis",
     "uniqueId": "genesis",
@@ -49,7 +49,7 @@
       "uniqueId": "genesis.it.dbtecno.pizzaboyscpro",
       "description": "Supported extensions: md, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:md|zip)$",
-      "amStartArguments": "-n it.dbtecno.pizzaboyscpro/.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n it.dbtecno.pizzaboyscpro/.MainActivity\n  -e rom_uri {file.uri}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
