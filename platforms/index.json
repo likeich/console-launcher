@@ -48,7 +48,7 @@
       "platformName": "Arduboy",
       "platformShortname": "arduboy",
       "platformUniqueId": "arduboy",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "Atari2600.json",
@@ -258,21 +258,21 @@
       "platformName": "Game Boy",
       "platformShortname": "gb",
       "platformUniqueId": "gb",
-      "revisionNumber": 16
+      "revisionNumber": 17
     },
     {
       "filename": "GameBoyAdvance.json",
       "platformName": "Game Boy Advance",
       "platformShortname": "gba",
       "platformUniqueId": "gba",
-      "revisionNumber": 15
+      "revisionNumber": 16
     },
     {
       "filename": "GameBoyColor.json",
       "platformName": "Game Boy Color",
       "platformShortname": "gbc",
       "platformUniqueId": "gbc",
-      "revisionNumber": 16
+      "revisionNumber": 17
     },
     {
       "filename": "GameCube.json",
@@ -280,6 +280,13 @@
       "platformShortname": "gc",
       "platformUniqueId": "gc",
       "revisionNumber": 15
+    },
+    {
+      "filename": "IdTech4A.json",
+      "platformName": "idTech4A++",
+      "platformShortname": "idtech",
+      "platformUniqueId": "idtech",
+      "revisionNumber": 1
     },
     {
       "filename": "Intellivision.json",
@@ -335,7 +342,7 @@
       "platformName": "Microsoft - XBox 360",
       "platformShortname": "xbox360",
       "platformUniqueId": "xbox360",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "Moonlight.json",
@@ -454,28 +461,28 @@
       "platformName": "Nintendo Wii",
       "platformShortname": "wii",
       "platformUniqueId": "wii",
-      "revisionNumber": 12
+      "revisionNumber": 14
     },
     {
       "filename": "NintendoWiiU.json",
       "platformName": "Nintendo Wii U",
       "platformShortname": "wiiu",
       "platformUniqueId": "wiiu",
-      "revisionNumber": 9
+      "revisionNumber": 10
     },
     {
       "filename": "NintendoWiiWare.json",
       "platformName": "Nintendo WiiWare",
       "platformShortname": "wiiware",
       "platformUniqueId": "wiiware",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "PICO8.json",
       "platformName": "PICO-8",
       "platformShortname": "pico8",
       "platformUniqueId": "pico8",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "PalmOS.json",
@@ -566,14 +573,14 @@
       "platformName": "Sega Game Gear",
       "platformShortname": "gamegear",
       "platformUniqueId": "gamegear",
-      "revisionNumber": 14
+      "revisionNumber": 15
     },
     {
       "filename": "SegaGenesis.json",
       "platformName": "Sega Genesis",
       "platformShortname": "genesis",
       "platformUniqueId": "genesis",
-      "revisionNumber": 13
+      "revisionNumber": 14
     },
     {
       "filename": "SegaGenesisMSU.json",
@@ -587,7 +594,14 @@
       "platformName": "Sega Master System",
       "platformShortname": "master",
       "platformUniqueId": "master",
-      "revisionNumber": 13
+      "revisionNumber": 14
+    },
+    {
+      "filename": "SegaModel3.json",
+      "platformName": "Sega Model 3",
+      "platformShortname": "model3",
+      "platformUniqueId": "model3",
+      "revisionNumber": 1
     },
     {
       "filename": "SegaNAOMI.json",
@@ -664,7 +678,7 @@
       "platformName": "Steam",
       "platformShortname": "steam",
       "platformUniqueId": "steam",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "SuperGrafx.json",
@@ -693,6 +707,13 @@
       "platformShortname": "tic80",
       "platformUniqueId": "tic80",
       "revisionNumber": 3
+    },
+    {
+      "filename": "Triforce.json",
+      "platformName": "Triforce",
+      "platformShortname": "triforce",
+      "platformUniqueId": "triforce",
+      "revisionNumber": 1
     },
     {
       "filename": "TurboGrafx16.json",
@@ -734,7 +755,7 @@
       "platformName": "Video Player",
       "platformShortname": "videos",
       "platformUniqueId": "videos",
-      "revisionNumber": 7
+      "revisionNumber": 8
     },
     {
       "filename": "VirtualBoy.json",
@@ -762,7 +783,7 @@
       "platformName": "Windows",
       "platformShortname": "windows",
       "platformUniqueId": "windows",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "WonderSwan.json",

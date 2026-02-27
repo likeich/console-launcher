@@ -1,13 +1,15 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 3,
+  "revisionNumber": 4,
   "platform": {
     "name": "Arduboy",
     "uniqueId": "arduboy",
     "shortname": "arduboy",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
-    "scraperSourceList": [],
+    "scraperSourceList": [
+      "LIBRETRO:Adruboy Inc - Arduboy"
+	],
     "boxArtAspectRatioId": 0,
     "useCustomBoxArtAspectRatio": false,
     "customBoxArtAspectRatio": null,

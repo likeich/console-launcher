@@ -1,0 +1,32 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 1,
+  "platform": {
+    "name": "idTech4A++",
+    "uniqueId": "idtech",
+    "shortname": "idtech",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 3,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "idtech - idTech4A++",
+      "uniqueId": "idtech.com.karin.idTech4Amm",
+      "description": "Supported extensions: idtech",
+      "acceptedFilenameRegex": "^(.*)\\.(?:idtech)$",
+      "amStartArguments": "-n com.karin.idTech4Amm/com.n0n3m4.q3e.Q3EMain -e game {tags.idtech}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}
