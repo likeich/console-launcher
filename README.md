@@ -49,6 +49,8 @@
 - **Achievements Viewer:** Browse all of your achievements on a per-platform or per-game basis.
 - **Friends List:** View all of your RA friends in a unified list and see what they are playing!
 
+<img src="./readme-assets/retroachievements.png" style="width: 100%; height: auto; border-radius: 16px;">
+
 ### Discord Integration
 - **Rich Presence:** Show your friends what you are playing in real-time.
 - **Console Launcher Lobbies:** View private lobbies for Console Launcher players and discuss games with others live.
