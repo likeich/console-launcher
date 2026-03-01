@@ -9,6 +9,8 @@
 [![Play Store](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.k2.consolelauncher)
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ZMsfubNTX8)
 
+<hr>
+
 <img src="./preview.gif" height="600" style="border-radius: 16px;">
 
 </div>
