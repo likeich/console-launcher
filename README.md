@@ -11,7 +11,7 @@
 
 <hr>
 
-<img src="./readme-assets/preview.gif" height="450" style="width: 100%; height: auto; border-radius: 16px;">
+<img src="./readme-assets/preview.gif" height="500" style="width: 100%; height: auto; border-radius: 16px;">
 
 </div>
 
