@@ -17,7 +17,7 @@
 
 ## Features
 
-### Launcher Experience
+### Console Experience
 - **Console-Style Home UI:** Multiple layouts including Handheld, Immersive, and Grid.
 - **Controller Navigation:** Navigate with touch or use your controller with the entire app.
 - **Unified Launcher Model:** Launch apps, games, ROM shortcuts, folders, and platform entries from one interface.
