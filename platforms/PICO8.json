@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 11,
+  "revisionNumber": 12,
   "platform": {
     "name": "PICO-8",
     "uniqueId": "pico8",
@@ -26,6 +26,16 @@
       "description": "Supported extensions: p8, png.",
       "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
       "amStartArguments": "-n io.wip.pico8/com.godot.game.GodotAppLauncher\n -d {file.uri}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pico8 - PicPic",
+      "uniqueId": "pico8.com.sa_moo_rai.picpic",
+      "description": "Supported extensions: p8, png.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
+      "amStartArguments": "-n com.sa_moo_rai.picpic/.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
