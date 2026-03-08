@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 17,
+  "revisionNumber": 18,
   "platform": {
     "name": "Game Boy Color",
     "uniqueId": "gbc",
@@ -115,16 +115,6 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 64 - vbam",
-      "uniqueId": "gbc.ra64.vbam",
-      "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO vbam\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
       "name": "gbc - RetroArch 64 - sameboy",
       "uniqueId": "gbc.ra64.sameboy",
       "description": "Supported extensions: gb, gbc.",
@@ -165,6 +155,26 @@
       "extra": ""
     },
     {
+      "name": "gbc - RetroArch 64 - vbam",
+      "uniqueId": "gbc.ra64.vbam",
+      "description": "Supported extensions: gb, gbc.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO vbam\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gbc - RetroArch 64 - mgba",
+      "uniqueId": "gbc.ra64.mgba",
+      "description": "Supported extensions: gb, gbc.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mgba\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "gbc - RetroArch 32 - gambatte",
       "uniqueId": "gbc.ra32.gambatte",
       "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
@@ -180,16 +190,6 @@
       "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO gearboy\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "gbc - RetroArch 32 - vbam",
-      "uniqueId": "gbc.ra32.vbam",
-      "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO vbam\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -235,6 +235,26 @@
       "extra": ""
     },
     {
+      "name": "gbc - RetroArch 32 - vbam",
+      "uniqueId": "gbc.ra32.vbam",
+      "description": "Supported extensions: gb, gbc.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO vbam\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gbc - RetroArch 32 - mgba",
+      "uniqueId": "gbc.ra32.mgba",
+      "description": "Supported extensions: gb, gbc.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mgba\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "gbc - RetroArch - gambatte",
       "uniqueId": "gbc.ra.gambatte",
       "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
@@ -250,16 +270,6 @@
       "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO gearboy\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "gbc - RetroArch - vbam",
-      "uniqueId": "gbc.ra.vbam",
-      "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO vbam\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -300,6 +310,26 @@
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mesen-s\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gbc - RetroArch - vbam",
+      "uniqueId": "gbc.ra.vbam",
+      "description": "Supported extensions: gb, gbc.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO vbam\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gbc - RetroArch - mgba",
+      "uniqueId": "gbc.ra.mgba",
+      "description": "Supported extensions: gb, gbc.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mgba\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

@@ -258,7 +258,7 @@
       "platformName": "Game Boy",
       "platformShortname": "gb",
       "platformUniqueId": "gb",
-      "revisionNumber": 17
+      "revisionNumber": 18
     },
     {
       "filename": "GameBoyAdvance.json",
@@ -272,7 +272,7 @@
       "platformName": "Game Boy Color",
       "platformShortname": "gbc",
       "platformUniqueId": "gbc",
-      "revisionNumber": 17
+      "revisionNumber": 18
     },
     {
       "filename": "GameCube.json",
@@ -426,7 +426,7 @@
       "platformName": "Nintendo DS",
       "platformShortname": "nds",
       "platformUniqueId": "nds",
-      "revisionNumber": 14
+      "revisionNumber": 13
     },
     {
       "filename": "NintendoDSi.json",
@@ -482,7 +482,7 @@
       "platformName": "PICO-8",
       "platformShortname": "pico8",
       "platformUniqueId": "pico8",
-      "revisionNumber": 11
+      "revisionNumber": 12
     },
     {
       "filename": "PalmOS.json",
