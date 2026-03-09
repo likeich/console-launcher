@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a reproducible problem in Console Launcher.
+description: Report a problem in Console Launcher.
 title: "[Bug]: "
 body:
   - type: markdown
@@ -47,20 +47,6 @@ body:
       placeholder: e.g. 1.2.3
     validations:
       required: true
-  - type: input
-    id: android_version
-    attributes:
-      label: Android version
-      placeholder: e.g. Android 14
-    validations:
-      required: true
-  - type: input
-    id: device
-    attributes:
-      label: Device model
-      placeholder: e.g. Retroid Pocket 5
-    validations:
-      required: true
   - type: dropdown
     id: install_source
     attributes:
@@ -68,8 +54,6 @@ body:
       options:
         - Google Play
         - GitHub release / APK
-        - Built locally
-        - Other
     validations:
       required: true
   - type: textarea
