@@ -1,0 +1,20 @@
+name: Feature request
+description: Suggest an improvement or new capability for Console Launcher.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep this short. Describe the idea and why you want it.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Feature idea
+      placeholder: I would like Console Launcher to...
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why it would help
+      placeholder: This would be useful because...

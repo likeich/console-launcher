@@ -1,0 +1,80 @@
+name: Bug report
+description: Report a reproducible problem in Console Launcher.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please fill out the details below so the issue can be reproduced and fixed.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What went wrong?
+      placeholder: A short description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps needed to trigger the issue.
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: What should have happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: What happened instead?
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: Console Launcher version
+      description: The app version where you saw the issue.
+      placeholder: e.g. 1.2.3
+    validations:
+      required: true
+  - type: input
+    id: android_version
+    attributes:
+      label: Android version
+      placeholder: e.g. Android 14
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device model
+      placeholder: e.g. Retroid Pocket 5
+    validations:
+      required: true
+  - type: dropdown
+    id: install_source
+    attributes:
+      label: Install source
+      options:
+        - Google Play
+        - GitHub release / APK
+        - Built locally
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context
+      description: Include screenshots, logs, emulator/player details, or anything else relevant.
+      placeholder: Extra details that may help investigate.
