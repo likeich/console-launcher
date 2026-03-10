@@ -1,0 +1,36 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 2,
+  "platform": {
+    "name": "Microsoft - Xbox",
+    "uniqueId": "xbox",
+    "shortname": "xbox",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Microsoft - Xbox"
+    ],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      22
+    ],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "xbox - X1 Box",
+      "uniqueId": "xbox.com.izzy2lost.x1box",
+      "description": "Supported extensions: xiso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:xiso)$",
+      "amStartArguments": "-n com.izzy2lost.x1box/.LauncherActivity -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

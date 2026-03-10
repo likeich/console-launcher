@@ -338,6 +338,13 @@
       "revisionNumber": 3
     },
     {
+      "filename": "MicrosoftXbox.json",
+      "platformName": "Microsoft - Xbox",
+      "platformShortname": "xbox",
+      "platformUniqueId": "xbox",
+      "revisionNumber": 2
+    },
+    {
       "filename": "MicrosoftXbox360.json",
       "platformName": "Microsoft - XBox 360",
       "platformShortname": "xbox360",
