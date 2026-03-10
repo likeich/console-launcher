@@ -342,7 +342,7 @@
       "platformName": "Microsoft - Xbox",
       "platformShortname": "xbox",
       "platformUniqueId": "xbox",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "MicrosoftXbox360.json",

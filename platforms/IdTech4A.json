@@ -23,7 +23,7 @@
       "uniqueId": "idtech.com.karin.idTech4Amm",
       "description": "Supported extensions: idtech",
       "acceptedFilenameRegex": "^(.*)\\.(?:idtech)$",
-      "amStartArguments": "-n com.karin.idTech4Amm/com.n0n3m4.q3e.Q3EMain -e game {tags.idtech}",
+      "amStartArguments": "-n com.karin.idTech4Amm/com.n0n3m4.q3e.Q3EMain\n-e game {tags.idtech}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

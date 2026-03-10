@@ -31,7 +31,7 @@
       "uniqueId": "model3.com.izzy2lost.super3",
       "description": "Supported extensions: zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
-      "amStartArguments": "-n com.izzy2lost.super3/.MainActivity -d {file.uri}",
+      "amStartArguments": "-n com.izzy2lost.super3/.MainActivity\n-d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
