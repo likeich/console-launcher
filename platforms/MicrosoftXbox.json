@@ -27,7 +27,7 @@
       "uniqueId": "xbox.com.izzy2lost.x1box",
       "description": "Supported extensions: xiso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:xiso)$",
-      "amStartArguments": "-n com.izzy2lost.x1box/.LauncherActivity -d {file.uri}",
+      "amStartArguments": "-n com.izzy2lost.x1box/.LauncherActivity\n-d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
