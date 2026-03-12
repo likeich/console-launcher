@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "NeoGeo Pocket Color",
     "uniqueId": "ngpc",
@@ -25,7 +25,7 @@
       "uniqueId": "ngpc.com.explusalpha.NgpEmu",
       "description": "Supported extensions: zip, ngp, ngc, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
-      "amStartArguments": "-n com.explusalpha.NgpEmu/com.imagine.BaseActivity\n  -d {file.path}\n",
+      "amStartArguments": "-n com.explusalpha.NgpEmu/com.imagine.BaseActivity\n -d {file.path}\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

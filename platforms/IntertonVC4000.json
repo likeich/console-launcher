@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 4,
+  "revisionNumber": 5,
   "platform": {
     "name": "Interton VC 4000",
     "uniqueId": "vc4000",
@@ -25,7 +25,7 @@
       "uniqueId": "vc4000.com.amigan.droidarcadia",
       "description": "Supported extensions: zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
-      "amStartArguments": "-n com.amigan.droidarcadia/.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n -t application/zip\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.amigan.droidarcadia/.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n -t application/zip\n --activity-clear-task\n --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

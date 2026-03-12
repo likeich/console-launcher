@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 3,
+  "revisionNumber": 4,
   "platform": {
     "name": "Arcadia 2001",
     "uniqueId": "arcadia",
@@ -25,7 +25,7 @@
       "uniqueId": "arcadia.com.amigan.droidarcadia",
       "description": "Supported extensions: zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
-      "amStartArguments": "-n com.amigan.droidarcadia/.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n -t application/zip\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.amigan.droidarcadia/.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n -t application/zip\n --activity-clear-task\n --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

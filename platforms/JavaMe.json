@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Java Me",
     "uniqueId": "j2me",
@@ -23,7 +23,7 @@
       "uniqueId": "j2me.ru.playsoftware.j2meloader",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:java|jar)$",
-      "amStartArguments": "-n ru.playsoftware.j2meloader/ru.playsoftware.j2meloader.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "amStartArguments": "-n ru.playsoftware.j2meloader/ru.playsoftware.j2meloader.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -33,7 +33,7 @@
       "uniqueId": "j2me.ru.woesss.j2meloader",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:java|jar)$",
-      "amStartArguments": "-n ru.woesss.j2meloader/ru.playsoftware.j2meloader.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "amStartArguments": "-n ru.woesss.j2meloader/ru.playsoftware.j2meloader.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

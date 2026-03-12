@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Nintendo WiiWare",
     "uniqueId": "wiiware",
@@ -30,7 +30,7 @@
       "uniqueId": "wiiware.org.dolphinemu.handheld",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
-      "amStartArguments": "-n org.dolphinemu.handheld/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
+      "amStartArguments": "-n org.dolphinemu.handheld/org.dolphinemu.dolphinemu.ui.main.MainActivity\n -a android.intent.action.VIEW\n -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -40,7 +40,7 @@
       "uniqueId": "wiiware.org.mm.jr",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
-      "amStartArguments": "-n org.mm.jr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
+      "amStartArguments": "-n org.mm.jr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n -a android.intent.action.VIEW\n -e AutoStartFile {file.path}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
@@ -50,7 +50,7 @@
       "uniqueId": "wiiware.org.mm.j",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
-      "amStartArguments": "-n org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
+      "amStartArguments": "-n org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity\n -a android.intent.action.VIEW\n -e AutoStartFile {file.path}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -60,7 +60,7 @@
       "uniqueId": "wiiware.org.dolphinemu.mmjr",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
-      "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
+      "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n -a android.intent.action.VIEW\n -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
@@ -70,7 +70,7 @@
       "uniqueId": "wiiware.org.dolphinemu.dolphinemu",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
-      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.MAIN\n  -e AutoStartFile {file.uri}",
+      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n -a android.intent.action.MAIN\n -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -80,7 +80,7 @@
       "uniqueId": "wiiware.org.dolphinemu.mmjr3",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
-      "amStartArguments": "-n org.dolphinemu.mmjr3/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
+      "amStartArguments": "-n org.dolphinemu.mmjr3/org.dolphinemu.dolphinemu.ui.main.MainActivity\n -a android.intent.action.VIEW\n -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
@@ -90,7 +90,7 @@
       "uniqueId": "wiiware.org.dolphin.ishiirukadark",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wad)$",
-      "amStartArguments": "-n org.dolphin.ishiirukadark/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
+      "amStartArguments": "-n org.dolphin.ishiirukadark/org.dolphinemu.dolphinemu.ui.main.MainActivity\n -a android.intent.action.VIEW\n -e AutoStartFile {file.path}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

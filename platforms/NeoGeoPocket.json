@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 10,
+  "revisionNumber": 11,
   "platform": {
     "name": "NeoGeo Pocket",
     "uniqueId": "ngp",
@@ -27,7 +27,7 @@
       "uniqueId": "ngp.com.explusalpha.NgpEmu",
       "description": "Supported extensions: zip, ngp, ngc, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|ngp|ngc|7z)$",
-      "amStartArguments": "-n com.explusalpha.NgpEmu/com.imagine.BaseActivity\n  -d {file.path}\n  -t application/zip",
+      "amStartArguments": "-n com.explusalpha.NgpEmu/com.imagine.BaseActivity\n -d {file.path}\n -t application/zip",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

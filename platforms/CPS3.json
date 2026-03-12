@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "CP System III",
     "uniqueId": "cps3",
@@ -30,7 +30,7 @@
       "uniqueId": "cps3.com.explusalpha.neoemu",
       "description": "Supported extensions: zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
-      "amStartArguments": "-n com.explusalpha.neoemu/com.imagine.BaseActivity\n  -d {file.path}\n",
+      "amStartArguments": "-n com.explusalpha.neoemu/com.imagine.BaseActivity\n -d {file.path}\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""

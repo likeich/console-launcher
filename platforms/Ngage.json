@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 4,
+  "revisionNumber": 5,
   "platform": {
     "name": "Nokia N-Gage",
     "uniqueId": "ngage",
@@ -25,7 +25,7 @@
       "uniqueId": "ngage.com.github.eka2l1",
       "description": "Supported extensions: json",
       "acceptedFilenameRegex": "^(.*)\\.(?:json)$",
-      "amStartArguments": "-n com.github.eka2l1/.emu.EmulatorActivity\n -a android.intent.action.VIEW\n --activity-clear-task\n  --activity-clear-top\n -d {file.uri}",
+      "amStartArguments": "-n com.github.eka2l1/.emu.EmulatorActivity\n -a android.intent.action.VIEW\n --activity-clear-task\n --activity-clear-top\n -d {file.uri}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

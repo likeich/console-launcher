@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 1,
+  "revisionNumber": 2,
   "platform": {
     "name": "Triforce",
     "uniqueId": "triforce",
@@ -22,11 +22,11 @@
   },
   "playerList": [
     {
-      "name": "triforce - Dolphin ",
+      "name": "triforce - Dolphin",
       "uniqueId": "triforce.org.dolphinemu.dolphinemu",
       "description": "Supported extensions: gcz, iso, wia, gcm",
       "acceptedFilenameRegex": "^(.*)\\.(?:gcz|iso|wia|gcm)$",
-      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.MAIN\n  -e AutoStartFile {file.uri}",
+      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n -a android.intent.action.MAIN\n -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
