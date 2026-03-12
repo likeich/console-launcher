@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "WonderSwan",
     "uniqueId": "ws",
@@ -27,7 +27,7 @@
       "uniqueId": "ws.com.explusalpha.SwanEmu",
       "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",
-      "amStartArguments": "-n com.explusalpha.SwanEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n   -t application/zip",
+      "amStartArguments": "-n com.explusalpha.SwanEmu/com.imagine.BaseActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n -t application/zip",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

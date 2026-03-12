@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "CP System II",
     "uniqueId": "cps2",
@@ -30,7 +30,7 @@
       "uniqueId": "cps2.com.explusalpha.neoemu",
       "description": "Supported extensions: zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
-      "amStartArguments": "-n com.explusalpha.neoemu/com.imagine.BaseActivity\n  -d {file.path}\n",
+      "amStartArguments": "-n com.explusalpha.neoemu/com.imagine.BaseActivity\n -d {file.path}\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""

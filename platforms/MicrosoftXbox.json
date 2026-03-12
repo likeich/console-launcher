@@ -1,28 +1,32 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 3,
+  "revisionNumber": 4,
   "platform": {
     "name": "Microsoft - Xbox",
     "uniqueId": "xbox",
     "shortname": "xbox",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
-    "scraperSourceList": ["LIBRETRO:Microsoft - Xbox"],
+    "scraperSourceList": [
+      "LIBRETRO:Microsoft - Xbox"
+    ],
     "boxArtAspectRatioId": 2,
     "useCustomBoxArtAspectRatio": false,
     "customBoxArtAspectRatio": null,
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsConsoleIdList": [22],
+    "retroAchievementsConsoleIdList": [
+      22
+    ],
     "extra": ""
   },
   "playerList": [
     {
       "name": "xbox - X1 Box",
       "uniqueId": "xbox.com.izzy2lost.x1box",
-      "description": "Supported extensions: xiso.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:xiso)$",
+      "description": "Supported extensions: xiso, iso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:xiso|iso)$",
       "amStartArguments": "-n com.izzy2lost.x1box/.LauncherActivity\n-d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,

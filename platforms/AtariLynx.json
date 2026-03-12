@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 11,
+  "revisionNumber": 12,
   "platform": {
     "name": "Atari Lynx",
     "uniqueId": "lynx",
@@ -29,7 +29,7 @@
       "uniqueId": "lynx.com.explusalpha.LynxEmu",
       "description": "Supported extensions: lnx, o, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:lnx|o|zip|7z)$",
-      "amStartArguments": "-n com.explusalpha.LynxEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n   -t application/zip",
+      "amStartArguments": "-n com.explusalpha.LynxEmu/com.imagine.BaseActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n -t application/zip",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
