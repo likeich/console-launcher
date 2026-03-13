@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="174" viewBox="0 0 175 174">
+  <!-- Disc -->
+  <circle cx="87.5" cy="87" r="87" fill="#e60012"></circle>
+
+  <!-- Icon scaled to fit 65% disc radius (scale = 4.7125), centered -->
+  <g transform="translate(87.5,87) scale(4.7125) translate(-12,-12)" fill="none" stroke="#ffffff" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1.5 12.499h21s1 0 1 1v7s0 1 -1 1h-21s-1 0 -1 -1v-7s0 -1 1 -1"></path>
+    <path d="M2.5 12.5v-5a1 1 0 0 1 1 -1H12a1 1 0 0 1 0.8 0.4L14 8.5h6.5a1 1 0 0 1 1 1v3"></path>
+    <path d="M2.5 4.5v-1a1 1 0 0 1 1 -1H12a1 1 0 0 1 0.8 0.4L14 4.5h6.5a1 1 0 0 1 1 1"></path>
+    <path d="m9 15.499 6 0"></path>
+  </g>
+</svg>

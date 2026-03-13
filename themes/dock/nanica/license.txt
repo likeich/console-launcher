@@ -1,0 +1,38 @@
+LICENSE.txt
+
+Nanica Dock Icons Attribution Notice
+
+These custom dock icons are derived from icons in the “Streamline Ultimate Light - Free” icon set by Streamline.
+
+Source:
+- Streamline: https://streamlinehq.com
+- Streamline set page: https://www.streamlinehq.com/icons/ultimate-light-free
+- Streamline Free License info: https://help.streamlinehq.com/en/articles/5354376-streamline-free-license
+
+Original icon set license:
+- Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+License URL:
+- https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+These icons are based on artwork from Streamline (“Streamline Ultimate Light - Free”).
+They have been modified for custom dock icon use.
+
+Modifications may include:
+- recoloring
+- scaling
+- stroke-width adjustments
+- layout/composition changes
+
+No endorsement:
+No endorsement by Streamline is implied.
+
+Design process note:
+These custom dock icons were created/modified as part of a design process that used ChatGPT
+to assist with SVG transformation, recoloring, scaling, and formatting.
+
+Licensing clarification:
+Streamline Customer Support (Devie) confirmed that the “Streamline Ultimate Light - Free” set
+is licensed under CC BY 4.0 (Creative Commons Attribution 4.0 International), and noted that
+the set page did not clearly state this at the time of inquiry.

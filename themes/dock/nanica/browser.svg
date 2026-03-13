@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="174" viewBox="0 0 175 174">
+  <circle cx="87.5" cy="87" r="87" fill="#515151"></circle>
+  <g transform="translate(87.5 87) scale(4.7125) translate(-12 -12)" fill="none" stroke="#1E88FF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0.5 4.5h20"></path>
+    <path d="M7.5 16.5h-5c-0.53043 0 -1.03914 -0.2107 -1.41421 -0.5858C0.710714 15.5391 0.5 15.0304 0.5 14.5v-12c0 -0.53043 0.210714 -1.03914 0.58579 -1.41421C1.46086 0.710714 1.96957 0.5 2.5 0.5h16c0.5304 0 1.0391 0.210714 1.4142 0.58579 0.3751 0.37507 0.5858 0.88378 0.5858 1.41421v6"></path>
+    <path d="M16.5 23.5c-2 -1.5 -3 -4.5 -3 -7s1 -5.5 3 -7"></path>
+    <path d="M16.5 23.5c2 -1.5 3 -4.5 3 -7s-1 -5.5 -3 -7"></path>
+    <path d="M10.174 13.5h12.652"></path>
+    <path d="M10.174 19.5h12.652"></path>
+    <path d="M9.5 16.5h14"></path>
+    <path d="M16.5 23.5c3.866 0 7 -3.134 7 -7s-3.134 -7 -7 -7 -7 3.134 -7 7 3.134 7 7 7"></path>
+    <path stroke-linecap="butt" stroke-linejoin="miter" d="M3.5 2.75c-0.13807 0 -0.25 -0.11193 -0.25 -0.25s0.11193 -0.25 0.25 -0.25"></path>
+    <path stroke-linecap="butt" stroke-linejoin="miter" d="M3.5 2.75c0.13807 0 0.25 -0.11193 0.25 -0.25s-0.11193 -0.25 -0.25 -0.25"></path>
+    <path stroke-linecap="butt" stroke-linejoin="miter" d="M5.5 2.75c-0.13807 0 -0.25 -0.11193 -0.25 -0.25s0.11193 -0.25 0.25 -0.25"></path>
+    <path stroke-linecap="butt" stroke-linejoin="miter" d="M5.5 2.75c0.13807 0 0.25 -0.11193 0.25 -0.25s-0.11193 -0.25 -0.25 -0.25"></path>
+    <path stroke-linecap="butt" stroke-linejoin="miter" d="M7.5 2.75c-0.13807 0 -0.25 -0.11193 -0.25 -0.25s0.11193 -0.25 0.25 -0.25"></path>
+    <path stroke-linecap="butt" stroke-linejoin="miter" d="M7.5 2.75c0.13807 0 0.25 -0.11193 0.25 -0.25s-0.11193 -0.25 -0.25 -0.25"></path>
+  </g>
+</svg>

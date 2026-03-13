@@ -1,0 +1,14 @@
+{
+  "dock": {
+    "baseUrl": "https://raw.githubusercontent.com/likeich/console-launcher/main/themes/dock/",
+    "indexUrl": "https://raw.githubusercontent.com/likeich/console-launcher/main/themes/dock/packs.json"
+  },
+  "startup": {
+    "baseUrl": "https://raw.githubusercontent.com/likeich/console-launcher/main/themes/startup/",
+    "indexUrl": "https://raw.githubusercontent.com/likeich/console-launcher/main/themes/startup/packs.json"
+  },
+  "icons": {
+    "baseUrl": "https://raw.githubusercontent.com/likeich/console-launcher/main/themes/icons/",
+    "indexUrl": "https://raw.githubusercontent.com/likeich/console-launcher/main/themes/icons/themes.json"
+  }
+}
