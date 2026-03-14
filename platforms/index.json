@@ -247,41 +247,6 @@
       "revisionNumber": 3
     },
     {
-      "filename": "Game&Watch.json",
-      "platformName": "Game & Watch",
-      "platformShortname": "gw",
-      "platformUniqueId": "gw",
-      "revisionNumber": 7
-    },
-    {
-      "filename": "GameBoy.json",
-      "platformName": "Game Boy",
-      "platformShortname": "gb",
-      "platformUniqueId": "gb",
-      "revisionNumber": 19
-    },
-    {
-      "filename": "GameBoyAdvance.json",
-      "platformName": "Game Boy Advance",
-      "platformShortname": "gba",
-      "platformUniqueId": "gba",
-      "revisionNumber": 17
-    },
-    {
-      "filename": "GameBoyColor.json",
-      "platformName": "Game Boy Color",
-      "platformShortname": "gbc",
-      "platformUniqueId": "gbc",
-      "revisionNumber": 19
-    },
-    {
-      "filename": "GameCube.json",
-      "platformName": "GameCube",
-      "platformShortname": "gc",
-      "platformUniqueId": "gc",
-      "revisionNumber": 16
-    },
-    {
       "filename": "IdTech4A.json",
       "platformName": "idTech4A++",
       "platformShortname": "idtech",
@@ -419,7 +384,7 @@
       "platformName": "Nintendo 3DS",
       "platformShortname": "3ds",
       "platformUniqueId": "3ds",
-      "revisionNumber": 18
+      "revisionNumber": 20
     },
     {
       "filename": "Nintendo64.json",
@@ -448,6 +413,41 @@
       "platformShortname": "nes",
       "platformUniqueId": "nes",
       "revisionNumber": 12
+    },
+    {
+      "filename": "NintendoGame&Watch.json",
+      "platformName": "Nintendo - Game & Watch",
+      "platformShortname": "gw",
+      "platformUniqueId": "gw",
+      "revisionNumber": 7
+    },
+    {
+      "filename": "NintendoGameBoy.json",
+      "platformName": "Nintendo - Game Boy",
+      "platformShortname": "gb",
+      "platformUniqueId": "gb",
+      "revisionNumber": 20
+    },
+    {
+      "filename": "NintendoGameBoyAdvance.json",
+      "platformName": "Nintendo - Game Boy Advance",
+      "platformShortname": "gba",
+      "platformUniqueId": "gba",
+      "revisionNumber": 18
+    },
+    {
+      "filename": "NintendoGameBoyColor.json",
+      "platformName": "Nintendo - Game Boy Color",
+      "platformShortname": "gbc",
+      "platformUniqueId": "gbc",
+      "revisionNumber": 20
+    },
+    {
+      "filename": "NintendoGameCube.json",
+      "platformName": "Nintendo - GameCube",
+      "platformShortname": "gc",
+      "platformUniqueId": "gc",
+      "revisionNumber": 17
     },
     {
       "filename": "NintendoSatellaview.json",

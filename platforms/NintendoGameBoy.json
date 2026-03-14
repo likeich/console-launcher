@@ -1,16 +1,16 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 19,
+  "revisionNumber": 20,
   "platform": {
-    "name": "Game Boy Color",
-    "uniqueId": "gbc",
-    "shortname": "gbc",
+    "name": "Nintendo - Game Boy",
+    "uniqueId": "gb",
+    "shortname": "gb",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
-      "LIBRETRO:Nintendo - Game Boy Color",
-      "DSESS:BOX_ART:TAGS(scraperKeyword):https://openretro.org/browse/gbc?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=img.game-cover%5Balt%3D%22front+image%22%5D&dsess_attribute=src&dsess_extractor=%5E%28%5B%5E%3F%5D%2A%29%3F.%2A.%2A",
-      "DSESS:GENRES:TAGS(scraperKeyword):https://openretro.org/browse/gbc?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=div.game-info-row%3Anth-child%289%29"
+      "LIBRETRO:Nintendo - Game Boy",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://openretro.org/browse/gb?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=img.game-cover%5Balt%3D%22front+image%22%5D&dsess_attribute=src&dsess_extractor=%5E%28%5B%5E%3F%5D%2A%29%3F.%2A.%2A",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://openretro.org/browse/gb?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=div.game-info-row%3Anth-child%289%29"
     ],
     "boxArtAspectRatioId": 0,
     "useCustomBoxArtAspectRatio": false,
@@ -19,15 +19,15 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsConsoleIdList": [
-      6
+      4
     ],
     "extra": ""
   },
   "playerList": [
     {
-      "name": "gbc - Pizza Boy C Basic",
-      "uniqueId": "gbc.it.dbtecno.pizzaboy",
-      "description": "Supported extensions: gb, gbc, gbs, zip, 7z.",
+      "name": "gb - Pizza Boy C Basic",
+      "uniqueId": "gb.it.dbtecno.pizzaboy",
+      "description": "Supported extensions: gb, gbc, gbs.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
       "amStartArguments": "-n it.dbtecno.pizzaboy/it.dbtecno.pizzaboy.MainActivity\n -e rom_uri {file.uri}\n --activity-clear-task\n --activity-clear-top",
       "killPackageProcesses": false,
@@ -35,9 +35,9 @@
       "extra": ""
     },
     {
-      "name": "gbc - Pizza Boy C Pro",
-      "uniqueId": "gbc.it.dbtecno.pizzaboypro",
-      "description": "Supported extensions: gb, gbc, gbs, zip, 7z.",
+      "name": "gb - Pizza Boy C Pro",
+      "uniqueId": "gb.it.dbtecno.pizzaboypro",
+      "description": "Supported extensions: gb, gbc, gbs.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
       "amStartArguments": "-n it.dbtecno.pizzaboypro/it.dbtecno.pizzaboypro.MainActivity\n -e rom_uri {file.uri}\n --activity-clear-task\n --activity-clear-top",
       "killPackageProcesses": false,
@@ -45,8 +45,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - SkyEmu",
-      "uniqueId": "gbc.com.sky.SkyEmu",
+      "name": "gb - SkyEmu",
+      "uniqueId": "gb.com.sky.SkyEmu",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip)$",
       "amStartArguments": "-n com.sky.SkyEmu/.EnhancedNativeActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task\n --activity-clear-top",
@@ -55,8 +55,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - com.explusalpha.GbcEmu",
-      "uniqueId": "gbc.com.explusalpha.GbcEmu",
+      "name": "gb - com.explusalpha.GbcEmu",
+      "uniqueId": "gb.com.explusalpha.GbcEmu",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
       "amStartArguments": "-n com.explusalpha.GbcEmu/com.imagine.BaseActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n -t application/zip",
@@ -65,8 +65,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - com.fastemulator.gbcfree",
-      "uniqueId": "gbc.com.fastemulator.gbcfree",
+      "name": "gb - com.fastemulator.gbcfree",
+      "uniqueId": "gb.com.fastemulator.gbcfree",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
       "amStartArguments": "-n com.fastemulator.gbcfree/.EmulatorActivity\n -a android.intent.action.VIEW\n -d {file.path}",
@@ -75,8 +75,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - com.fastemulator.gbc",
-      "uniqueId": "gbc.com.fastemulator.gbc",
+      "name": "gb - com.fastemulator.gbc",
+      "uniqueId": "gb.com.fastemulator.gbc",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
       "amStartArguments": "-n com.fastemulator.gbc/.EmulatorActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
@@ -85,8 +85,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - Linkboy",
-      "uniqueId": "gbc.com.pixelrespawn.linkboy",
+      "name": "gb - Linkboy",
+      "uniqueId": "gb.com.pixelrespawn.linkboy",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
       "amStartArguments": "-n com.pixelrespawn.linkboy/.EmulatorActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
@@ -95,8 +95,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 64 - gambatte",
-      "uniqueId": "gbc.ra64.gambatte",
+      "name": "gb - RetroArch 64 - gambatte",
+      "uniqueId": "gb.ra64.gambatte",
       "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO gambatte\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
@@ -105,8 +105,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 64 - gearboy",
-      "uniqueId": "gbc.ra64.gearboy",
+      "name": "gb - RetroArch 64 - gearboy",
+      "uniqueId": "gb.ra64.gearboy",
       "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO gearboy\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
@@ -115,8 +115,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 64 - sameboy",
-      "uniqueId": "gbc.ra64.sameboy",
+      "name": "gb - RetroArch 64 - sameboy",
+      "uniqueId": "gb.ra64.sameboy",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO sameboy\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
@@ -125,8 +125,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 64 - tgbdual",
-      "uniqueId": "gbc.ra64.tgbdual",
+      "name": "gb - RetroArch 64 - tgbdual",
+      "uniqueId": "gb.ra64.tgbdual",
       "description": "Supported extensions: gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sgb|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO tgbdual\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
@@ -135,8 +135,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 64 - doublecherrygb",
-      "uniqueId": "gbc.ra64.DoubleCherryGB",
+      "name": "gb - RetroArch 64 - doublecherrygb",
+      "uniqueId": "gb.ra64.DoubleCherryGB",
       "description": "Supported extensions: dmg, cgb, gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|dmg|cgb|sgb|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO DoubleCherryGB\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
@@ -145,8 +145,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 64 - mesen-s",
-      "uniqueId": "gbc.ra64.mesen-s",
+      "name": "gb - RetroArch 64 - mesen-s",
+      "uniqueId": "gb.ra64.mesen-s",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mesen-s\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
@@ -155,8 +155,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 64 - vbam",
-      "uniqueId": "gbc.ra64.vbam",
+      "name": "gb - RetroArch 64 - vbam",
+      "uniqueId": "gb.ra64.vbam",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO vbam\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
@@ -165,18 +165,18 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 64 - mgba",
-      "uniqueId": "gbc.ra64.mgba",
+      "name": "gb - RetroArch 64 - mgba",
+      "uniqueId": "gb.ra64.mgba",
       "description": "Supported extensions: gb, gbc.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mgba\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 32 - gambatte",
-      "uniqueId": "gbc.ra32.gambatte",
+      "name": "gb - RetroArch 32 - gambatte",
+      "uniqueId": "gb.ra32.gambatte",
       "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO gambatte\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
@@ -185,8 +185,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 32 - gearboy",
-      "uniqueId": "gbc.ra32.gearboy",
+      "name": "gb - RetroArch 32 - gearboy",
+      "uniqueId": "gb.ra32.gearboy",
       "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO gearboy\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
@@ -195,8 +195,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 32 - sameboy",
-      "uniqueId": "gbc.ra32.sameboy",
+      "name": "gb - RetroArch 32 - sameboy",
+      "uniqueId": "gb.ra32.sameboy",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO sameboy\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
@@ -205,8 +205,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 32 - tgbdual",
-      "uniqueId": "gbc.ra32.tgbdual",
+      "name": "gb - RetroArch 32 - tgbdual",
+      "uniqueId": "gb.ra32.tgbdual",
       "description": "Supported extensions: gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sgb|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO tgbdual\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
@@ -215,8 +215,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 32 - doublecherrygb",
-      "uniqueId": "gbc.ra32.DoubleCherryGB",
+      "name": "gb - RetroArch 32 - doublecherrygb",
+      "uniqueId": "gb.ra32.DoubleCherryGB",
       "description": "Supported extensions: dmg, cgb, gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|dmg|cgb|sgb|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO DoubleCherryGB\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
@@ -225,8 +225,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 32 - mesen-s",
-      "uniqueId": "gbc.ra32.mesen-s",
+      "name": "gb - RetroArch 32 - mesen-s",
+      "uniqueId": "gb.ra32.mesen-s",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mesen-s\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
@@ -235,28 +235,28 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 32 - vbam",
-      "uniqueId": "gbc.ra32.vbam",
+      "name": "gb - RetroArch 32 - vbam",
+      "uniqueId": "gb.ra32.vbam",
       "description": "Supported extensions: gb, gbc.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO vbam\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch 32 - mgba",
-      "uniqueId": "gbc.ra32.mgba",
+      "name": "gb - RetroArch 32 - mgba",
+      "uniqueId": "gb.ra32.mgba",
       "description": "Supported extensions: gb, gbc.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mgba\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch - gambatte",
-      "uniqueId": "gbc.ra.gambatte",
+      "name": "gb - RetroArch - gambatte",
+      "uniqueId": "gb.ra.gambatte",
       "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO gambatte\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
@@ -265,8 +265,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch - gearboy",
-      "uniqueId": "gbc.ra.gearboy",
+      "name": "gb - RetroArch - gearboy",
+      "uniqueId": "gb.ra.gearboy",
       "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO gearboy\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
@@ -275,8 +275,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch - sameboy",
-      "uniqueId": "gbc.ra.sameboy",
+      "name": "gb - RetroArch - sameboy",
+      "uniqueId": "gb.ra.sameboy",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO sameboy\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
@@ -285,8 +285,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch - tgbdual",
-      "uniqueId": "gbc.ra.tgbdual",
+      "name": "gb - RetroArch - tgbdual",
+      "uniqueId": "gb.ra.tgbdual",
       "description": "Supported extensions: gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sgb|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO tgbdual\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
@@ -295,8 +295,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch - doublecherrygb",
-      "uniqueId": "gbc.ra.DoubleCherryGB",
+      "name": "gb - RetroArch - doublecherrygb",
+      "uniqueId": "gb.ra.DoubleCherryGB",
       "description": "Supported extensions: dmg, cgb, gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|dmg|cgb|sgb|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO DoubleCherryGB\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
@@ -305,8 +305,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch - mesen-s",
-      "uniqueId": "gbc.ra.mesen-s",
+      "name": "gb - RetroArch - mesen-s",
+      "uniqueId": "gb.ra.mesen-s",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mesen-s\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
@@ -315,8 +315,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch - vbam",
-      "uniqueId": "gbc.ra.vbam",
+      "name": "gb - RetroArch - vbam",
+      "uniqueId": "gb.ra.vbam",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO vbam\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
@@ -325,8 +325,8 @@
       "extra": ""
     },
     {
-      "name": "gbc - RetroArch - mgba",
-      "uniqueId": "gbc.ra.mgba",
+      "name": "gb - RetroArch - mgba",
+      "uniqueId": "gb.ra.mgba",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mgba\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
