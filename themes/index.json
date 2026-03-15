@@ -10,5 +10,9 @@
   "icons": {
     "baseUrl": "https://raw.githubusercontent.com/likeich/console-launcher/main/themes/icons/",
     "indexUrl": "https://raw.githubusercontent.com/likeich/console-launcher/main/themes/icons/themes.json"
+  },
+  "wallpapers": {
+    "baseUrl": "https://raw.githubusercontent.com/likeich/console-launcher/main/themes/wallpaper-packs/",
+    "indexUrl": "https://raw.githubusercontent.com/likeich/console-launcher/main/themes/wallpaper-packs/packs.json"
   }
 }

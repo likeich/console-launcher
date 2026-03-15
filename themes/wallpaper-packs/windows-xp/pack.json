@@ -1,0 +1,12 @@
+{
+  "name": "Windows XP",
+  "description": "Classic Windows XP Bliss wallpapers",
+  "thumbnail": "bliss.png",
+  "wallpapers": {
+    "main_screen": "bliss.png",
+    "app_drawer": "bliss.png",
+    "folder": "bliss-clouds.jpg",
+    "info_screen": "bliss-clouds.jpg",
+    "secondary_startup": "bliss.png"
+  }
+}
