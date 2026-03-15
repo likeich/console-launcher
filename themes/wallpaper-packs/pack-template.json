@@ -6,7 +6,6 @@
     "main_screen": "main_screen.jpg",
     "app_drawer": "app_drawer.jpg",
     "folder": "folder.jpg",
-    "info_screen": "info_screen.jpg",
-    "secondary_startup": "secondary_startup.jpg"
+    "info_screen": "info_screen.jpg"
   }
 }
