@@ -1,0 +1,14 @@
+{
+  "name": "Float Grid Light",
+  "description": "Light lavender grid with floating icons.",
+  "thumbnail": "thumbnail.jpg",
+  "colors": {
+    "primary": "#6068A0",
+    "surface": "#F4F5FB",
+    "background": "#ECEEF8"
+  },
+  "iconShape": "roundedSquare",
+  "homeScreen": "grid",
+  "dockPack": "iicons",
+  "wallpaperPack": "float-light"
+}

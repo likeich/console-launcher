@@ -1,0 +1,14 @@
+{
+  "name": "Float Grid Dark",
+  "description": "Dark navy grid with floating icons.",
+  "thumbnail": "thumbnail.jpg",
+  "colors": {
+    "primary": "#7D8EC8",
+    "surface": "#1F2438",
+    "background": "#181C2C"
+  },
+  "iconShape": "roundedSquare",
+  "homeScreen": "grid",
+  "dockPack": "iicons",
+  "wallpaperPack": "float-dark"
+}

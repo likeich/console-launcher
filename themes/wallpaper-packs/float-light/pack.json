@@ -1,0 +1,8 @@
+{
+  "name": "Float Light",
+  "description": "Light Float animated wallpaper.",
+  "thumbnail": "thumbnail.jpg",
+  "wallpapers": {
+    "background": "float-light.mp4"
+  }
+}

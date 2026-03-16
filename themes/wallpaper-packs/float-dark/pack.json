@@ -1,0 +1,8 @@
+{
+  "name": "Float Dark",
+  "description": "Dark Float animated wallpaper.",
+  "thumbnail": "thumbnail.jpg",
+  "wallpapers": {
+    "background": "float-dark.mp4"
+  }
+}
