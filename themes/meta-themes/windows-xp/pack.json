@@ -10,5 +10,6 @@
   "iconShape": "roundedSquare",
   "homeScreen": "grid",
   "dockPack": "windows-xp",
-  "wallpaperPack": "windows-xp"
+  "wallpaperPack": "windows-xp",
+  "startupPack": "windows-xp"
 }
