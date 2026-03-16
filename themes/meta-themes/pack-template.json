@@ -1,0 +1,16 @@
+{
+  "name": "Your Theme Name",
+  "description": "A short description of your theme",
+  "thumbnail": "thumbnail.jpg",
+  "colors": {
+    "primary": "#FF0000",
+    "surface": "#1A1A1A",
+    "background": "#000000"
+  },
+  "iconShape": "roundedSquare",
+  "homeScreen": "default",
+  "wallpaperPack": "pack-id-from-wallpaper-packs",
+  "dockPack": "pack-id-from-dock",
+  "uiPack": "pack-id-from-ui-packs",
+  "startupPack": "pack-id-from-startup"
+}
