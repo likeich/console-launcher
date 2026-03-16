@@ -1,0 +1,14 @@
+{
+  "name": "Windows XP",
+  "description": "Classic Bliss with Luna blue.",
+  "thumbnail": "thumbnail.jpg",
+  "colors": {
+    "primary": "#245EDC",
+    "surface": "#ECE9D8",
+    "background": "#FFFFFF"
+  },
+  "iconShape": "roundedSquare",
+  "homeScreen": "grid",
+  "dockPack": "windows-xp",
+  "wallpaperPack": "windows-xp"
+}
