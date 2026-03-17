@@ -7,10 +7,32 @@
     "surface": "#1A1A1A",
     "background": "#000000"
   },
-  "iconShape": "roundedSquare",
   "homeScreen": "default",
   "wallpaperPack": "pack-id-from-wallpaper-packs",
   "dockPack": "pack-id-from-dock",
   "uiPack": "pack-id-from-ui-packs",
-  "startupPack": "pack-id-from-startup"
+  "startupPack": "pack-id-from-startup",
+  "screenSettings": {
+    "home": {
+      "iconType": "tile",
+      "iconShape": "roundedSquare",
+      "iconSizeModifier": 0.5,
+      "showShortcutBackgroundColor": false,
+      "showFocusHighlight": true
+    },
+    "drawer": {
+      "iconType": "appDrawer",
+      "iconShape": "roundedSquare",
+      "iconSizeModifier": 0.5,
+      "showShortcutBackgroundColor": false,
+      "showFocusHighlight": true
+    },
+    "folder": {
+      "iconType": "appDrawer",
+      "iconShape": "roundedSquare",
+      "iconSizeModifier": 0.5,
+      "showShortcutBackgroundColor": false,
+      "showFocusHighlight": true
+    }
+  }
 }

@@ -7,9 +7,26 @@
     "surface": "#D6E8FA",
     "background": "#FFFFFF"
   },
-  "iconShape": "roundedSquare",
   "homeScreen": "grid",
   "dockPack": "windows-xp",
   "wallpaperPack": "windows-xp",
-  "startupPack": "windows-xp"
+  "startupPack": "windows-xp",
+  "screenSettings": {
+    "home": {
+      "iconType": "tile",
+      "iconShape": "roundedSquare",
+      "showShortcutBackgroundColor": true,
+      "showFocusHighlight": true
+    },
+    "drawer": {
+      "iconType": "appDrawer",
+      "iconShape": "roundedSquare",
+      "showShortcutBackgroundColor": true
+    },
+    "folder": {
+      "iconType": "appDrawer",
+      "iconShape": "roundedSquare",
+      "showShortcutBackgroundColor": true
+    }
+  }
 }

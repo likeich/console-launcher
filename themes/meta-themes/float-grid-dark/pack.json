@@ -7,8 +7,25 @@
     "surface": "#1F2438",
     "background": "#181C2C"
   },
-  "iconShape": "roundedSquare",
   "homeScreen": "grid",
   "dockPack": "iicons",
-  "wallpaperPack": "float-dark"
+  "wallpaperPack": "float-dark",
+  "screenSettings": {
+    "home": {
+      "iconType": "tile",
+      "iconShape": "roundedSquare",
+      "showShortcutBackgroundColor": false,
+      "showFocusHighlight": false
+    },
+    "drawer": {
+      "iconType": "appDrawer",
+      "iconShape": "roundedSquare",
+      "showShortcutBackgroundColor": false
+    },
+    "folder": {
+      "iconType": "appDrawer",
+      "iconShape": "roundedSquare",
+      "showShortcutBackgroundColor": false
+    }
+  }
 }

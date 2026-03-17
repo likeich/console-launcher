@@ -7,8 +7,25 @@
     "surface": "#3D3D3D",
     "background": "#2D2D2D"
   },
-  "iconShape": "square",
   "homeScreen": "default",
   "wallpaperPack": "flick",
-  "dockPack": "nanica"
+  "dockPack": "nanica",
+  "screenSettings": {
+    "home": {
+      "iconType": "tile",
+      "iconShape": "square",
+      "showShortcutBackgroundColor": false,
+      "showFocusHighlight": true
+    },
+    "drawer": {
+      "iconType": "appDrawer",
+      "iconShape": "square",
+      "showShortcutBackgroundColor": false
+    },
+    "folder": {
+      "iconType": "appDrawer",
+      "iconShape": "square",
+      "showShortcutBackgroundColor": false
+    }
+  }
 }
