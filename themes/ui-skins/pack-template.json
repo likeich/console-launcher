@@ -1,0 +1,11 @@
+{
+  "name": "My UI Skin",
+  "description": "A short description of this UI skin.",
+  "preview": "preview.png",
+  "slots": {
+    "iconFrame": "frame.9.png",
+    "taskbar": "taskbar.9.png",
+    "taskbarVertical": "taskbar_vertical.9.png",
+    "taskbarRounded": "taskbar_rounded.9.png"
+  }
+}
