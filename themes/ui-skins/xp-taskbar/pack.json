@@ -1,0 +1,10 @@
+{
+  "name": "XP Taskbar",
+  "description": "Windows XP-style taskbar UI skin.",
+  "preview": "taskbar.9.png",
+  "slots": {
+    "taskbar": "taskbar.9.png",
+    "taskbarVertical": "taskbar_vertical.9.png",
+    "taskbarRounded": "taskbar_rounded.9.png"
+  }
+}

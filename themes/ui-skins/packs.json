@@ -1,5 +1,6 @@
 {
   "packList": [
-    "modern"
+    "modern",
+    "xp-taskbar"
   ]
 }
