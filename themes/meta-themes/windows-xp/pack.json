@@ -11,6 +11,7 @@
   "dockPack": "windows-xp",
   "wallpaperPack": "windows-xp",
   "startupPack": "windows-xp",
+  "uiPack": "xp-taskbar",
   "screenSettings": {
     "home": {
       "iconType": "tile",
