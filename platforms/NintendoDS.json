@@ -66,6 +66,16 @@
       "extra": ""
     },
     {
+      "name": "nds - MelonDS (MelonDualDS)",
+      "uniqueId": "nds.me.magnum.melondualds",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "amStartArguments": "-a me.magnum.melondualds.LAUNCH_ROM\n-n me.magnum.melondualds/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
       "name": "nds - MelonDS Dev (Dual Screen Fork)",
       "uniqueId": "nds.me.magnum.melonds.dev",
       "description": null,
