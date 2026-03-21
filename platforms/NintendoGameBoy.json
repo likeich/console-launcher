@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 20,
+  "revisionNumber": 21,
   "platform": {
     "name": "Nintendo - Game Boy",
     "uniqueId": "gb",
@@ -175,6 +175,16 @@
       "extra": ""
     },
     {
+      "name": "gb - RetroArch 64 - skyemu",
+      "uniqueId": "gb.ra64.skyemu",
+      "description": "Supported extensions: gb.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO skyemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "gb - RetroArch 32 - gambatte",
       "uniqueId": "gb.ra32.gambatte",
       "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
@@ -250,6 +260,16 @@
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mgba\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gb - RetroArch 32 - skyemu",
+      "uniqueId": "gb.ra32.skyemu",
+      "description": "Supported extensions: gb.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO skyemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -333,6 +353,16 @@
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
-    }
+    },
+    {
+      "name": "gb - RetroArch - skyemu",
+      "uniqueId": "gb.ra.skyemu",
+      "description": "Supported extensions: gb.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO skyemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+	  "extra": ""
+     }
   ]
 }

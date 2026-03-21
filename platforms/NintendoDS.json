@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 13,
+  "revisionNumber": 15,
   "platform": {
     "name": "Nintendo DS",
     "uniqueId": "nds",
@@ -66,16 +66,6 @@
       "extra": ""
     },
     {
-      "name": "nds - MelonDS (MelonDualDS)",
-      "uniqueId": "nds.me.magnum.melondualds",
-      "description": null,
-      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
-      "amStartArguments": "-a me.magnum.melondualds.LAUNCH_ROM\n-n me.magnum.melondualds/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": false,
-      "extra": ""
-    },
-    {
       "name": "nds - MelonDS Dev (Dual Screen Fork)",
       "uniqueId": "nds.me.magnum.melonds.dev",
       "description": null,
@@ -86,11 +76,31 @@
       "extra": ""
     },
     {
+      "name": "nds - MelonDualDS",
+      "uniqueId": "nds.me.magnum.melondualds",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "amStartArguments": "-a me.magnum.melonds.dev.LAUNCH_ROM\n-n me.magnum.melondualds/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
       "name": "nds - NooDS",
       "uniqueId": "nds.com.hydra.noods",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds)$",
       "amStartArguments": "-n com.hydra.noods/.FileBrowser\n -e LaunchPath {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "nds - SkyEmu",
+      "uniqueId": "nds.com.sky.SkyEmu",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.sky.SkyEmu/.EnhancedNativeActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task\n --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
@@ -136,6 +146,26 @@
       "extra": ""
     },
     {
+      "name": "nds - RetroArch 64 - noods",
+      "uniqueId": "nds.ra64.noods",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO noods\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "nds - RetroArch 64 - skyemu",
+      "uniqueId": "nds.ra64.skyemu",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO skyemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "nds - RetroArch 32 - melonds",
       "uniqueId": "nds.ra32.melonds",
       "description": "Supported extensions: nds.",
@@ -161,6 +191,26 @@
       "description": "Supported extensions: bin, nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO desmume2015\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "nds - RetroArch 32 - noods",
+      "uniqueId": "nds.ra32.noods",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO noods\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "nds - RetroArch 32 - skyemu",
+      "uniqueId": "nds.ra32.skyemu",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO skyemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -201,6 +251,26 @@
       "description": "Supported extensions: bin, nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO desmume2015\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "nds - RetroArch - noods",
+      "uniqueId": "nds.ra.noods",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO noods\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "nds - RetroArch - skyemu",
+      "uniqueId": "nds.ra.skyemu",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO skyemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
