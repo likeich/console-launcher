@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 20,
+  "revisionNumber": 21,
   "platform": {
     "name": "Nintendo 3DS",
     "uniqueId": "3ds",
@@ -154,26 +154,6 @@
       "extra": ""
     },
     {
-      "name": "3ds - RetroArch 64 - citra2018",
-      "uniqueId": "3ds.ra64.citra2018",
-      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra2018\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "3ds - RetroArch 64 - citra_canary",
-      "uniqueId": "3ds.ra64.citra_canary",
-      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra_canary\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
       "name": "3ds - RetroArch 64 - citra",
       "uniqueId": "3ds.ra64.citra",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
@@ -194,51 +174,11 @@
       "extra": ""
     },
     {
-      "name": "3ds - RetroArch 32 - citra2018",
-      "uniqueId": "3ds.ra32.citra2018",
+      "name": "3ds - RetroArch 64 - azahar",
+      "uniqueId": "3ds.ra64.azahar",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra2018\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "3ds - RetroArch 32 - citra_canary",
-      "uniqueId": "3ds.ra32.citra_canary",
-      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra_canary\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "3ds - RetroArch 32 - citra",
-      "uniqueId": "3ds.ra32.citra",
-      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "3ds - RetroArch - citra2018",
-      "uniqueId": "3ds.ra.citra2018",
-      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra2018\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "3ds - RetroArch - citra_canary",
-      "uniqueId": "3ds.ra.citra_canary",
-      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra_canary\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO azahar\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -259,6 +199,16 @@
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO panda3ds\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "3ds - RetroArch - azahar",
+      "uniqueId": "3ds.ra.azahar",
+      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO azahar\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

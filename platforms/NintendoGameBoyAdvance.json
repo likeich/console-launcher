@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 18,
+  "revisionNumber": 19,
   "platform": {
     "name": "Nintendo - Game Boy Advance",
     "uniqueId": "gba",
@@ -155,6 +155,26 @@
       "extra": ""
     },
     {
+      "name": "gba - RetroArch 64 - noods",
+      "uniqueId": "gba.ra64.noods",
+      "description": "Supported extensions: gba.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO noods\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gba - RetroArch 64 - skyemu",
+      "uniqueId": "gba.ra64.skyemu",
+      "description": "Supported extensions: gba.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO skyemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "gba - RetroArch 32 - vba_next",
       "uniqueId": "gba.ra32.vba_next",
       "description": "Supported extensions: gba, zip, 7z.",
@@ -210,6 +230,26 @@
       "description": "Supported extensions: bin, gba, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO gpsp\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gba - RetroArch 32 - noods",
+      "uniqueId": "gba.ra32.noods",
+      "description": "Supported extensions: gba.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO noods\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gba - RetroArch 32 - skyemu",
+      "uniqueId": "gba.ra32.skyemu",
+      "description": "Supported extensions: gba.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO skyemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -273,6 +313,26 @@
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
-    }
+    },
+    {
+      "name": "gba - RetroArch - noods",
+      "uniqueId": "gba.ra.noods",
+      "description": "Supported extensions: gba.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO noods\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gba - RetroArch - skyemu",
+      "uniqueId": "gba.ra.skyemu",
+      "description": "Supported extensions: gba.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO skyemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+	  "extra": ""
+     }
   ]
 }

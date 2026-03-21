@@ -384,7 +384,7 @@
       "platformName": "Nintendo 3DS",
       "platformShortname": "3ds",
       "platformUniqueId": "3ds",
-      "revisionNumber": 20
+      "revisionNumber": 21
     },
     {
       "filename": "Nintendo64.json",
@@ -398,14 +398,14 @@
       "platformName": "Nintendo DS",
       "platformShortname": "nds",
       "platformUniqueId": "nds",
-      "revisionNumber": 13
+      "revisionNumber": 15
     },
     {
       "filename": "NintendoDSi.json",
       "platformName": "Nintendo DSi",
       "platformShortname": "ndsi",
       "platformUniqueId": "ndsi",
-      "revisionNumber": 13
+      "revisionNumber": 14
     },
     {
       "filename": "NintendoEntertainmentSystem.json",
@@ -426,14 +426,14 @@
       "platformName": "Nintendo - Game Boy",
       "platformShortname": "gb",
       "platformUniqueId": "gb",
-      "revisionNumber": 20
+      "revisionNumber": 21
     },
     {
       "filename": "NintendoGameBoyAdvance.json",
       "platformName": "Nintendo - Game Boy Advance",
       "platformShortname": "gba",
       "platformUniqueId": "gba",
-      "revisionNumber": 18
+      "revisionNumber": 19
     },
     {
       "filename": "NintendoGameBoyColor.json",
@@ -447,7 +447,7 @@
       "platformName": "Nintendo - GameCube",
       "platformShortname": "gc",
       "platformUniqueId": "gc",
-      "revisionNumber": 17
+      "revisionNumber": 18
     },
     {
       "filename": "NintendoSatellaview.json",
@@ -468,7 +468,7 @@
       "platformName": "Nintendo Wii",
       "platformShortname": "wii",
       "platformUniqueId": "wii",
-      "revisionNumber": 15
+      "revisionNumber": 16
     },
     {
       "filename": "NintendoWiiU.json",
@@ -482,7 +482,7 @@
       "platformName": "Nintendo WiiWare",
       "platformShortname": "wiiware",
       "platformUniqueId": "wiiware",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "PICO8.json",
@@ -790,7 +790,7 @@
       "platformName": "Windows",
       "platformShortname": "windows",
       "platformUniqueId": "windows",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "WonderSwan.json",

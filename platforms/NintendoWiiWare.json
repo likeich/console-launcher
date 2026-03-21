@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "Nintendo WiiWare",
     "uniqueId": "wiiware",
@@ -25,6 +25,16 @@
     "extra": ""
   },
   "playerList": [
+    {
+      "name": "wiiware - Dolphin (Official)",
+      "uniqueId": "wiiware.org.dolphinemu.dolphinemu",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:wad)$",
+      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n -a android.intent.action.MAIN\n -e AutoStartFile {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
     {
       "name": "wiiware - Dolphin handheld",
       "uniqueId": "wiiware.org.dolphinemu.handheld",
@@ -63,16 +73,6 @@
       "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n -a android.intent.action.VIEW\n -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
-      "extra": ""
-    },
-    {
-      "name": "wiiware - org.dolphinemu.dolphinemu",
-      "uniqueId": "wiiware.org.dolphinemu.dolphinemu",
-      "description": null,
-      "acceptedFilenameRegex": "^(.*).(?:wad)$",
-      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n -a android.intent.action.MAIN\n -e AutoStartFile {file.uri}",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
