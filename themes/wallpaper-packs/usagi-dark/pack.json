@@ -1,0 +1,8 @@
+{
+  "name": "Usagi Dark",
+  "description": "Dark animated Usagi wallpaper.",
+  "thumbnail": "thumbnail.jpg",
+  "wallpapers": {
+    "background": "usagi-dark.mp4"
+  }
+}

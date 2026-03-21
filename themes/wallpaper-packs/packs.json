@@ -1,3 +1,12 @@
 {
-  "packList": ["windows-xp", "flick", "float-dark", "float-light"]
+  "packList": [
+    "windows-xp",
+    "flick",
+    "float-dark",
+    "float-light",
+    "usagi-dark",
+    "usagi-light",
+    "usagi-ishi-1",
+    "usagi-ishi-2"
+  ]
 }
