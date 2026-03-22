@@ -86,6 +86,72 @@
       }
     },
     {
+      "id": "usagi",
+      "name": "Usagi",
+      "description": "Animated Usagi wallpapers with iicons dock icons.",
+      "thumbnail": "dark-thumbnail.jpg",
+      "homeScreen": "default",
+      "dockPack": "iicons",
+      "iconPack": "iisu-platforms",
+      "screenSettings": {
+        "home": {
+          "iconType": "tile",
+          "iconShape": "square",
+          "showFocusHighlight": true
+        },
+        "drawer": {
+          "iconType": "appDrawer",
+          "iconShape": "square"
+        },
+        "folder": {
+          "iconType": "appDrawer",
+          "iconShape": "square"
+        }
+      },
+      "variants": {
+        "dark": {
+          "name": "Dark",
+          "thumbnail": "dark-thumbnail.jpg",
+          "colors": {
+            "primary": "#F2A8C6",
+            "surface": "#1E1B2A",
+            "background": "#14111D"
+          },
+          "wallpaperPack": "usagi/dark"
+        },
+        "light": {
+          "name": "Light",
+          "thumbnail": "light-thumbnail.jpg",
+          "colors": {
+            "primary": "#E68CB4",
+            "surface": "#FFF4F8",
+            "background": "#FFFDFE"
+          },
+          "wallpaperPack": "usagi/light"
+        },
+        "ishi-1": {
+          "name": "Ishi 1",
+          "thumbnail": "ishi-1-thumbnail.jpg",
+          "colors": {
+            "primary": "#F0B2C7",
+            "surface": "#32283A",
+            "background": "#241D2B"
+          },
+          "wallpaperPack": "usagi/ishi-1"
+        },
+        "ishi-2": {
+          "name": "Ishi 2",
+          "thumbnail": "ishi-2-thumbnail.jpg",
+          "colors": {
+            "primary": "#C8A6FF",
+            "surface": "#261D33",
+            "background": "#17111F"
+          },
+          "wallpaperPack": "usagi/ishi-2"
+        }
+      }
+    },
+    {
       "id": "windows-xp",
       "name": "Windows XP",
       "description": "Classic Bliss with Luna blue.",
