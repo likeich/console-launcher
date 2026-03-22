@@ -49,8 +49,7 @@
         "home": {
           "iconType": "tile",
           "iconShape": "roundedSquare",
-          "showShortcutBackgroundColor": false,
-          "showFocusHighlight": false
+          "showShortcutBackgroundColor": false
         },
         "drawer": {
           "iconType": "appDrawer",
