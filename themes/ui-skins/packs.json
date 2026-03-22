@@ -1,6 +1,24 @@
 {
-  "packList": [
-    "modern",
-    "xp-taskbar"
+  "packs": [
+    {
+      "id": "modern",
+      "name": "Modern",
+      "description": "The default Console Launcher icon frame.",
+      "preview": "frame.9.png",
+      "slots": {
+        "iconFrame": "frame.9.png"
+      }
+    },
+    {
+      "id": "xp-taskbar",
+      "name": "XP Taskbar",
+      "description": "Windows XP-style taskbar UI skin.",
+      "preview": "taskbar.9.png",
+      "slots": {
+        "taskbar": "taskbar.9.png",
+        "taskbarVertical": "taskbar_vertical.9.png",
+        "taskbarRounded": "taskbar_rounded.9.png"
+      }
+    }
   ]
 }

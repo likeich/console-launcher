@@ -1,3 +1,74 @@
 {
-  "packList": ["gamecube-intro", "n3ds-intro", "ps2-intro", "psp-intro", "psx-intro", "steam-deck", "switch-intro", "windows-xp", "xbox-360-intro-2010", "xbox-intro"]
+  "packs": [
+    {
+      "id": "gamecube-intro",
+      "name": "Nintendo GameCube",
+      "description": "Nintendo GameCube startup animation",
+      "link": "https://www.youtube.com/watch?v=Fnz9ljn1cwE",
+      "preview": "gamecube-preview.webp"
+    },
+    {
+      "id": "n3ds-intro",
+      "name": "Nintendo 3DS",
+      "description": "Nintendo 3DS startup animation",
+      "link": "https://www.youtube.com/watch?v=pazC03LiEAw",
+      "preview": "n3ds-preview.webp"
+    },
+    {
+      "id": "ps2-intro",
+      "name": "PS2 Intro",
+      "description": "PlayStation 2 startup",
+      "link": "https://www.youtube.com/watch?v=YWWjTYlSp2M",
+      "preview": "preview.webp"
+    },
+    {
+      "id": "psp-intro",
+      "name": "PSP Intro",
+      "description": "PlayStation Portable boot screen startup animation",
+      "link": "https://www.youtube.com/watch?v=7LpMZrn_ay4",
+      "preview": "preview.webp"
+    },
+    {
+      "id": "psx-intro",
+      "name": "PSX Intro",
+      "description": "PlayStation intro",
+      "link": "https://www.youtube.com/watch?v=oAhvQoLpvsM",
+      "preview": "preview.webp"
+    },
+    {
+      "id": "steam-deck",
+      "name": "Steam Deck",
+      "description": "Official Steam Deck boot animation",
+      "filename": "steam-deck.mp4",
+      "preview": "preview.webp"
+    },
+    {
+      "id": "switch-intro",
+      "name": "Nintendo Switch",
+      "description": "Nintendo Switch startup animation",
+      "link": "https://www.youtube.com/watch?v=tmRNnOMdOvU",
+      "preview": "switch-preview.webp"
+    },
+    {
+      "id": "windows-xp",
+      "name": "Windows XP",
+      "description": "Windows XP startup animation",
+      "filename": "windows-xp.mp4",
+      "preview": "preview.webp"
+    },
+    {
+      "id": "xbox-360-intro-2010",
+      "name": "Xbox 360 Intro (2010)",
+      "description": "Xbox 360 boot screen startup animation",
+      "link": "https://www.youtube.com/watch?v=F8stWPXCq54",
+      "preview": "preview.webp"
+    },
+    {
+      "id": "xbox-intro",
+      "name": "Xbox Intro",
+      "description": "Original Xbox boot intro animation",
+      "link": "https://www.youtube.com/watch?v=oADANrDGhoQ",
+      "preview": "preview.webp"
+    }
+  ]
 }

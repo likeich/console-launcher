@@ -1,8 +1,0 @@
-{
-  "name": "Modern",
-  "description": "The default Console Launcher icon frame.",
-  "preview": "frame.9.png",
-  "slots": {
-    "iconFrame": "frame.9.png"
-  }
-}
