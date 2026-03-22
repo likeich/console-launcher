@@ -22,7 +22,8 @@
         "folder": {
           "iconType": "appDrawer",
           "iconShape": "square",
-          "showShortcutBackgroundColor": false
+          "showShortcutBackgroundColor": false,
+          "folderViewType": "grid"
         }
       },
       "variants": {
@@ -59,7 +60,8 @@
         "folder": {
           "iconType": "appDrawer",
           "iconShape": "roundedSquare",
-          "showShortcutBackgroundColor": false
+          "showShortcutBackgroundColor": false,
+          "folderViewType": "grid"
         }
       },
       "variants": {
@@ -105,7 +107,8 @@
         },
         "folder": {
           "iconType": "appDrawer",
-          "iconShape": "square"
+          "iconShape": "square",
+          "folderViewType": "grid"
         }
       },
       "variants": {
@@ -175,7 +178,8 @@
         "folder": {
           "iconType": "appDrawer",
           "iconShape": "roundedSquare",
-          "showShortcutBackgroundColor": true
+          "showShortcutBackgroundColor": true,
+          "folderViewType": "grid"
         }
       },
       "variants": {

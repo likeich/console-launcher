@@ -28,7 +28,8 @@
       "iconShape": "roundedSquare",
       "iconSizeModifier": 0.5,
       "showShortcutBackgroundColor": false,
-      "showFocusHighlight": true
+      "showFocusHighlight": true,
+      "folderViewType": "grid"
     }
   },
   "variants": {
