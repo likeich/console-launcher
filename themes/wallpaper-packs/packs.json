@@ -5,11 +5,17 @@
       "name": "Windows XP",
       "description": "Classic Windows XP Bliss wallpapers.",
       "thumbnail": "bliss.png",
-      "wallpapers": {
-        "main_screen": "bliss.png",
-        "app_drawer": "app_drawer.png",
-        "folder": "bliss.png",
-        "info_screen": "bliss-clouds.jpg"
+      "variants": {
+        "default": {
+          "name": "Default",
+          "thumbnail": "bliss.png",
+          "wallpapers": {
+            "main_screen": "bliss.png",
+            "app_drawer": "app_drawer.png",
+            "folder": "bliss.png",
+            "info_screen": "bliss-clouds.jpg"
+          }
+        }
       }
     },
     {
@@ -17,8 +23,14 @@
       "name": "Flick",
       "description": "A simple dark wallpaper.",
       "thumbnail": "thumbnail.jpg",
-      "wallpapers": {
-        "background": "background.jpg"
+      "variants": {
+        "default": {
+          "name": "Default",
+          "thumbnail": "thumbnail.jpg",
+          "wallpapers": {
+            "background": "background.jpg"
+          }
+        }
       }
     },
     {
