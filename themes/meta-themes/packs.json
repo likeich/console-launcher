@@ -98,16 +98,16 @@
       "screenSettings": {
         "home": {
           "iconType": "tile",
-          "iconShape": "square",
+          "iconShape": "roundedSquare",
           "showFocusHighlight": true
         },
         "drawer": {
           "iconType": "appDrawer",
-          "iconShape": "square"
+          "iconShape": "roundedSquare"
         },
         "folder": {
           "iconType": "appDrawer",
-          "iconShape": "square",
+          "iconShape": "roundedSquare",
           "folderViewType": "grid"
         }
       },
