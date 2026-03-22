@@ -1,6 +1,12 @@
 {
   "packs": [
-    { "id": "iicons", "name": "iicons", "extension": "png", "tint": false, "transparentBackground": true },
+    {
+      "id": "iicons",
+      "name": "iicons",
+      "extension": "png",
+      "tint": false,
+      "transparentBackground": true
+    },
     {
       "id": "legacy-colors",
       "name": "Colored Icons (Legacy)",
@@ -49,7 +55,13 @@
       "extension": "svg",
       "tint": true
     },
-    { "id": "nanica", "name": "Nanica", "extension": "svg", "tint": false },
+    {
+      "id": "nanica",
+      "name": "Nanica",
+      "extension": "svg",
+      "tint": false,
+      "transparentBackground": true
+    },
     {
       "id": "windows-xp",
       "name": "Windows XP",
