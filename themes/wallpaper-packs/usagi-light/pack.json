@@ -1,8 +1,0 @@
-{
-  "name": "Usagi Light",
-  "description": "Light animated Usagi wallpaper.",
-  "thumbnail": "thumbnail.jpg",
-  "wallpapers": {
-    "background": "usagi-light.mp4"
-  }
-}

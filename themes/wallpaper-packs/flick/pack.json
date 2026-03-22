@@ -1,8 +1,0 @@
-{
-  "name": "Flick",
-  "description": "A simple dark wallpaper.",
-  "thumbnail": "thumbnail.jpg",
-  "wallpapers": {
-    "background": "background.jpg"
-  }
-}

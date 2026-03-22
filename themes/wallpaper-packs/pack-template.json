@@ -1,11 +1,39 @@
 {
-  "name": "Your Pack Name",
-  "description": "A short description of your wallpaper pack",
-  "thumbnail": "thumbnail.jpg",
-  "wallpapers": {
-    "main_screen": "main_screen.jpg",
-    "app_drawer": "app_drawer.jpg",
-    "folder": "folder.jpg",
-    "info_screen": "info_screen.jpg"
+  "_comment": "Add your pack as an entry inside packs.json. Choose ONE of the two forms below.",
+
+  "_simple_pack_example": {
+    "id": "my-pack",
+    "name": "My Pack",
+    "description": "A short description of your wallpaper pack.",
+    "thumbnail": "thumbnail.jpg",
+    "wallpapers": {
+      "background": "background.mp4",
+      "main_screen": "main_screen.jpg",
+      "app_drawer": "app_drawer.jpg",
+      "folder": "folder.jpg",
+      "info_screen": "info_screen.jpg"
+    }
+  },
+
+  "_variant_pack_example": {
+    "id": "my-pack",
+    "name": "My Pack",
+    "description": "A short description of your wallpaper pack.",
+    "variants": {
+      "dark": {
+        "name": "Dark",
+        "thumbnail": "dark-thumbnail.jpg",
+        "wallpapers": {
+          "background": "my-pack-dark.mp4"
+        }
+      },
+      "light": {
+        "name": "Light",
+        "thumbnail": "light-thumbnail.jpg",
+        "wallpapers": {
+          "background": "my-pack-light.mp4"
+        }
+      }
+    }
   }
 }

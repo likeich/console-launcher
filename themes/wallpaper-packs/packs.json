@@ -1,12 +1,81 @@
 {
-  "packList": [
-    "windows-xp",
-    "flick",
-    "float-dark",
-    "float-light",
-    "usagi-dark",
-    "usagi-light",
-    "usagi-ishi-1",
-    "usagi-ishi-2"
+  "packs": [
+    {
+      "id": "windows-xp",
+      "name": "Windows XP",
+      "description": "Classic Windows XP Bliss wallpapers.",
+      "thumbnail": "bliss.png",
+      "wallpapers": {
+        "main_screen": "bliss.png",
+        "app_drawer": "app_drawer.png",
+        "folder": "bliss.png",
+        "info_screen": "bliss-clouds.jpg"
+      }
+    },
+    {
+      "id": "flick",
+      "name": "Flick",
+      "description": "A simple dark wallpaper.",
+      "thumbnail": "thumbnail.jpg",
+      "wallpapers": {
+        "background": "background.jpg"
+      }
+    },
+    {
+      "id": "float",
+      "name": "Float",
+      "description": "Animated float wallpapers.",
+      "variants": {
+        "dark": {
+          "name": "Dark",
+          "thumbnail": "dark-thumbnail.jpg",
+          "wallpapers": {
+            "background": "float-dark.mp4"
+          }
+        },
+        "light": {
+          "name": "Light",
+          "thumbnail": "light-thumbnail.jpg",
+          "wallpapers": {
+            "background": "float-light.mp4"
+          }
+        }
+      }
+    },
+    {
+      "id": "usagi",
+      "name": "Usagi",
+      "description": "Animated Usagi wallpapers.",
+      "variants": {
+        "dark": {
+          "name": "Dark",
+          "thumbnail": "dark-thumbnail.jpg",
+          "wallpapers": {
+            "background": "usagi-dark.mp4"
+          }
+        },
+        "light": {
+          "name": "Light",
+          "thumbnail": "light-thumbnail.jpg",
+          "wallpapers": {
+            "background": "usagi-light.mp4"
+          }
+        },
+        "ishi-1": {
+          "name": "Ishi 1",
+          "thumbnail": "ishi-1-thumbnail.jpg",
+          "wallpapers": {
+            "background": "usagi-ishi-1.mp4"
+          }
+        },
+        "ishi-2": {
+          "name": "Ishi 2",
+          "thumbnail": "ishi-2-thumbnail.jpg",
+          "wallpapers": {
+            "background": "usagi-ishi-2.mp4"
+          }
+        }
+      }
+    }
   ]
 }
