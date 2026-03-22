@@ -113,9 +113,9 @@
           "name": "Dark",
           "thumbnail": "dark-thumbnail.jpg",
           "colors": {
-            "primary": "#F2A8C6",
-            "surface": "#1E1B2A",
-            "background": "#14111D"
+            "primary": "#9093BF",
+            "surface": "#1C1D29",
+            "background": "#0F1017"
           },
           "wallpaperPack": "usagi/dark"
         },
@@ -123,9 +123,9 @@
           "name": "Light",
           "thumbnail": "light-thumbnail.jpg",
           "colors": {
-            "primary": "#E68CB4",
-            "surface": "#FFF4F8",
-            "background": "#FFFDFE"
+            "primary": "#B9BEEB",
+            "surface": "#F1F1FC",
+            "background": "#FDFDFF"
           },
           "wallpaperPack": "usagi/light"
         },
@@ -133,9 +133,9 @@
           "name": "Ishi 1",
           "thumbnail": "ishi-1-thumbnail.jpg",
           "colors": {
-            "primary": "#F0B2C7",
-            "surface": "#32283A",
-            "background": "#241D2B"
+            "primary": "#F3C9D6",
+            "surface": "#F7F0F6",
+            "background": "#FBFDFF"
           },
           "wallpaperPack": "usagi/ishi-1"
         },
@@ -143,9 +143,9 @@
           "name": "Ishi 2",
           "thumbnail": "ishi-2-thumbnail.jpg",
           "colors": {
-            "primary": "#C8A6FF",
-            "surface": "#261D33",
-            "background": "#17111F"
+            "primary": "#E4D0F4",
+            "surface": "#FAF7FD",
+            "background": "#FDFDFF"
           },
           "wallpaperPack": "usagi/ishi-2"
         }
