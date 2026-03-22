@@ -90,7 +90,7 @@
       "name": "Usagi",
       "description": "Animated Usagi wallpapers with iicons dock icons.",
       "thumbnail": "dark-thumbnail.jpg",
-      "homeScreen": "default",
+      "homeScreen": "immersive",
       "dockPack": "iicons",
       "iconPack": "iisu-platforms",
       "screenSettings": {

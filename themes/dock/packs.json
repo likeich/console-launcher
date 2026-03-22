@@ -1,15 +1,60 @@
 {
   "packs": [
-    { "id": "iicons",            "name": "iicons",                 "extension": "png", "tint": false },
-    { "id": "legacy-colors",     "name": "Colored Icons (Legacy)", "extension": "svg", "tint": false },
-    { "id": "lucide",            "name": "Lucide Icons",           "extension": "svg", "tint": true  },
-    { "id": "material",          "name": "Material Symbols",       "extension": "svg", "tint": true  },
-    { "id": "notoemoji",         "name": "Noto Emoji",             "extension": "svg", "tint": false },
-    { "id": "openmoji-color",    "name": "OpenMoji Color",         "extension": "svg", "tint": false },
-    { "id": "openmoji-black",    "name": "OpenMoji Black",         "extension": "svg", "tint": true  },
-    { "id": "heroicons-outline", "name": "Heroicons Outline",      "extension": "svg", "tint": true  },
-    { "id": "heroicons-solid",   "name": "Heroicons Solid",        "extension": "svg", "tint": true  },
-    { "id": "nanica",            "name": "Nanica",                 "extension": "svg", "tint": false },
-    { "id": "windows-xp",       "name": "Windows XP",             "extension": "png", "tint": false }
+    { "id": "iicons", "name": "iicons", "extension": "png", "tint": false, "transparentBackground": true },
+    {
+      "id": "legacy-colors",
+      "name": "Colored Icons (Legacy)",
+      "extension": "svg",
+      "tint": false
+    },
+    {
+      "id": "lucide",
+      "name": "Lucide Icons",
+      "extension": "svg",
+      "tint": true
+    },
+    {
+      "id": "material",
+      "name": "Material Symbols",
+      "extension": "svg",
+      "tint": true
+    },
+    {
+      "id": "notoemoji",
+      "name": "Noto Emoji",
+      "extension": "svg",
+      "tint": false
+    },
+    {
+      "id": "openmoji-color",
+      "name": "OpenMoji Color",
+      "extension": "svg",
+      "tint": false
+    },
+    {
+      "id": "openmoji-black",
+      "name": "OpenMoji Black",
+      "extension": "svg",
+      "tint": true
+    },
+    {
+      "id": "heroicons-outline",
+      "name": "Heroicons Outline",
+      "extension": "svg",
+      "tint": true
+    },
+    {
+      "id": "heroicons-solid",
+      "name": "Heroicons Solid",
+      "extension": "svg",
+      "tint": true
+    },
+    { "id": "nanica", "name": "Nanica", "extension": "svg", "tint": false },
+    {
+      "id": "windows-xp",
+      "name": "Windows XP",
+      "extension": "png",
+      "tint": false
+    }
   ]
 }

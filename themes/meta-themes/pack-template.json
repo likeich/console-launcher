@@ -4,6 +4,7 @@
   "description": "A short description of your theme",
   "thumbnail": "thumbnail.jpg",
   "homeScreen": "default",
+  "iconPack": "folder-name-from-icon-packs",
   "dockPack": "pack-id-from-dock",
   "uiPack": "pack-id-from-ui-packs",
   "startupPack": "pack-id-from-startup",
