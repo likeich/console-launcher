@@ -46,6 +46,7 @@
       "thumbnail": "dark-thumbnail.jpg",
       "homeScreen": "grid",
       "dockPack": "iicons",
+      "uiPack": "modern",
       "screenSettings": {
         "home": {
           "iconType": "tile",
