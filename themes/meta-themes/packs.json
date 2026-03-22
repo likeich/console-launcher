@@ -5,13 +5,7 @@
       "name": "Flick",
       "description": "A simple and dark theme.",
       "thumbnail": "thumbnail.jpg",
-      "colors": {
-        "primary": "#00C3E3",
-        "surface": "#3D3D3D",
-        "background": "#2D2D2D"
-      },
       "homeScreen": "default",
-      "wallpaperPack": "flick/default",
       "dockPack": "nanica",
       "screenSettings": {
         "home": {
@@ -30,21 +24,27 @@
           "iconShape": "square",
           "showShortcutBackgroundColor": false
         }
+      },
+      "variants": {
+        "default": {
+          "name": "Flick",
+          "thumbnail": "thumbnail.jpg",
+          "colors": {
+            "primary": "#00C3E3",
+            "surface": "#3D3D3D",
+            "background": "#2D2D2D"
+          },
+          "wallpaperPack": "flick/default"
+        }
       }
     },
     {
-      "id": "float-grid-dark",
-      "name": "Float Grid Dark",
-      "description": "Dark navy grid with floating icons.",
-      "thumbnail": "thumbnail.jpg",
-      "colors": {
-        "primary": "#7D8EC8",
-        "surface": "#1F2438",
-        "background": "#181C2C"
-      },
+      "id": "float-grid",
+      "name": "Float Grid",
+      "description": "Floating icon grid.",
+      "thumbnail": "dark-thumbnail.jpg",
       "homeScreen": "grid",
       "dockPack": "iicons",
-      "wallpaperPack": "float/dark",
       "screenSettings": {
         "home": {
           "iconType": "tile",
@@ -62,37 +62,27 @@
           "iconShape": "roundedSquare",
           "showShortcutBackgroundColor": false
         }
-      }
-    },
-    {
-      "id": "float-grid-light",
-      "name": "Float Grid Light",
-      "description": "Light lavender grid with floating icons.",
-      "thumbnail": "thumbnail.jpg",
-      "colors": {
-        "primary": "#6068A0",
-        "surface": "#F4F5FB",
-        "background": "#ECEEF8"
       },
-      "homeScreen": "grid",
-      "dockPack": "iicons",
-      "wallpaperPack": "float/light",
-      "screenSettings": {
-        "home": {
-          "iconType": "tile",
-          "iconShape": "roundedSquare",
-          "showShortcutBackgroundColor": false,
-          "showFocusHighlight": false
+      "variants": {
+        "dark": {
+          "name": "Dark",
+          "thumbnail": "dark-thumbnail.jpg",
+          "colors": {
+            "primary": "#7D8EC8",
+            "surface": "#1F2438",
+            "background": "#181C2C"
+          },
+          "wallpaperPack": "float/dark"
         },
-        "drawer": {
-          "iconType": "appDrawer",
-          "iconShape": "roundedSquare",
-          "showShortcutBackgroundColor": false
-        },
-        "folder": {
-          "iconType": "appDrawer",
-          "iconShape": "roundedSquare",
-          "showShortcutBackgroundColor": false
+        "light": {
+          "name": "Light",
+          "thumbnail": "light-thumbnail.jpg",
+          "colors": {
+            "primary": "#6068A0",
+            "surface": "#F4F5FB",
+            "background": "#ECEEF8"
+          },
+          "wallpaperPack": "float/light"
         }
       }
     },
@@ -101,14 +91,8 @@
       "name": "Windows XP",
       "description": "Classic Bliss with Luna blue.",
       "thumbnail": "thumbnail.jpg",
-      "colors": {
-        "primary": "#245EDC",
-        "surface": "#D6E8FA",
-        "background": "#FFFFFF"
-      },
       "homeScreen": "grid",
       "dockPack": "windows-xp",
-      "wallpaperPack": "windows-xp/default",
       "startupPack": "windows-xp",
       "uiPack": "xp-taskbar",
       "screenSettings": {
@@ -127,6 +111,18 @@
           "iconType": "appDrawer",
           "iconShape": "roundedSquare",
           "showShortcutBackgroundColor": true
+        }
+      },
+      "variants": {
+        "default": {
+          "name": "Windows XP",
+          "thumbnail": "thumbnail.jpg",
+          "colors": {
+            "primary": "#245EDC",
+            "surface": "#D6E8FA",
+            "background": "#FFFFFF"
+          },
+          "wallpaperPack": "windows-xp/default"
         }
       }
     }

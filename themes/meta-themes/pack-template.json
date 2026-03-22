@@ -1,14 +1,9 @@
 {
+  "id": "your-theme-id",
   "name": "Your Theme Name",
   "description": "A short description of your theme",
   "thumbnail": "thumbnail.jpg",
-  "colors": {
-    "primary": "#FF0000",
-    "surface": "#1A1A1A",
-    "background": "#000000"
-  },
   "homeScreen": "default",
-  "wallpaperPack": "pack-id-from-wallpaper-packs",
   "dockPack": "pack-id-from-dock",
   "uiPack": "pack-id-from-ui-packs",
   "startupPack": "pack-id-from-startup",
@@ -33,6 +28,18 @@
       "iconSizeModifier": 0.5,
       "showShortcutBackgroundColor": false,
       "showFocusHighlight": true
+    }
+  },
+  "variants": {
+    "default": {
+      "name": "Your Theme Name",
+      "thumbnail": "thumbnail.jpg",
+      "colors": {
+        "primary": "#FF0000",
+        "surface": "#1A1A1A",
+        "background": "#000000"
+      },
+      "wallpaperPack": "pack-id-from-wallpaper-packs"
     }
   }
 }
