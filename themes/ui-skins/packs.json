@@ -4,9 +4,9 @@
       "id": "modern",
       "name": "Modern",
       "description": "The default Console Launcher icon frame.",
-      "preview": "frame.9.png",
+      "preview": "frame_original.9.png",
       "slots": {
-        "iconFrame": "frame.9.png",
+        "iconFrame": "frame_original.9.png",
         "taskbarDrawer": "taskbar.9.png",
         "taskbarVertical": "taskbar_vertical.9.png",
         "gridArrowLeft": "arrow_left.png",
