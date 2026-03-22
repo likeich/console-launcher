@@ -123,8 +123,8 @@
           "name": "Light",
           "thumbnail": "light-thumbnail.jpg",
           "colors": {
-            "primary": "#B9BEEB",
-            "surface": "#F1F1FC",
+            "primary": "#A9AEDC",
+            "surface": "#EEF0FC",
             "background": "#FDFDFF"
           },
           "wallpaperPack": "usagi/light"
