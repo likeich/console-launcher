@@ -42,14 +42,21 @@
           "name": "Dark",
           "thumbnail": "dark-thumbnail.jpg",
           "wallpapers": {
-            "background": "float-dark.mp4"
+            "background": "dark.mp4"
           }
         },
         "light": {
           "name": "Light",
           "thumbnail": "light-thumbnail.jpg",
           "wallpapers": {
-            "background": "float-light.mp4"
+            "background": "light.mp4"
+          }
+        },
+        "color": {
+          "name": "Color",
+          "thumbnail": "color-thumbnail.jpg",
+          "wallpapers": {
+            "background": "color.mp4"
           }
         }
       }
