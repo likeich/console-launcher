@@ -8,7 +8,7 @@
     "background": "#2D2D2D"
   },
   "homeScreen": "default",
-  "wallpaperPack": "flick",
+  "wallpaperPack": "flick/default",
   "dockPack": "nanica",
   "screenSettings": {
     "home": {

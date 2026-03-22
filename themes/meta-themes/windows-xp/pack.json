@@ -9,7 +9,7 @@
   },
   "homeScreen": "grid",
   "dockPack": "windows-xp",
-  "wallpaperPack": "windows-xp",
+  "wallpaperPack": "windows-xp/default",
   "startupPack": "windows-xp",
   "uiPack": "xp-taskbar",
   "screenSettings": {
