@@ -9,7 +9,7 @@
   },
   "homeScreen": "grid",
   "dockPack": "iicons",
-  "wallpaperPack": "float-light",
+  "wallpaperPack": "float/light",
   "screenSettings": {
     "home": {
       "iconType": "tile",
