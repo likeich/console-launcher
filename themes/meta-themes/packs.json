@@ -123,7 +123,7 @@
           "name": "Light",
           "thumbnail": "light-thumbnail.jpg",
           "colors": {
-            "primary": "#A9AEDC",
+            "primary": "#848BCC",
             "surface": "#EEF0FC",
             "background": "#FDFDFF"
           },
