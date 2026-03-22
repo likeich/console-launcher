@@ -6,6 +6,8 @@
     "iconFrame": "frame.9.png",
     "taskbar": "taskbar.9.png",
     "taskbarVertical": "taskbar_vertical.9.png",
-    "taskbarRounded": "taskbar_rounded.9.png"
+    "taskbarRounded": "taskbar_rounded.9.png",
+    "gridArrowLeft": "arrow_left.png",
+    "gridArrowRight": "arrow_right.png"
   }
 }
