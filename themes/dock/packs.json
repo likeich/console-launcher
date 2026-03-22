@@ -63,6 +63,13 @@
       "transparentBackground": true
     },
     {
+      "id": "nanica-light",
+      "name": "Nanica Light",
+      "extension": "svg",
+      "tint": false,
+      "transparentBackground": true
+    },
+    {
       "id": "windows-xp",
       "name": "Windows XP",
       "extension": "png",
