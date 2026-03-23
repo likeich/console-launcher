@@ -40,6 +40,45 @@
       }
     },
     {
+      "id": "flick-light",
+      "name": "Flick Light",
+      "description": "A simple light theme.",
+      "thumbnail": "thumbnail.jpg",
+      "homeScreen": "default",
+      "dockPack": "nanica-light",
+      "screenSettings": {
+        "home": {
+          "iconType": "tile",
+          "iconShape": "square",
+          "showShortcutBackgroundColor": false,
+          "showFocusHighlight": true
+        },
+        "drawer": {
+          "iconType": "appDrawer",
+          "iconShape": "square",
+          "showShortcutBackgroundColor": false
+        },
+        "folder": {
+          "iconType": "appDrawer",
+          "iconShape": "square",
+          "showShortcutBackgroundColor": false,
+          "folderViewType": "grid"
+        }
+      },
+      "variants": {
+        "default": {
+          "name": "Flick Light",
+          "thumbnail": "thumbnail.jpg",
+          "colors": {
+            "primary": "#00C3E3",
+            "surface": "#F2F2F2",
+            "background": "#FCFCFC"
+          },
+          "wallpaperPack": "flick/light"
+        }
+      }
+    },
+    {
       "id": "float-grid",
       "name": "Float Grid",
       "description": "Floating icon grid.",

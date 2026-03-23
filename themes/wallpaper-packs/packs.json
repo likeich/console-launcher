@@ -30,6 +30,13 @@
           "wallpapers": {
             "background": "background.jpg"
           }
+        },
+        "light": {
+          "name": "Light",
+          "thumbnail": "light-thumbnail.jpg",
+          "wallpapers": {
+            "background": "light-background.jpg"
+          }
         }
       }
     },
