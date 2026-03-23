@@ -1,8 +1,8 @@
 {
   "packs": [
     {
-      "id": "flick",
-      "name": "Flick",
+      "id": "nanica",
+      "name": "Nanica",
       "description": "A simple and dark theme.",
       "thumbnail": "thumbnail.jpg",
       "homeScreen": "default",
@@ -28,20 +28,20 @@
       },
       "variants": {
         "default": {
-          "name": "Flick",
+          "name": "Nanica",
           "thumbnail": "thumbnail.jpg",
           "colors": {
             "primary": "#00C3E3",
             "surface": "#3D3D3D",
             "background": "#2D2D2D"
           },
-          "wallpaperPack": "flick/default"
+          "wallpaperPack": "nanica/default"
         }
       }
     },
     {
-      "id": "flick-light",
-      "name": "Flick Light",
+      "id": "nanica-light",
+      "name": "Nanica Light",
       "description": "A simple light theme.",
       "thumbnail": "thumbnail.jpg",
       "homeScreen": "default",
@@ -67,14 +67,14 @@
       },
       "variants": {
         "default": {
-          "name": "Flick Light",
+          "name": "Nanica Light",
           "thumbnail": "thumbnail.jpg",
           "colors": {
             "primary": "#00C3E3",
             "surface": "#F2F2F2",
             "background": "#FCFCFC"
           },
-          "wallpaperPack": "flick/light"
+          "wallpaperPack": "nanica/light"
         }
       }
     },
