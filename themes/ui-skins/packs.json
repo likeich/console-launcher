@@ -8,6 +8,7 @@
       "tintStrength": 0.35,
       "slots": {
         "iconFrame": "icon.9.png",
+        "hover": "hover.9.png",
         "taskbarDrawer": "taskbar.9.png",
         "taskbarVertical": "taskbar_vertical.9.png",
         "gridArrowLeft": "arrow_left.png",
