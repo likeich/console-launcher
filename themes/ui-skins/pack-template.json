@@ -2,6 +2,7 @@
   "name": "My UI Skin",
   "description": "A short description of this UI skin.",
   "preview": "preview.png",
+  "disableFocusHighlight": false,
   "slots": {
     "iconFrame": "frame.9.png",
     "hover": "hover.9.png",
