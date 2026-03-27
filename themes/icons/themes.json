@@ -812,6 +812,7 @@
       "folderName": "iisu-platforms",
       "iconList": [
         "3ds.png",
+        "allgames.png",
         "android.png",
         "dreamcast.png",
         "eshop.png",
@@ -829,6 +830,7 @@
         "psp.png",
         "psvita.png",
         "psx.png",
+        "recent.png",
         "saturn.png",
         "snes.png",
         "steam.png",
