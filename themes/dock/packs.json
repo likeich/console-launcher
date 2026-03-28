@@ -74,6 +74,12 @@
       "name": "Windows XP",
       "extension": "png",
       "tint": false
+    },
+    {
+      "id": "stickers",
+      "name": "Stickers",
+      "extension": "png",
+      "tint": false
     }
   ]
 }
