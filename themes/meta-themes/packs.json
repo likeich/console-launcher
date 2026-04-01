@@ -234,6 +234,58 @@
           "wallpaperPack": "windows-xp/default"
         }
       }
+    },
+    {
+      "id": "modern-flat",
+      "name": "Modern Flat",
+      "description": "Modern Flat wallpapers paired with the Modern Flat UI skin and stickers dock icons.",
+      "thumbnail": "dark-thumbnail.jpg",
+      "homeScreen": "default",
+      "dockPack": "stickers",
+      "uiPack": "modern-flat",
+      "screenSettings": {
+        "home": {
+          "iconType": "tile",
+          "iconShape": "roundedSquare",
+          "showShortcutBackgroundColor": false,
+          "showFocusHighlight": false
+        },
+        "drawer": {
+          "iconType": "appDrawer",
+          "iconShape": "roundedSquare",
+          "showShortcutBackgroundColor": false,
+          "showFocusHighlight": false
+        },
+        "folder": {
+          "iconType": "appDrawer",
+          "iconShape": "roundedSquare",
+          "showShortcutBackgroundColor": false,
+          "showFocusHighlight": false,
+          "folderViewType": "grid"
+        }
+      },
+      "variants": {
+        "dark": {
+          "name": "Dark",
+          "thumbnail": "dark-thumbnail.jpg",
+          "colors": {
+            "primary": "#7DC0CF",
+            "surface": "#1D2128",
+            "background": "#11141A"
+          },
+          "wallpaperPack": "modern-flat/dark"
+        },
+        "light": {
+          "name": "Light",
+          "thumbnail": "light-thumbnail.jpg",
+          "colors": {
+            "primary": "#6A9FAE",
+            "surface": "#EFF3F5",
+            "background": "#FAFBFC"
+          },
+          "wallpaperPack": "modern-flat/light"
+        }
+      }
     }
   ]
 }

@@ -102,6 +102,27 @@
           }
         }
       }
+    },
+    {
+      "id": "modern-flat",
+      "name": "Modern Flat",
+      "description": "Animated Modern Flat wallpapers.",
+      "variants": {
+        "dark": {
+          "name": "Dark",
+          "thumbnail": "dark-thumbnail.jpg",
+          "wallpapers": {
+            "background": "modern-flat-dark.mp4"
+          }
+        },
+        "light": {
+          "name": "Light",
+          "thumbnail": "light-thumbnail.jpg",
+          "wallpapers": {
+            "background": "modern-flat-light.mp4"
+          }
+        }
+      }
     }
   ]
 }
