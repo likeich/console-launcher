@@ -26,6 +26,22 @@
         "taskbarVertical": "taskbar_vertical.9.png",
         "taskbarRounded": "taskbar_rounded.9.png"
       }
+    },
+    {
+      "id": "modern-flat",
+      "name": "Modern Flat",
+      "description": "A flatter modern UI skin with a custom icon frame and dock styling.",
+      "preview": "icon.9.png",
+      "disableFocusHighlight": true,
+      "slots": {
+        "iconFrame": "icon.9.png",
+        "hover": "hover.9.png",
+        "taskbar": "taskbar.9.png",
+        "taskbarDrawer": "taskbar.9.png",
+        "taskbarVertical": "taskbar_vertical.9.png",
+        "gridArrowLeft": "arrow_left.png",
+        "gridArrowRight": "arrow_right.png"
+      }
     }
   ]
 }
