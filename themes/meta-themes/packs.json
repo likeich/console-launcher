@@ -109,7 +109,7 @@
           "name": "Dark",
           "thumbnail": "dark-thumbnail.jpg",
           "colors": {
-            "primary": "#7D8EC8",
+            "primary": "#8EA6FF",
             "surface": "#1F2438",
             "background": "#181C2C"
           },
@@ -119,7 +119,7 @@
           "name": "Light",
           "thumbnail": "light-thumbnail.jpg",
           "colors": {
-            "primary": "#6068A0",
+            "primary": "#4E7BFF",
             "surface": "#F4F5FB",
             "background": "#ECEEF8"
           },
