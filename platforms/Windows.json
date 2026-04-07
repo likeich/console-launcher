@@ -130,6 +130,25 @@
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
-    }
+    },
+    {
+      "name": "windows - GameNative (PcGame)",
+      "uniqueId": "windows.app.gamenative.pcgame",
+      "description": "GameNative",
+      "acceptedFilenameRegex": "^(.*)\\.(?:pcgame)$",
+      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.pcgame} --es game_source CUSTOM_GAME\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "windows - GameNative (Amazon)",
+      "uniqueId": "windows.app.gamenative.amazon",
+      "description": "GameNative",
+      "acceptedFilenameRegex": "^(.*)\\.(?:amazon)$",
+      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.customgame} --es game_source AMAZON\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
   ]
 }
