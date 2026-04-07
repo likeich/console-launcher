@@ -150,5 +150,6 @@
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
+	}
   ]
 }
