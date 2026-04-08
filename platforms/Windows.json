@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 11,
+  "revisionNumber": 12,
   "platform": {
     "name": "Windows",
     "uniqueId": "windows",
@@ -10,7 +10,7 @@
     "scraperSourceList": [
       "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=1&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
       "DSESS:GENRES:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=1&dsess_target_site_selector=div.col-6+a&dsess_target_site=.%2A%5C%2Fgame.%2A&dsess_selector=div.col-lg-8+div.card-body&dsess_extractor=.%2A%3Cp%3EGenre%5C%28s%5C%29%3A%28.%2A%29%3C%5C%2Fp%3E"
-    ],
+	],
     "boxArtAspectRatioId": 2,
     "useCustomBoxArtAspectRatio": false,
     "customBoxArtAspectRatio": null,
@@ -26,7 +26,7 @@
       "uniqueId": "windows.winlator.cmod",
       "description": "Supported extensions: desktop",
       "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
-      "amStartArguments": "-n com.winlator.cmod/.XServerDisplayActivity\n -e shortcut_path {file.path}\n --activity-clear-task\n --activity-clear-top\n --activity-no-history",
+      "amStartArguments": "-n com.winlator.cmod/.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -36,7 +36,7 @@
       "uniqueId": "windows.winlator.cmodproot",
       "description": "Supported extensions: desktop",
       "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
-      "amStartArguments": "-n com.cmodded.winlator/com.winlator.XServerDisplayActivity\n -e shortcut_path {file.path}\n --activity-clear-task\n --activity-clear-top\n --activity-no-history",
+      "amStartArguments": "-n com.cmodded.winlator/com.winlator.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -46,7 +46,7 @@
       "uniqueId": "windows.winlator.cmod.old",
       "description": "Supported extensions: desktop",
       "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
-      "amStartArguments": "-n com.winlator/.XServerDisplayActivity\n -e shortcut_path {file.path}\n --activity-clear-task\n --activity-clear-top\n --activity-no-history",
+      "amStartArguments": "-n com.winlator/.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -56,7 +56,7 @@
       "uniqueId": "windows.micewine.emu",
       "description": "Supported extensions: lnk",
       "acceptedFilenameRegex": "^(.*)\\.(?:lnk)$",
-      "amStartArguments": "-n com.micewine.emu/com.micewine.emu.activities.MainActivity\n -e exePath {file.path}\n --activity-clear-task\n --activity-clear-top\n --activity-no-history",
+      "amStartArguments": "-n com.micewine.emu/com.micewine.emu.activities.MainActivity\n -e exePath {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -101,7 +101,7 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-    {
+	{
       "name": "windows - GameNative (GOG)",
       "uniqueId": "windows.app.gamenative.gog",
       "description": "GameNative",
@@ -111,7 +111,7 @@
       "killPackageProcessesWarning": false,
       "extra": ""
     },
-    {
+	{
       "name": "windows - GameNative (EpicStore)",
       "uniqueId": "windows.app.gamenative.epic",
       "description": "GameNative",
@@ -121,7 +121,7 @@
       "killPackageProcessesWarning": false,
       "extra": ""
     },
-    {
+	{
       "name": "windows - GameNative (CustomGame)",
       "uniqueId": "windows.app.gamenative.custom",
       "description": "GameNative",
@@ -150,6 +150,6 @@
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
-    }
+	}
   ]
 }
