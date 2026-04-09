@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Nintendo - Game & Watch",
     "uniqueId": "gw",
@@ -24,6 +24,16 @@
     "extra": ""
   },
   "playerList": [
+    {
+      "name": "gw - com.seleuco.mame4d2024",
+      "uniqueId": "gw.com.seleuco.mame4d2024",
+      "description": "Supported extensions: 7z, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",
+      "amStartArguments": "-n com.seleuco.mame4d2024/com.seleuco.mame4droid.MAME4droid\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task\n --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
     {
       "name": "gw - RetroArch 64 - gw",
       "uniqueId": "gw.ra64.gw",
