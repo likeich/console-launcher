@@ -6,6 +6,7 @@
       "description": "The default Console Launcher icon frame.",
       "preview": "frame_original.9.png",
       "tintStrength": 0.35,
+      "surfaceTintMode": "midpoint",
       "disableFocusHighlight": true,
       "slots": {
         "iconFrame": "icon.9.png",
