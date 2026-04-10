@@ -6,7 +6,7 @@
       "description": "The default Console Launcher icon frame.",
       "preview": "frame_original.9.png",
       "tintStrength": 0.35,
-      "surfaceTintMode": "midpoint",
+      "surfaceTintMode": "replace",
       "disableFocusHighlight": true,
       "slots": {
         "iconFrame": "icon.9.png",
@@ -34,7 +34,7 @@
       "description": "A flatter modern UI skin with a custom icon frame and dock styling.",
       "preview": "icon.9.png",
       "tintStrength": 0.6,
-      "surfaceTintMode": "midpoint",
+      "surfaceTintMode": "replace",
       "disableFocusHighlight": true,
       "slots": {
         "iconFrame": "icon.9.png",
