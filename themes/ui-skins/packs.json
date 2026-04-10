@@ -5,7 +5,7 @@
       "name": "Modern",
       "description": "The default Console Launcher icon frame.",
       "preview": "frame_original.9.png",
-      "tintStrength": 1.0,
+      "tintStrength": 0.3,
       "surfaceTintMode": "replace",
       "disableFocusHighlight": true,
       "slots": {
@@ -33,7 +33,7 @@
       "name": "Modern Flat",
       "description": "A flatter modern UI skin with a custom icon frame and dock styling.",
       "preview": "icon.9.png",
-      "tintStrength": 1.0,
+      "tintStrength": 0.6,
       "surfaceTintMode": "replace",
       "disableFocusHighlight": true,
       "slots": {
