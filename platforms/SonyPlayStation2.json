@@ -23,6 +23,16 @@
   },
   "playerList": [
     {
+      "name": "ps2 - NetherSX2 Turnip",
+      "uniqueId": "ps2.xyz.aethersx2.tturnip",
+      "description": "Supported extensions: iso, chd, gz.",
+      "acceptedFilenameRegex": "^(.*).(?:iso|chd|gz|mdf|bin)$",
+      "amStartArguments": "-n xyz.aethersx2.tturnip/xyz.aethersx2.android.EmulationActivity\n -a android.intent.action.MAIN\n -e bootPath {file.uri}\n --activity-clear-task\n --activity-clear-top\n ",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "ps2 - Aethersx2",
       "uniqueId": "ps2.xyz.aethersx2.android",
       "description": "Supported extensions: iso, chd, gz, mdf.",
