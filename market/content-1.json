@@ -1,4 +1,15 @@
 [
+    {
+    "name": "AIS Play",
+    "category": ["Apps", "Entertainment"],
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.ais.mimo.AISPlay&hl=th"
+    ],
+    "price": "Free",
+    "price_description": "In-App Purchases",
+    "controller_support": true,
+    "image": "https://play-lh.googleusercontent.com/Lu63SayzvZSo7HyXJzgCFpV-GFltAC_7Vjee3Wg-0jzbhaNqdensXLCjh4CQ7YCaGIQ25irFHZIwNa9HY1UJ6g=w480-h960-rw"
+  },
   {
     "name": "Alien Isolation",
     "category": ["Games", "Horror"],
