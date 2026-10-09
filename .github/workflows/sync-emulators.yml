@@ -1,0 +1,91 @@
+name: Resolve Emulator Registry
+
+# Regenerates emulators/emulators-1.json + emulators/info.json from the curated
+# source list in scripts/emulator-registry/sources.json. For each github source
+# it reads the latest release's tag + matching APK asset URL (no APK is
+# downloaded). Opens a PR when the output changes. Runs daily and on demand.
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      create_pr:
+        description: 'Create a pull request instead of direct commit'
+        required: false
+        type: boolean
+        default: true
+
+concurrency:
+  group: sync-emulators
+  cancel-in-progress: false
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Resolve registry
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/emulator-registry/resolve.py \
+            --sources scripts/emulator-registry/sources.json \
+            --out emulators
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git status --short emulators
+          if git diff --quiet -- emulators; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true' && (github.event_name == 'schedule' || inputs.create_pr)
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'chore: refresh emulator registry'
+          title: 'Refresh emulator registry'
+          body: |
+            Automated re-resolve of `emulators/` from `scripts/emulator-registry/sources.json`.
+
+            Review the Files Changed tab: version bumps are expected; a removed
+            or inert entry usually means an upstream repo was renamed or taken
+            down (check the "Resolve registry" log for warnings).
+          add-paths: emulators/
+          branch: sync-emulators
+          delete-branch: true
+          labels: |
+            emulators
+            automated
+
+      - name: Direct Commit
+        if: steps.check_changes.outputs.has_changes == 'true' && github.event_name == 'workflow_dispatch' && !inputs.create_pr
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add emulators/
+          git commit -m "chore: refresh emulator registry"
+          git push origin HEAD:main
+
+      - name: Summary
+        run: |
+          if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
+            echo "Registry changed"
+          else
+            echo "No changes - registry is up to date"
+          fi

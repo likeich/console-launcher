@@ -1,0 +1,387 @@
+[
+  {
+    "id": "retroarch-aarch64",
+    "package_name": "com.retroarch.aarch64",
+    "display_name": "RetroArch (64-bit)",
+    "publisher": "libretro",
+    "http_index": {
+      "index_url": "https://buildbot.libretro.com/stable/",
+      "link_regex": "stable/([0-9]+\\.[0-9]+\\.[0-9]+)/",
+      "apk_template": "https://buildbot.libretro.com/stable/{version}/android/RetroArch_aarch64.apk",
+      "abi": "arm64-v8a"
+    },
+    "play_store": true
+  },
+  {
+    "id": "lemuroid",
+    "package_name": "com.swordfish.lemuroid",
+    "display_name": "Lemuroid (multi-system)",
+    "publisher": "Swordfish90",
+    "github": { "repo": "Swordfish90/Lemuroid", "asset_regex": "(?i)lemuroid.*\\.apk" },
+    "play_store": true
+  },
+  {
+    "id": "melonds",
+    "package_name": "me.magnum.melonds",
+    "display_name": "melonDS (Nintendo DS)",
+    "publisher": "rafaelvcaetano",
+    "github": { "repo": "rafaelvcaetano/melonDS-android", "asset_regex": "(?i)app-github.*release\\.apk" },
+    "play_store": true
+  },
+  {
+    "id": "ppsspp",
+    "package_name": "org.ppsspp.ppsspp",
+    "display_name": "PPSSPP (PSP)",
+    "publisher": "Henrik Rydgård",
+    "github": {
+      "repo": "hrydgard/ppsspp",
+      "apk_template": "https://www.ppsspp.org/files/{version_us}/ppsspp.apk"
+    },
+    "play_store": true
+  },
+  {
+    "id": "flycast",
+    "package_name": "com.flycast.emulator",
+    "display_name": "Flycast (Dreamcast)",
+    "publisher": "flyinghead",
+    "github": { "repo": "flyinghead/flycast", "asset_regex": "(?i)flycast.*\\.apk" },
+    "play_store": false
+  },
+  {
+    "id": "vita3k",
+    "package_name": "org.vita3k.emulator",
+    "display_name": "Vita3K (PS Vita)",
+    "publisher": "Vita3K",
+    "github": { "repo": "Vita3K/Vita3K-Android", "asset_regex": "(?i).*android.*\\.apk" },
+    "play_store": false
+  },
+  {
+    "id": "winlator",
+    "package_name": "com.winlator",
+    "display_name": "Winlator (Windows x86)",
+    "publisher": "brunodev85",
+    "github": { "repo": "brunodev85/winlator", "asset_regex": "(?i)winlator.*\\.apk" },
+    "play_store": false
+  },
+  {
+    "id": "gamenative",
+    "package_name": "app.gamenative",
+    "display_name": "GameNative (Windows/Steam)",
+    "publisher": "utkarshdalal",
+    "github": { "repo": "utkarshdalal/GameNative", "asset_regex": "(?i)gamenative.*\\.apk", "abi": "arm64-v8a" },
+    "play_store": false
+  },
+  {
+    "id": "mame4droid-2024",
+    "package_name": "com.seleuco.mame4d2024",
+    "display_name": "MAME4droid 2024 (Arcade)",
+    "publisher": "seleuco",
+    "github": { "repo": "seleuco/MAME4droid-Current", "asset_regex": "(?i)mame4droid.*\\.apk" },
+    "play_store": false
+  },
+  {
+    "id": "azahar",
+    "package_name": "io.github.lime3ds.android",
+    "display_name": "Azahar (Nintendo 3DS)",
+    "publisher": "azahar-emu",
+    "github": { "repo": "azahar-emu/azahar", "asset_regex": "(?i)azahar-android-vanilla.*\\.apk" },
+    "play_store": true
+  },
+  {
+    "id": "citra-mmj",
+    "package_name": "org.citra.emu",
+    "display_name": "Citra MMJ (Nintendo 3DS)",
+    "publisher": "weihuoya",
+    "github": { "repo": "weihuoya/citra", "asset_regex": "(?i).*\\.apk" },
+    "play_store": false
+  },
+  {
+    "id": "mandarine",
+    "package_name": "io.github.mandarine3ds.mandarine",
+    "display_name": "Mandarine (Nintendo 3DS)",
+    "publisher": "mandarine3ds",
+    "github": { "repo": "ptyfyre/mandarine-neo", "asset_regex": "(?i)mandarine.*\\.apk" },
+    "play_store": false
+  },
+  {
+    "id": "dolphin",
+    "package_name": "org.dolphinemu.dolphinemu",
+    "display_name": "Dolphin (GameCube/Wii)",
+    "publisher": "Dolphin Emulator",
+    "play_store": true
+  },
+  {
+    "id": "duckstation",
+    "package_name": "com.github.stenzek.duckstation",
+    "display_name": "DuckStation (PlayStation)",
+    "publisher": "stenzek",
+    "play_store": true
+  },
+  {
+    "id": "epsxe",
+    "package_name": "com.epsxe.ePSXe",
+    "display_name": "ePSXe (PlayStation)",
+    "publisher": "epsxe software s.l.",
+    "play_store": true
+  },
+  {
+    "id": "mupen64plus-fz",
+    "package_name": "org.mupen64plusae.v3.fzurita",
+    "display_name": "M64Plus FZ (Nintendo 64)",
+    "publisher": "Francisco Zurita",
+    "play_store": true
+  },
+  {
+    "id": "yaba-sanshiro-2",
+    "package_name": "org.devmiyax.yabasanshioro2",
+    "display_name": "Yaba Sanshiro 2 (Sega Saturn)",
+    "publisher": "devMiyax",
+    "play_store": true
+  },
+  {
+    "id": "redream",
+    "package_name": "io.recompiled.redream",
+    "display_name": "Redream (Dreamcast)",
+    "publisher": "Recompiled",
+    "play_store": true
+  },
+  {
+    "id": "my-boy",
+    "package_name": "com.fastemulator.gba",
+    "display_name": "My Boy! (Game Boy Advance)",
+    "publisher": "Fast Emulator",
+    "play_store": true
+  },
+  {
+    "id": "my-oldboy",
+    "package_name": "com.fastemulator.gbc",
+    "display_name": "My OldBoy! (Game Boy / Color)",
+    "publisher": "Fast Emulator",
+    "play_store": true
+  },
+  {
+    "id": "pizza-boy-gba",
+    "package_name": "it.dbtecno.pizzaboygba",
+    "display_name": "Pizza Boy A (Game Boy Advance)",
+    "publisher": "DBT Tecno",
+    "play_store": true
+  },
+  {
+    "id": "pizza-boy-gbc",
+    "package_name": "it.dbtecno.pizzaboy",
+    "display_name": "Pizza Boy C (Game Boy / Color)",
+    "publisher": "DBT Tecno",
+    "play_store": true
+  },
+  {
+    "id": "john-gbac",
+    "package_name": "com.johnemulators.johngbac",
+    "display_name": "John GBAC (GBA + GBC)",
+    "publisher": "John Emulators",
+    "play_store": true
+  },
+  {
+    "id": "nostalgia-nes",
+    "package_name": "com.nostalgiaemulators.neslite",
+    "display_name": "Nostalgia.NES (NES)",
+    "publisher": "Nostalgia Emulators",
+    "play_store": true
+  },
+  {
+    "id": "snes9x-ex-plus",
+    "package_name": "com.explusalpha.Snes9xPlus",
+    "display_name": "Snes9x EX+ (SNES)",
+    "publisher": "Robert Broglia",
+    "play_store": true
+  },
+  {
+    "id": "md-emu",
+    "package_name": "com.explusalpha.MdEmu",
+    "display_name": "MD.emu (Genesis / Mega Drive)",
+    "publisher": "Robert Broglia",
+    "play_store": true
+  },
+  {
+    "id": "scummvm",
+    "package_name": "org.scummvm.scummvm",
+    "display_name": "ScummVM (Adventure games)",
+    "publisher": "ScummVM Team",
+    "play_store": true
+  },
+  {
+    "id": "nethersx2",
+    "package_name": "xyz.aethersx2.android",
+    "display_name": "NetherSX2 (PlayStation 2)",
+    "publisher": "Trixarian",
+    "github": { "repo": "Trixarian/NetherSX2-patch", "asset_regex": "(?i)nethersx2.*\\.apk" },
+    "play_store": false
+  },
+  {
+    "id": "borked3ds",
+    "package_name": "io.github.borked3ds.android",
+    "display_name": "Borked3DS (Nintendo 3DS)",
+    "publisher": "Borked3DS",
+    "github": { "repo": "Borked3DS/Borked3DS", "asset_regex": "(?i)borked3ds.*android.*\\.apk" },
+    "play_store": false
+  },
+  {
+    "id": "cemu-android",
+    "package_name": "info.cemu.cemu",
+    "display_name": "Cemu (Wii U)",
+    "publisher": "SSimco",
+    "github": { "repo": "SSimco/Cemu", "asset_regex": "(?i)cemu.*\\.apk" },
+    "play_store": false
+  },
+  {
+    "id": "citron",
+    "package_name": "org.citron.citron_emu",
+    "display_name": "Citron (Nintendo Switch)",
+    "publisher": "citron-neo",
+    "github": { "repo": "citron-neo/emulator", "asset_regex": "(?i)app-mainline.*\\.apk" },
+    "play_store": false
+  },
+  {
+    "id": "eka2l1",
+    "package_name": "com.github.eka2l1",
+    "display_name": "EKA2L1 (Symbian / N-Gage)",
+    "publisher": "EKA2L1",
+    "github": { "repo": "EKA2L1/EKA2L1", "asset_regex": "(?i)eka2l1.*android.*\\.apk" },
+    "play_store": true
+  },
+  { "id": "gba-emu", "package_name": "com.explusalpha.GbaEmu", "display_name": "GBA.emu (Game Boy Advance)", "publisher": "Robert Broglia", "play_store": true },
+  { "id": "gbc-emu", "package_name": "com.explusalpha.GbcEmu", "display_name": "GBC.emu (Game Boy / Color)", "publisher": "Robert Broglia", "play_store": true },
+  { "id": "nes-emu", "package_name": "com.explusalpha.NesEmu", "display_name": "NES.emu (NES / Famicom)", "publisher": "Robert Broglia", "play_store": true },
+  { "id": "pce-emu", "package_name": "com.PceEmu", "display_name": "PCE.emu (PC Engine / TG-16)", "publisher": "Robert Broglia", "play_store": true },
+  { "id": "neo-emu", "package_name": "com.explusalpha.NeoEmu", "display_name": "NEO.emu (Neo Geo)", "publisher": "Robert Broglia", "play_store": true },
+  { "id": "ngp-emu", "package_name": "com.explusalpha.NgpEmu", "display_name": "NGP.emu (Neo Geo Pocket)", "publisher": "Robert Broglia", "play_store": true },
+  { "id": "swan-emu", "package_name": "com.explusalpha.SwanEmu", "display_name": "Swan.emu (WonderSwan)", "publisher": "Robert Broglia", "play_store": true },
+  { "id": "lynx-emu", "package_name": "com.explusalpha.LynxEmu", "display_name": "Lynx.emu (Atari Lynx)", "publisher": "Robert Broglia", "play_store": true },
+  { "id": "saturn-emu", "package_name": "com.explusalpha.SaturnEmu", "display_name": "Saturn.emu (Sega Saturn)", "publisher": "Robert Broglia", "play_store": true },
+  { "id": "msx-emu", "package_name": "com.explusalpha.MsxEmu", "display_name": "MSX.emu (MSX / ColecoVision)", "publisher": "Robert Broglia", "play_store": true },
+  { "id": "a2600-emu", "package_name": "com.explusalpha.A2600Emu", "display_name": "2600.emu (Atari 2600)", "publisher": "Robert Broglia", "play_store": true },
+  { "id": "c64-emu", "package_name": "com.explusalpha.C64Emu", "display_name": "C64.emu (Commodore 64)", "publisher": "Robert Broglia", "play_store": true },
+  { "id": "magic-dosbox", "package_name": "bruenor.magicbox", "display_name": "Magic DosBox (MS-DOS)", "publisher": "Andrej Bruckner", "play_store": true },
+  { "id": "uae4droid", "package_name": "org.ab.uae", "display_name": "UAE4droid (Commodore Amiga)", "publisher": "ab", "play_store": true },
+
+  {
+    "id": "eden",
+    "package_name": "dev.eden.eden_emulator",
+    "display_name": "Eden (Nintendo Switch)",
+    "publisher": "eden-emu",
+    "gitea": { "base": "https://git.eden-emu.dev", "repo": "eden-emu/eden", "asset_regex": "(?i)eden-android.*standard.*\\.apk", "abi": "arm64-v8a" }
+  },
+  {
+    "id": "eden-legacy",
+    "package_name": "dev.legacy.eden_emulator",
+    "display_name": "Eden Legacy (Nintendo Switch)",
+    "publisher": "eden-emu",
+    "gitea": { "base": "https://git.eden-emu.dev", "repo": "eden-emu/eden", "asset_regex": "(?i)eden-android.*legacy.*\\.apk", "abi": "arm64-v8a" }
+  },
+  {
+    "id": "aps3e",
+    "package_name": "aenu.aps3e",
+    "display_name": "aPS3e (PlayStation 3)",
+    "publisher": "aenu",
+    "github": { "repo": "aenu1/aps3e", "asset_regex": "(?i)^[0-9][0-9.]*\\.apk$", "abi": "arm64-v8a" },
+    "play_store": true
+  },
+  {
+    "id": "reicast",
+    "package_name": "com.reicast.emulator",
+    "display_name": "reicast (Dreamcast)",
+    "publisher": "reicast",
+    "github": { "repo": "skmp/reicast-emulator", "asset_regex": "(?i)reicast.*\\.apk" },
+    "play_store": true
+  },
+  {
+    "id": "skyemu",
+    "package_name": "com.sky.SkyEmu",
+    "display_name": "SkyEmu (GB/GBA/NDS)",
+    "publisher": "skylersaleh",
+    "github": { "repo": "skylersaleh/SkyEmu", "asset_regex": "(?i)skyemu.*android.*\\.apk" }
+  },
+  {
+    "id": "vvb",
+    "package_name": "com.simongellis.vvb",
+    "display_name": "Visual Boy / vvb (Virtual Boy)",
+    "publisher": "SupernaviX",
+    "github": { "repo": "SupernaviX/vvb", "asset_regex": "(?i)vvb.*\\.apk" }
+  },
+  {
+    "id": "azahar-plus",
+    "package_name": "io.github.azaharplus.android",
+    "display_name": "AzaharPlus (Nintendo 3DS)",
+    "publisher": "AzaharPlus",
+    "github": { "repo": "AzaharPlus/AzaharPlus", "asset_regex": "(?i)azaharplus.*coexist.*\\.apk" }
+  },
+  {
+    "id": "mame4droid",
+    "package_name": "com.seleuco.mame4droid",
+    "display_name": "MAME4droid 0.139u1 (Arcade)",
+    "publisher": "seleuco",
+    "github": { "repo": "seleuco/MAME4droid-0.139u1-", "asset_regex": "(?i)mame4droid.*\\.apk" },
+    "play_store": true
+  },
+  {
+    "id": "j2me-loader",
+    "package_name": "ru.playsoftware.j2meloader",
+    "display_name": "J2ME-Loader (J2ME)",
+    "publisher": "nikita36078",
+    "github": { "repo": "nikita36078/J2ME-Loader", "asset_regex": "(?i)j2me.loader.*open-release\\.apk" },
+    "play_store": true
+  },
+  {
+    "id": "jl-mod",
+    "package_name": "ru.woesss.j2meloader",
+    "display_name": "JL-Mod (J2ME)",
+    "publisher": "woesss",
+    "github": { "repo": "woesss/JL-Mod", "asset_regex": "(?i)jl-mod.*arm64-v8a\\.apk", "abi": "arm64-v8a" }
+  },
+  {
+    "id": "vita3k-zx",
+    "package_name": "org.vita3k.emulator.ikhoeyZX",
+    "display_name": "Vita3K ZX (PS Vita)",
+    "publisher": "ikhoeyZX",
+    "github": { "repo": "ikhoeyZX/Vita3K-Android", "asset_regex": "(?i)vita3k-aarch64.*\\.apk" }
+  },
+  {
+    "id": "dolphin-mmjr2",
+    "package_name": "org.dolphinemu.mmjr",
+    "display_name": "Dolphin MMJR2-VBI (GameCube/Wii)",
+    "publisher": "Medard22",
+    "github": { "repo": "Medard22/Dolphin-MMJR2-VBI", "asset_regex": "(?i)dolphin.*mmjr2.*\\.apk" }
+  },
+  {
+    "id": "melonds-nightly",
+    "package_name": "me.magnum.melonds.nightly",
+    "display_name": "melonDS Nightly (Nintendo DS)",
+    "publisher": "rafaelvcaetano",
+    "github": { "repo": "rafaelvcaetano/melonDS-android", "tag": "nightly-release", "asset_regex": "(?i)app-github-nightly.*\\.apk" }
+  },
+  {
+    "id": "droidarcadia",
+    "package_name": "com.amigan.droidarcadia",
+    "display_name": "DroidArcadia (Emerson Arcadia 2001)",
+    "publisher": "Amigan Software",
+    "direct": { "url": "https://amigan.1emu.net/releases/DroidArcadia.apk" }
+  },
+
+  { "id": "fpse", "package_name": "com.emulator.fpse", "display_name": "FPse (PlayStation)", "publisher": "Schtruck & LDchen", "play_store": true },
+  { "id": "fpse64", "package_name": "com.emulator.fpse64", "display_name": "FPseNG / FPse64 (PlayStation)", "publisher": "Schtruck & LDchen", "play_store": true },
+  { "id": "ax360e", "package_name": "aenu.ax360e", "display_name": "aX360e (Xbox 360)", "publisher": "aenu", "play_store": true },
+  { "id": "ax360e-free", "package_name": "aenu.ax360e.free", "display_name": "aX360e Free (Xbox 360)", "publisher": "aenu", "play_store": true },
+  { "id": "armsx2", "package_name": "come.nanodata.armsx2", "display_name": "ARMSX2 (PlayStation 2)", "publisher": "ARMSX2 Team", "play_store": true },
+  { "id": "yaba-sanshiro-2-pro", "package_name": "org.devmiyax.yabasanshioro2.pro", "display_name": "YabaSanshiro 2 Pro (Sega Saturn)", "publisher": "devMiyax", "play_store": true },
+  { "id": "mastergear", "package_name": "com.fms.mg", "display_name": "MasterGear (Sega Master System / Game Gear)", "publisher": "Marat Fayzullin", "play_store": true },
+  { "id": "iratajaguar", "package_name": "ru.vastness.altmer.iratajaguar", "display_name": "IrataJaguar (Atari Jaguar)", "publisher": "MaxAkaAltmer", "play_store": true },
+  { "id": "linkboy", "package_name": "com.pixelrespawn.linkboy", "display_name": "Linkboy (Game Boy / GBC / GBA)", "publisher": "Pixel Respawn", "play_store": true },
+  { "id": "infinity-p8", "package_name": "me.dt2dev.infinity", "display_name": "Infinity - P8 Player (PICO-8)", "publisher": "dt2dev", "play_store": true },
+  { "id": "mupen64-alpha", "package_name": "org.mupen64plusae.v3.alpha", "display_name": "Mupen64Plus AE (Nintendo 64)", "publisher": "paulscode", "play_store": true },
+  { "id": "mupen64-fz-pro", "package_name": "org.mupen64plusae.v3.fzurita.pro", "display_name": "M64Plus FZ Pro (Nintendo 64)", "publisher": "Francisco Zurita", "play_store": true },
+  { "id": "ppsspp-gold", "package_name": "org.ppsspp.ppssppgold", "display_name": "PPSSPP Gold (PSP)", "publisher": "Henrik Rydgård", "play_store": true },
+  { "id": "pizza-boy-gbc-pro", "package_name": "it.dbtecno.pizzaboypro", "display_name": "Pizza Boy C Pro (Game Boy / Color)", "publisher": "Pizza Emulators", "play_store": true },
+  { "id": "pizza-boy-gba-pro", "package_name": "it.dbtecno.pizzaboygbapro", "display_name": "Pizza Boy A Pro (Game Boy Advance)", "publisher": "Pizza Emulators", "play_store": true },
+  { "id": "pizza-boy-sc-pro", "package_name": "it.dbtecno.pizzaboyscpro", "display_name": "Pizza Boy SC Pro (Genesis / Mega Drive)", "publisher": "Pizza Emulators", "play_store": true },
+  { "id": "my-boy-free", "package_name": "com.fastemulator.gbafree", "display_name": "My Boy! Free (Game Boy Advance)", "publisher": "Pixel Respawn", "play_store": true },
+  { "id": "my-oldboy-free", "package_name": "com.fastemulator.gbcfree", "display_name": "My OldBoy! Free (Game Boy / Color)", "publisher": "Pixel Respawn", "play_store": true }
+]
