@@ -1,10 +1,10 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 3,
+  "revisionNumber": 1,
   "platform": {
-    "name": "Sega Model 3",
-    "uniqueId": "model3",
-    "shortname": "model3",
+    "name": "Sega Titan Video",
+    "uniqueId": "stv",
+    "shortname": "stv",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
@@ -27,41 +27,31 @@
   },
   "playerList": [
     {
-      "name": "model3 - Super3",
-      "uniqueId": "model3.com.izzy2lost.super3",
+      "name": "stv - RetroArch 64 - beetle saturn",
+      "uniqueId": "stv.ra64.mednafen_saturn",
       "description": "Supported extensions: zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
-      "amStartArguments": "-n com.izzy2lost.super3/.MainActivity\n-d {file.uri}",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "ps2 - RetroArch 64 - Supermodel",
-      "uniqueId": "ps2.ra64.supermodel",
-      "description": "Supported extensions: zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO supermodel\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_saturn\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
-      "name": "ps2 - RetroArch 32 - Supermodel",
-      "uniqueId": "ps2.ra32.supermodel",
+      "name": "stv - RetroArch 32 - beetle saturn",
+      "uniqueId": "stv.ra32.mednafen_saturn",
       "description": "Supported extensions: zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO supermodel\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_saturn\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
-      "name": "ps2 - RetroArch - Supermodel",
-      "uniqueId": "ps2.ra.supermodel",
+      "name": "stv - RetroArch - beetle saturn",
+      "uniqueId": "stv.ra.mednafen_saturn",
       "description": "Supported extensions: zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO supermodel\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_saturn\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

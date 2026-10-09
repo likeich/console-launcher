@@ -1,8 +1,8 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 8,
   "platform": {
-    "name": "Microsoft - XBox 360",
+    "name": "Microsoft - Xbox 360",
     "uniqueId": "xbox360",
     "shortname": "xbox360",
     "description": null,
@@ -43,13 +43,53 @@
       "extra": ""
     },
     {
-      "name": "xbox360 - X360 Mobile",
+      "name": "xbox360 - X360 Mobile (Old)",
       "uniqueId": "xbox360.emu.x360.mobile",
       "description": "",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|xex)$",
       "amStartArguments": "-n emu.x360.mobile/.X360MobileGameLaunchActivity\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "xbox360 - X360 Mobile (Launch URL)",
+      "uniqueId": "xbox360.emu.x360mobile.com",
+      "description": "",
+      "acceptedFilenameRegex": "^(.*)\\.(?:x360url)$",
+      "amStartArguments": "-n emu.x360mobile.com/.MainActivity\n -f 0x10008000\n -d {tags.x360url}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "xbox360 - xendroid",
+      "uniqueId": "xbox360.xendroid.composee",
+      "description": "",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
+      "amStartArguments": "-n xendroid.compose/.EmulatorHostActivity\n -e game_uri {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "xbox360 - Xenra (Gold)",
+      "uniqueId": "xbox360.ali.Xanite",
+      "description": "Supported extensions: .iso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
+      "amStartArguments": "-n Ali.Xanite/.LauncherActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "xbox360 - Xenra (Green)",
+      "uniqueId": "xbox360.ali.Xanite.green",
+      "description": "Supported extensions: .iso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
+      "amStartArguments": "-n Ali.Xanite.green/Ali.Xanite.LauncherActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
       "extra": ""
     }
   ]
