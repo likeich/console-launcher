@@ -1,0 +1,1 @@
+Console logos by Dan Patrick (Console Logos - Professionally Redrawn + Official Versions, v2.1, archive.org item console-logos-professionally-redrawn-plus-official-versions). Logos are trademarks of their owners.
