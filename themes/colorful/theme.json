@@ -29,7 +29,21 @@
     "switch.webp",
     "vita.webp",
     "wii.webp",
-    "wiiu.webp"
+    "wiiu.webp",
+    "smart-multiplayer.webp",
+    "smart-coop.webp",
+    "smart-versus.webp",
+    "smart-rpg.webp",
+    "smart-platformer.webp",
+    "smart-racing.webp",
+    "smart-fighting.webp",
+    "smart-shooter.webp",
+    "smart-puzzle.webp",
+    "smart-sports.webp",
+    "smart-never-played.webp",
+    "smart-recently-played.webp",
+    "smart-favorites.webp",
+    "smart-most-played.webp"
   ],
   "bannerList": [],
   "posterList": []
