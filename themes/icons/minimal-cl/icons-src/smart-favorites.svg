@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff4f79"/><stop offset="1" stop-color="#a3102f"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g)"/>
+<g transform="translate(146 70) scale(2.2)" fill="#fff" color="#fff"><path d="M50 88 C18 66 8 50 8 34 C8 20 19 11 31 11 C40 11 47 17 50 24 C53 17 60 11 69 11 C81 11 92 20 92 34 C92 50 82 66 50 88Z"/></g>
+<text x="256" y="420" text-anchor="middle" fill="#fff" font-family="Noto Sans" font-weight="900" font-size="52" letter-spacing="1">FAVORITES</text></svg>

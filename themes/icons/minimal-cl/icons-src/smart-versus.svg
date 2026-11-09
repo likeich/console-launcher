@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff5a4e"/><stop offset="1" stop-color="#a8121c"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g)"/>
+<g transform="translate(146 70) scale(2.2)" fill="#fff" color="#fff"><path d="M58 4 L30 54 H48 L40 96 L72 40 H53 Z" opacity=".45"/><text x="50" y="66" text-anchor="middle" font-family="Noto Sans" font-weight="900" font-style="italic" font-size="46">VS</text></g>
+<text x="256" y="420" text-anchor="middle" fill="#fff" font-family="Noto Sans" font-weight="900" font-size="64" letter-spacing="1">VERSUS</text></svg>

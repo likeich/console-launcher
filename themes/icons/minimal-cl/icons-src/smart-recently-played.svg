@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4fb3ff"/><stop offset="1" stop-color="#14589e"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g)"/>
+<g transform="translate(146 70) scale(2.2)" fill="#fff" color="#fff"><path d="M20 50 A30 30 0 1 0 29 28.8" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><path d="M14 22 L36 18 L32 40 Z"/><path d="M50 32 V52 L64 60" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/></g>
+<text x="256" y="420" text-anchor="middle" fill="#fff" font-family="Noto Sans" font-weight="900" font-size="64" letter-spacing="1">RECENT</text></svg>

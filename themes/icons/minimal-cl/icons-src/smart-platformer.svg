@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb238"/><stop offset="1" stop-color="#c2560c"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g)"/>
+<g transform="translate(146 70) scale(2.2)" fill="#fff" color="#fff"><rect x="8" y="70" width="26" height="24" rx="3"/><rect x="38" y="56" width="26" height="38" rx="3"/><rect x="68" y="42" width="26" height="52" rx="3"/><path d="M18 62 Q30 18 70 22" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" stroke-dasharray="1 9"/><circle cx="80" cy="15.75" r="6.0"/><path d="M69.5 37.5 v-6 a10.5 10.5 0 0 1 21.0 0 v6 z"/></g>
+<text x="256" y="420" text-anchor="middle" fill="#fff" font-family="Noto Sans" font-weight="900" font-size="44" letter-spacing="1">PLATFORMER</text></svg>

@@ -132,7 +132,21 @@
     "xbox360.png",
     "xcloud.png",
     "zx81.png",
-    "zxspectrum.png"
+    "zxspectrum.png",
+    "smart-multiplayer.png",
+    "smart-coop.png",
+    "smart-versus.png",
+    "smart-rpg.png",
+    "smart-platformer.png",
+    "smart-racing.png",
+    "smart-fighting.png",
+    "smart-shooter.png",
+    "smart-puzzle.png",
+    "smart-sports.png",
+    "smart-never-played.png",
+    "smart-recently-played.png",
+    "smart-favorites.png",
+    "smart-most-played.png"
   ],
   "bannerList": [
     "3do.png",

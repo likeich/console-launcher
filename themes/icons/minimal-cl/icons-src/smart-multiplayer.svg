@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4f7dff"/><stop offset="1" stop-color="#1f3fb8"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g)"/>
+<g transform="translate(146 70) scale(2.2)" fill="#fff" color="#fff"><g opacity=".75"><circle cx="24" cy="43.55" r="7.6"/><path d="M10.700000000000001 71.1 v-6 a13.299999999999999 13.299999999999999 0 0 1 26.599999999999998 0 v6 z"/><circle cx="76" cy="43.55" r="7.6"/><path d="M62.7 71.1 v-6 a13.299999999999999 13.299999999999999 0 0 1 26.599999999999998 0 v6 z"/></g><circle cx="50" cy="36.8" r="9.6"/><path d="M33.2 71.6 v-6 a16.8 16.8 0 0 1 33.6 0 v6 z"/></g>
+<text x="256" y="420" text-anchor="middle" fill="#fff" font-family="Noto Sans" font-weight="900" font-size="44" letter-spacing="1">MULTIPLAYER</text></svg>

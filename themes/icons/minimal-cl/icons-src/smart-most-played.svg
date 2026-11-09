@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffcc3d"/><stop offset="1" stop-color="#b8780a"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g)"/>
+<g transform="translate(146 70) scale(2.2)" fill="#fff" color="#fff"><path d="M27 10 H73 V34 C73 52 63 62 50 62 C37 62 27 52 27 34 Z"/><path d="M27 18 H15 C15 34 21 42 31 44 M73 18 H85 C85 34 79 42 69 44" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/><rect x="45" y="60" width="10" height="14"/><rect x="31" y="74" width="38" height="12" rx="3"/></g>
+<text x="256" y="420" text-anchor="middle" fill="#fff" font-family="Noto Sans" font-weight="900" font-size="44" letter-spacing="1">MOST PLAYED</text></svg>

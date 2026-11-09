@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff6fb5"/><stop offset="1" stop-color="#a3166a"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g)"/>
+<g transform="translate(146 70) scale(2.2)" fill="#fff" color="#fff"><path d="M42 20 Q42 56 78 56 Q42 56 42 92 Q42 56 6 56 Q42 56 42 20Z"/><path d="M78 7 Q78 22 93 22 Q78 22 78 37 Q78 22 63 22 Q78 22 78 7Z"/><path d="M80 68 Q80 78 90 78 Q80 78 80 88 Q80 78 70 78 Q80 78 80 68Z"/></g>
+<text x="256" y="420" text-anchor="middle" fill="#fff" font-family="Noto Sans" font-weight="900" font-size="52" letter-spacing="1">UNPLAYED</text></svg>

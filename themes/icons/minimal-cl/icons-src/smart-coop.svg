@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3fc28a"/><stop offset="1" stop-color="#11784d"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g)"/>
+<g transform="translate(146 70) scale(2.2)" fill="#fff" color="#fff"><circle cx="32" cy="43.9" r="8.8"/><path d="M16.599999999999998 75.8 v-6 a15.400000000000002 15.400000000000002 0 0 1 30.800000000000004 0 v6 z"/><circle cx="68" cy="43.9" r="8.8"/><path d="M52.599999999999994 75.8 v-6 a15.400000000000002 15.400000000000002 0 0 1 30.800000000000004 0 v6 z"/><path d="M50 34 C40 27 37 22 37 18 C37 13 41 10 44.5 10 C47 10 49 12 50 14 C51 12 53 10 55.5 10 C59 10 63 13 63 18 C63 22 60 27 50 34Z"/></g>
+<text x="256" y="420" text-anchor="middle" fill="#fff" font-family="Noto Sans" font-weight="900" font-size="64" letter-spacing="1">CO-OP</text></svg>

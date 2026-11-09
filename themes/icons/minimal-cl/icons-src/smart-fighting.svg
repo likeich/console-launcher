@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff7a3d"/><stop offset="1" stop-color="#b02a12"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g)"/>
+<g transform="translate(146 70) scale(2.2)" fill="#fff" color="#fff"><rect x="28.0" y="22" width="11" height="26" rx="5.5"/><rect x="40.5" y="22" width="11" height="26" rx="5.5"/><rect x="53.0" y="22" width="11" height="26" rx="5.5"/><rect x="65.5" y="22" width="11" height="26" rx="5.5"/><rect x="27" y="38" width="50" height="40" rx="11"/><rect x="18" y="44" width="30" height="13" rx="6.5" transform="rotate(-12 33 50)"/><rect x="38" y="76" width="30" height="14" rx="3"/><path d="M6 30 H18 M4 46 H16 M6 62 H18" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></g>
+<text x="256" y="420" text-anchor="middle" fill="#fff" font-family="Noto Sans" font-weight="900" font-size="52" letter-spacing="1">FIGHTING</text></svg>
