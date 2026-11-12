@@ -1,6 +1,8 @@
 name: Sync Platform Data from Daijishou
 
 on:
+  schedule:
+    - cron: '0 6 * * 1'
   workflow_dispatch:
     inputs:
       create_pr:
@@ -38,6 +40,7 @@ jobs:
           cp platforms/.gitignore /tmp/.gitignore.bak 2>/dev/null || true
           cp platforms/README.md /tmp/README.md.bak 2>/dev/null || true
           cp platforms/custom-players.json /tmp/custom-players.json.bak 2>/dev/null || true
+          cp platforms/custom-ids.json /tmp/custom-ids.json.bak 2>/dev/null || true
 
           # Remove existing platforms directory
           rm -rf platforms
@@ -58,48 +61,108 @@ jobs:
           cp /tmp/.gitignore.bak platforms/.gitignore 2>/dev/null || true
           cp /tmp/README.md.bak platforms/README.md 2>/dev/null || true
           cp /tmp/custom-players.json.bak platforms/custom-players.json 2>/dev/null || true
+          cp /tmp/custom-ids.json.bak platforms/custom-ids.json 2>/dev/null || true
 
       - name: Apply custom players
         run: |
           python3 << 'EOF'
           import json
           import os
+          import re
 
-          custom_file = 'platforms/custom-players.json'
-          if not os.path.exists(custom_file):
-              print("No custom-players.json found, skipping.")
-              exit()
+          # Edits are made as text so files keep upstream's formatting and a
+          # file without customizations stays byte-identical to upstream.
+          P = 'platforms/'
+          texts, counts, base_rev = {}, {}, {}
 
-          with open(custom_file) as f:
-              custom = json.load(f)
+          def load(name):
+              if name not in texts:
+                  with open(P + name) as f:
+                      texts[name] = f.read()
+                  counts[name] = 0
+                  base_rev[name] = json.loads(texts[name])['revisionNumber']
+              return texts[name]
 
-          for entry in custom:
-              filepath = f"platforms/{entry['file']}"
-              if not os.path.exists(filepath):
-                  print(f"Warning: {filepath} not found, skipping.")
+          def players(text):
+              """[(player, start, end)] for each object in playerList."""
+              pos = text.index('[', text.index('"playerList"')) + 1
+              out = []
+              while True:
+                  while text[pos] in ' \n\t,':
+                      pos += 1
+                  if text[pos] == ']':
+                      return out
+                  obj, end = json.JSONDecoder().raw_decode(text, pos)
+                  out.append((obj, pos, end))
+                  pos = end
+
+          def component(player):
+              m = re.search(r'-n (\S+)', player['amStartArguments'])
+              return m.group(1) if m else None
+
+          def read_json(name):
+              if not os.path.exists(P + name):
+                  return []
+              with open(P + name) as f:
+                  return json.load(f)
+
+          # Rename duplicated uniqueIds. The player is picked by uniqueId, -n
+          # component and name; the rename applies only while the id is duplicated.
+          for e in read_json('custom-ids.json'):
+              if not os.path.exists(P + e['file']):
+                  print(f"Warning: {e['file']} not found, skipping.")
                   continue
+              text = load(e['file'])
+              items = players(text)
+              same = [i for i in items if i[0]['uniqueId'] == e['uniqueId']]
+              hit = [i for i in same if component(i[0]) == e['component'] and i[0]['name'] == e['name']]
+              if len(same) < 2 or len(hit) != 1:
+                  print(f"Skipping rename of '{e['uniqueId']}' in {e['file']}.")
+                  continue
+              _, start, end = hit[0]
+              old = f'"uniqueId": {json.dumps(e["uniqueId"])}'
+              chunk = text[start:end].replace(old, f'"uniqueId": {json.dumps(e["newUniqueId"])}', 1)
+              texts[e['file']] = text[:start] + chunk + text[end:]
+              counts[e['file']] += 1
+              print(f"Renamed '{e['uniqueId']}' to '{e['newUniqueId']}' in {e['file']}")
 
-              with open(filepath) as f:
-                  data = json.load(f)
-
+          # Inject custom players
+          for entry in read_json('custom-players.json'):
+              if not os.path.exists(P + entry['file']):
+                  print(f"Warning: {entry['file']} not found, skipping.")
+                  continue
+              text = load(entry['file'])
               player = entry['player']
-              insert_after = entry.get('insertAfter')
+              items = players(text)
+              if any(i[0]['uniqueId'] == player['uniqueId'] for i in items):
+                  print(f"'{player['uniqueId']}' already in {entry['file']}, skipping.")
+                  continue
+              after = next((i for i in items if i[0]['uniqueId'] == entry.get('insertAfter')), None)
+              if entry.get('insertAfter') and after is None:
+                  print(f"Warning: insertAfter '{entry['insertAfter']}' not found in {entry['file']}, appending.")
+              end = (after or items[-1])[2]
+              body = json.dumps(player, indent=2, ensure_ascii=False).replace('\n', '\n    ')
+              texts[entry['file']] = text[:end] + ',\n    ' + body + text[end:]
+              counts[entry['file']] += 1
+              print(f"Injected '{player['name']}' into {entry['file']}")
 
-              if insert_after:
-                  idx = next((i for i, p in enumerate(data['playerList']) if p['uniqueId'] == insert_after), None)
-                  if idx is not None:
-                      data['playerList'].insert(idx + 1, player)
-                  else:
-                      print(f"Warning: insertAfter '{insert_after}' not found in {filepath}, appending.")
-                      data['playerList'].append(player)
-              else:
-                  data['playerList'].append(player)
-
-              with open(filepath, 'w') as f:
-                  json.dump(data, f, indent=2)
-                  f.write('\n')
-
-              print(f"Injected '{player['name']}' into {filepath}")
+          # revisionNumber = upstream revision + customizations, so clients refetch
+          # on every customization and a re-sync lands on the same number.
+          with open(P + 'index.json') as f:
+              index = f.read()
+          for name, text in texts.items():
+              rev = base_rev[name] + counts[name]
+              if not counts[name]:
+                  continue
+              text = re.sub(r'("revisionNumber": )\d+', lambda m: m.group(1) + str(rev), text, count=1)
+              with open(P + name, 'w') as f:
+                  f.write(text)
+              pattern = r'("filename": ' + re.escape(json.dumps(name)) + r'[^}]*?"revisionNumber": )\d+'
+              index, n = re.subn(pattern, lambda m: m.group(1) + str(rev), index, count=1)
+              if n != 1:
+                  print(f"Warning: {name} not found in index.json.")
+          with open(P + 'index.json', 'w') as f:
+              f.write(index)
 
           EOF
 
@@ -118,7 +181,7 @@ jobs:
           fi
 
       - name: Create Pull Request
-        if: steps.check_changes.outputs.has_changes == 'true' && inputs.create_pr
+        if: steps.check_changes.outputs.has_changes == 'true' && (github.event_name == 'schedule' || inputs.create_pr)
         uses: peter-evans/create-pull-request@v6
         with:
           commit-message: 'chore: sync platform data from Daijishou'
@@ -143,7 +206,7 @@ jobs:
             automated
 
       - name: Direct Commit
-        if: steps.check_changes.outputs.has_changes == 'true' && !inputs.create_pr
+        if: steps.check_changes.outputs.has_changes == 'true' && github.event_name == 'workflow_dispatch' && !inputs.create_pr
         run: |
           git add platforms/
           git commit -m "chore: sync platform data from Daijishou"
@@ -153,7 +216,7 @@ jobs:
         run: |
           if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
             echo "✅ Platform data synced successfully"
-            if [ "${{ inputs.create_pr }}" == "true" ]; then
+            if [ "${{ github.event_name == 'schedule' || inputs.create_pr }}" == "true" ]; then
               echo "📝 Pull request created for review"
             else
               echo "💾 Changes committed directly to main"
