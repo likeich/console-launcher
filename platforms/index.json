@@ -37,6 +37,20 @@
       "revisionNumber": 9
     },
     {
+      "filename": "ArcadeNamco246256.json",
+      "platformName": "Arcade (Namco 246/256)",
+      "platformShortname": "namcops2",
+      "platformUniqueId": "namcops2",
+      "revisionNumber": 1
+    },
+    {
+      "filename": "ArcadeTriforce.json",
+      "platformName": "Arcade (Triforce)",
+      "platformShortname": "triforce",
+      "platformUniqueId": "triforce",
+      "revisionNumber": 4
+    },
+    {
       "filename": "Arcadia2001.json",
       "platformName": "Arcadia 2001",
       "platformShortname": "arcadia",
@@ -55,7 +69,7 @@
       "platformName": "Atari 2600",
       "platformShortname": "atari2600",
       "platformUniqueId": "atari2600",
-      "revisionNumber": 11
+      "revisionNumber": 13
     },
     {
       "filename": "Atari5200.json",
@@ -69,7 +83,7 @@
       "platformName": "Atari 7800",
       "platformShortname": "atari7800",
       "platformUniqueId": "atari7800",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "AtariJaguar.json",
@@ -90,14 +104,14 @@
       "platformName": "Atari Lynx",
       "platformShortname": "lynx",
       "platformUniqueId": "lynx",
-      "revisionNumber": 12
+      "revisionNumber": 14
     },
     {
       "filename": "AtariST.json",
       "platformName": "Atari ST",
       "platformShortname": "atarist",
       "platformUniqueId": "atarist",
-      "revisionNumber": 9
+      "revisionNumber": 10
     },
     {
       "filename": "Atomiswave.json",
@@ -202,14 +216,14 @@
       "platformName": "DOOM Game Engine",
       "platformShortname": "doom",
       "platformUniqueId": "doom",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "DOS.json",
       "platformName": "DOS",
       "platformShortname": "dos",
       "platformUniqueId": "dos",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "ElektorTVGamesComputer.json",
@@ -314,7 +328,7 @@
       "platformName": "Microsoft - Xbox 360",
       "platformShortname": "xbox360",
       "platformUniqueId": "xbox360",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "Moonlight.json",
@@ -363,14 +377,14 @@
       "platformName": "NeoGeo Pocket",
       "platformShortname": "ngp",
       "platformUniqueId": "ngp",
-      "revisionNumber": 11
+      "revisionNumber": 12
     },
     {
       "filename": "NeoGeoPocketColor.json",
       "platformName": "NeoGeo Pocket Color",
       "platformShortname": "ngpc",
       "platformUniqueId": "ngpc",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "Ngage.json",
@@ -384,35 +398,35 @@
       "platformName": "Nintendo 3DS",
       "platformShortname": "3ds",
       "platformUniqueId": "3ds",
-      "revisionNumber": 21
+      "revisionNumber": 23
     },
     {
       "filename": "Nintendo64.json",
       "platformName": "Nintendo 64",
       "platformShortname": "n64",
       "platformUniqueId": "n64",
-      "revisionNumber": 16
+      "revisionNumber": 18
     },
     {
       "filename": "NintendoDS.json",
       "platformName": "Nintendo DS",
       "platformShortname": "nds",
       "platformUniqueId": "nds",
-      "revisionNumber": 15
+      "revisionNumber": 20
     },
     {
       "filename": "NintendoDSi.json",
       "platformName": "Nintendo DSi",
       "platformShortname": "ndsi",
       "platformUniqueId": "ndsi",
-      "revisionNumber": 14
+      "revisionNumber": 16
     },
     {
       "filename": "NintendoEntertainmentSystem.json",
       "platformName": "Nintendo Entertainment System",
       "platformShortname": "nes",
       "platformUniqueId": "nes",
-      "revisionNumber": 12
+      "revisionNumber": 13
     },
     {
       "filename": "NintendoGame&Watch.json",
@@ -426,28 +440,49 @@
       "platformName": "Nintendo - Game Boy",
       "platformShortname": "gb",
       "platformUniqueId": "gb",
-      "revisionNumber": 21
+      "revisionNumber": 22
     },
     {
       "filename": "NintendoGameBoyAdvance.json",
       "platformName": "Nintendo - Game Boy Advance",
       "platformShortname": "gba",
       "platformUniqueId": "gba",
-      "revisionNumber": 19
+      "revisionNumber": 20
     },
     {
       "filename": "NintendoGameBoyColor.json",
       "platformName": "Nintendo - Game Boy Color",
       "platformShortname": "gbc",
       "platformUniqueId": "gbc",
-      "revisionNumber": 20
+      "revisionNumber": 21
     },
     {
       "filename": "NintendoGameCube.json",
       "platformName": "Nintendo - GameCube",
       "platformShortname": "gc",
       "platformUniqueId": "gc",
-      "revisionNumber": 19
+      "revisionNumber": 20
+    },
+    {
+      "filename": "NintendoPokemonMini.json",
+      "platformName": "Nintendo - Pokemon Mini",
+      "platformShortname": "pokemini",
+      "platformUniqueId": "pokemini",
+      "revisionNumber": 7
+    },
+    {
+      "filename": "NintendoSNES.json",
+      "platformName": "Nintendo - SNES",
+      "platformShortname": "snes",
+      "platformUniqueId": "snes",
+      "revisionNumber": 15
+    },
+    {
+      "filename": "NintendoSNESMSU1.json",
+      "platformName": "Nintendo - SNES MSU-1",
+      "platformShortname": "snesmsu1",
+      "platformUniqueId": "snesmsu1",
+      "revisionNumber": 8
     },
     {
       "filename": "NintendoSatellaview.json",
@@ -461,21 +496,28 @@
       "platformName": "Nintendo Switch",
       "platformShortname": "switch",
       "platformUniqueId": "switch",
-      "revisionNumber": 22
+      "revisionNumber": 26
+    },
+    {
+      "filename": "NintendoVirtualBoy.json",
+      "platformName": "Nintendo - Virtual Boy",
+      "platformShortname": "virtualboy",
+      "platformUniqueId": "virtualboy",
+      "revisionNumber": 8
     },
     {
       "filename": "NintendoWii.json",
       "platformName": "Nintendo Wii",
       "platformShortname": "wii",
       "platformUniqueId": "wii",
-      "revisionNumber": 17
+      "revisionNumber": 18
     },
     {
       "filename": "NintendoWiiU.json",
       "platformName": "Nintendo Wii U",
       "platformShortname": "wiiu",
       "platformUniqueId": "wiiu",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "NintendoWiiWare.json",
@@ -511,13 +553,6 @@
       "platformShortname": "g7400",
       "platformUniqueId": "g7400",
       "revisionNumber": 5
-    },
-    {
-      "filename": "PokemonMini.json",
-      "platformName": "Pokemon Mini",
-      "platformShortname": "pokemini",
-      "platformUniqueId": "pokemini",
-      "revisionNumber": 6
     },
     {
       "filename": "Ports.json",
@@ -566,28 +601,28 @@
       "platformName": "Sega CD",
       "platformShortname": "segacd",
       "platformUniqueId": "segacd",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "SegaDreamcast.json",
       "platformName": "Sega Dreamcast",
       "platformShortname": "dreamcast",
       "platformUniqueId": "dreamcast",
-      "revisionNumber": 11
+      "revisionNumber": 12
     },
     {
       "filename": "SegaGameGear.json",
       "platformName": "Sega Game Gear",
       "platformShortname": "gamegear",
       "platformUniqueId": "gamegear",
-      "revisionNumber": 16
+      "revisionNumber": 17
     },
     {
       "filename": "SegaGenesis.json",
       "platformName": "Sega Genesis",
       "platformShortname": "genesis",
       "platformUniqueId": "genesis",
-      "revisionNumber": 15
+      "revisionNumber": 16
     },
     {
       "filename": "SegaGenesisMSU.json",
@@ -601,7 +636,7 @@
       "platformName": "Sega Master System",
       "platformShortname": "master",
       "platformUniqueId": "master",
-      "revisionNumber": 15
+      "revisionNumber": 16
     },
     {
       "filename": "SegaModel3.json",
@@ -664,7 +699,7 @@
       "platformName": "Sony PSP",
       "platformShortname": "psp",
       "platformUniqueId": "psp",
-      "revisionNumber": 15
+      "revisionNumber": 17
     },
     {
       "filename": "SonyPSPMinis.json",
@@ -685,14 +720,14 @@
       "platformName": "Sony PlayStation",
       "platformShortname": "psx",
       "platformUniqueId": "psx",
-      "revisionNumber": 14
+      "revisionNumber": 16
     },
     {
       "filename": "SonyPlayStation2.json",
       "platformName": "Sony PlayStation 2",
       "platformShortname": "ps2",
       "platformUniqueId": "ps2",
-      "revisionNumber": 20
+      "revisionNumber": 21
     },
     {
       "filename": "SonyPlayStation3.json",
@@ -716,20 +751,6 @@
       "revisionNumber": 6
     },
     {
-      "filename": "SuperNintendoEntertainmentSystem.json",
-      "platformName": "Super Nintendo Entertainment System",
-      "platformShortname": "snes",
-      "platformUniqueId": "snes",
-      "revisionNumber": 13
-    },
-    {
-      "filename": "SuperNintendoEntertainmentSystemMSU1.json",
-      "platformName": "Super Nintendo Entertainment System - MSU-1",
-      "platformShortname": "snesmsu1",
-      "platformUniqueId": "snesmsu1",
-      "revisionNumber": 6
-    },
-    {
       "filename": "TIC80.json",
       "platformName": "TIC-80",
       "platformShortname": "tic80",
@@ -737,25 +758,18 @@
       "revisionNumber": 3
     },
     {
-      "filename": "Triforce.json",
-      "platformName": "Triforce",
-      "platformShortname": "triforce",
-      "platformUniqueId": "triforce",
-      "revisionNumber": 3
-    },
-    {
       "filename": "TurboGrafx16.json",
       "platformName": "TurboGrafx-16",
       "platformShortname": "tg16",
       "platformUniqueId": "tg16",
-      "revisionNumber": 11
+      "revisionNumber": 12
     },
     {
       "filename": "TurboGrafxCD.json",
       "platformName": "TurboGrafx-CD",
       "platformShortname": "tgcd",
       "platformUniqueId": "tgcd",
-      "revisionNumber": 11
+      "revisionNumber": 12
     },
     {
       "filename": "Uzebox.json",
@@ -786,13 +800,6 @@
       "revisionNumber": 9
     },
     {
-      "filename": "VirtualBoy.json",
-      "platformName": "Virtual Boy",
-      "platformShortname": "virtualboy",
-      "platformUniqueId": "virtualboy",
-      "revisionNumber": 7
-    },
-    {
       "filename": "WASM4.json",
       "platformName": "WASM-4",
       "platformShortname": "wasm4",
@@ -818,14 +825,14 @@
       "platformName": "WonderSwan",
       "platformShortname": "ws",
       "platformUniqueId": "ws",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "WonderSwanColor.json",
       "platformName": "WonderSwan Color",
       "platformShortname": "wsc",
       "platformUniqueId": "wsc",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "XboxGamePass.json",
