@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 20,
+  "revisionNumber": 23,
   "platform": {
     "name": "Nintendo - Game Boy Advance",
     "uniqueId": "gba",
@@ -332,6 +332,36 @@
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO skyemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gba - GBADuo",
+      "uniqueId": "gba.com.khumam.gbaduo",
+      "description": "Supported extensions: gba, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip)$",
+      "amStartArguments": "-n com.khumam.gbaduo/com.khumam.gbaduo.library.LaunchActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "gba - PokeDaisy",
+      "uniqueId": "gba.com.pokedaisy.app",
+      "description": "Supported extensions: gba, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
+      "amStartArguments": "-n com.pokedaisy.app/com.pokedaisy.app.LaunchActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "gba - GBA DS",
+      "uniqueId": "gba.io.github.kyannon.gbads",
+      "description": "Supported extensions: gba, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
+      "amStartArguments": "-n io.github.kyannon.gbads/io.github.kyannon.gbads.LauncherActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task\n --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
       "extra": ""
     },
     {

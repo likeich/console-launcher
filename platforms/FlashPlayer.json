@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 2,
+  "revisionNumber": 3,
   "platform": {
     "name": "Flash Player",
     "uniqueId": "flash",
@@ -54,6 +54,16 @@
       "description": "Supported extensions: swf",
       "acceptedFilenameRegex": "^(.*)\\.(?:swf)$",
       "amStartArguments": " -n com.issess.flashplayerpro/com.issess.flashplayer.player.FlashPlayerActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task  --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "flash - Ruffle (Old)",
+      "uniqueId": "flash.org.ruffle.android",
+      "description": "Supported extensions: ruf, RUF, swf, SWF.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ruf|RUF|swf|SWF)$",
+      "amStartArguments": "-n org.ruffle.android/org.ruffle.android.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""

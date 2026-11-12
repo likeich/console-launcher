@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 12,
+  "revisionNumber": 13,
   "platform": {
     "name": "Sega Naomi",
     "uniqueId": "naomi",
@@ -37,7 +37,7 @@
     },
     {
       "name": "naomi - com.flycast.emulator (dev build)",
-      "uniqueId": "naomi.com.flycast.emulator",
+      "uniqueId": "naomi.com.flycast.emulator.dev",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
       "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n -a android.intent.action.VIEW\n -d {file.path}",

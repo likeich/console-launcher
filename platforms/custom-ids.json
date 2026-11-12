@@ -1,0 +1,44 @@
+[
+  {
+    "file": "Atomiswave.json",
+    "uniqueId": "atomiswave.com.flycast.emulator",
+    "component": "com.flycast.emulator/com.flycast.emulator.MainActivity",
+    "name": "atomiswave - com.flycast.emulator (dev build)",
+    "newUniqueId": "atomiswave.com.flycast.emulator.dev"
+  },
+  {
+    "file": "Nintendo3DS.json",
+    "uniqueId": "3ds.com.antutu.ABenchMark",
+    "component": "com.antutu.ABenchMark/org.citra.emu.ui.EmulationActivity",
+    "name": "3ds - org.citra.emu - storage access antutu",
+    "newUniqueId": "3ds.com.antutu.ABenchMark.storage"
+  },
+  {
+    "file": "Nintendo3DS.json",
+    "uniqueId": "3ds.org.citra.citra_emu",
+    "component": "org.citra.citra_emu/org.citra.citra_emu.ui.EmulationActivity",
+    "name": "3ds - org.citra.citra_emu",
+    "newUniqueId": "3ds.org.citra.citra_emu.path"
+  },
+  {
+    "file": "SegaDreamcast.json",
+    "uniqueId": "dreamcast.com.flycast.emulator",
+    "component": "com.flycast.emulator/com.flycast.emulator.MainActivity",
+    "name": "dreamcast - Flycast (dev build)",
+    "newUniqueId": "dreamcast.com.flycast.emulator.dev"
+  },
+  {
+    "file": "SegaNAOMI.json",
+    "uniqueId": "naomi.com.flycast.emulator",
+    "component": "com.flycast.emulator/com.flycast.emulator.MainActivity",
+    "name": "naomi - com.flycast.emulator (dev build)",
+    "newUniqueId": "naomi.com.flycast.emulator.dev"
+  },
+  {
+    "file": "SonyPlayStation.json",
+    "uniqueId": "psx.com.github.stenzek.duckstation",
+    "component": "com.github.stenzek.duckstation/.EmulationActivity",
+    "name": "psx - Duckstation (Legacy)",
+    "newUniqueId": "psx.com.github.stenzek.duckstation.legacy"
+  }
+]

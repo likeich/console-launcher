@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 13,
   "platform": {
     "name": "Steam",
     "uniqueId": "steam",
@@ -87,6 +87,56 @@
       "description": "GameNative",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
       "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.steamappid}\n --es game_source STEAM",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "steam - DroidDeck",
+      "uniqueId": "steam.com.droiddeck.launcher",
+      "description": "DroidDeck",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a com.droiddeck.launcher.LAUNCH_GAME\n -n com.droiddeck.launcher/.FrontEndActivity\n --ei app_id {tags.steamappid}\n --es game_source STEAM",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "steam - DroidDeck (Antutu)",
+      "uniqueId": "steam.com.droiddeck.launcher.antutu",
+      "description": "DroidDeck",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a com.droiddeck.launcher.LAUNCH_GAME\n -n com.antutu.benchmark.full/com.droiddeck.launcher.FrontEndActivity\n --ei app_id {tags.steamappid}\n --es game_source STEAM",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "steam - DroidDeck (PUBG)",
+      "uniqueId": "steam.com.droiddeck.launcher.pubg",
+      "description": "DroidDeck",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a com.droiddeck.launcher.LAUNCH_GAME\n -n com.tencent.ig/com.droiddeck.launcher.FrontEndActivity\n --ei app_id {tags.steamappid}\n --es game_source STEAM",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "steam - DroidDeck (Ludashi)",
+      "uniqueId": "steam.com.droiddeck.launcher.ludashi",
+      "description": "DroidDeck",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a com.droiddeck.launcher.LAUNCH_GAME\n -n com.ludashi.benchmark/com.droiddeck.launcher.FrontEndActivity\n --ei app_id {tags.steamappid}\n --es game_source STEAM",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "steam - GameHub Lite RC",
+      "uniqueId": "steam.gamehub.lite.rc",
+      "description": "GameHub Lite RC",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a emuready.gamehub.lite.LAUNCH_GAME\n -n emuready.gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es steamAppId {tags.steamappid}\n --ez autoStartGame true",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""

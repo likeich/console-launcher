@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 26,
+  "revisionNumber": 28,
   "platform": {
     "name": "Nintendo Switch",
     "uniqueId": "switch",
@@ -207,6 +207,26 @@
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
       "amStartArguments": "-n org.benjisc.android/org.kenjinx.android.MainActivity\n -a org.kenjinx.android.LAUNCH_GAME\n -e bootPath {file.uri}\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "switch - Eden Nightly (Optimized)",
+      "uniqueId": "switch.com.miHoYo.Yuanshen.nightly",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "amStartArguments": "-n com.miHoYo.Yuanshen.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity\n -a android.nfc.action.TECH_DISCOVERED\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "switch - Eden Nightly (Legacy)",
+      "uniqueId": "switch.dev.legacy.eden_emulator.nightly",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "amStartArguments": "-n dev.legacy.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity\n -a android.nfc.action.TECH_DISCOVERED\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""

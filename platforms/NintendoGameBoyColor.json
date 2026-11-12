@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 21,
+  "revisionNumber": 23,
   "platform": {
     "name": "Nintendo - Game Boy Color",
     "uniqueId": "gbc",
@@ -332,6 +332,26 @@
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mgba\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gbc - GBADuo",
+      "uniqueId": "gbc.com.khumam.gbaduo",
+      "description": "Supported extensions: gb, gbc, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip)$",
+      "amStartArguments": "-n com.khumam.gbaduo/com.khumam.gbaduo.library.LaunchActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "gbc - PokeDaisy",
+      "uniqueId": "gbc.com.pokedaisy.app",
+      "description": "Supported extensions: gb, gbc, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
+      "amStartArguments": "-n com.pokedaisy.app/com.pokedaisy.app.LaunchActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
       "extra": ""
     },
     {

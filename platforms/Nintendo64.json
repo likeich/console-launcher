@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 18,
+  "revisionNumber": 19,
   "platform": {
     "name": "Nintendo 64",
     "uniqueId": "n64",
@@ -172,6 +172,16 @@
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO parallel_n64\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "n64 - Mupen64Plus (Joey's Fork)",
+      "uniqueId": "n64.org.mupen64plusae.v3.alpha.debug",
+      "description": "Supported extensions: bin, n64, ndd, u1, v64, z64, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64|zip|7z)$",
+      "amStartArguments": "-n org.mupen64plusae.v3.alpha.debug/paulscode.android.mupen64plusae.SplashActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
       "extra": ""
     },
     {

@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 12,
+  "revisionNumber": 13,
   "platform": {
     "name": "Sega Dreamcast",
     "uniqueId": "dreamcast",
@@ -54,7 +54,7 @@
     },
     {
       "name": "dreamcast - Flycast (dev build)",
-      "uniqueId": "dreamcast.com.flycast.emulator",
+      "uniqueId": "dreamcast.com.flycast.emulator.dev",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
       "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n -a android.intent.action.VIEW\n -d {file.path}",

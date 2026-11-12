@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 12,
+  "revisionNumber": 13,
   "platform": {
     "name": "PICO-8",
     "uniqueId": "pico8",
@@ -108,6 +108,16 @@
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO retro8\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pico8 - Pixl8",
+      "uniqueId": "pico8.be.codedreams.pixl8",
+      "description": "Supported extensions: p8, png.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
+      "amStartArguments": "-n be.codedreams.pixl8/be.codedreams.pixl8.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
       "extra": ""
     }
   ]

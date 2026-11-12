@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 20,
+  "revisionNumber": 24,
   "platform": {
     "name": "Nintendo DS",
     "uniqueId": "nds",
@@ -303,6 +303,36 @@
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO skyemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "nds - KH Melon Mix",
+      "uniqueId": "nds.com.nireves333.melonmix",
+      "description": "Supported extensions: nds, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.nireves333.melonmix/me.magnum.melonds.ui.emulator.EmulatorActivity\n -a com.nireves333.melonmix.LAUNCH_ROM\n -e uri {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "nds - WatermelonDS Emufii",
+      "uniqueId": "nds.me.magnum.melondualds.emufii",
+      "description": "Supported extensions: nds, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n me.magnum.melondualds.emufii/me.magnum.melonds.ui.emulator.EmulatorActivity\n -a me.magnum.melondualds.emufii.LAUNCH_ROM\n -e uri {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "nds - PokeDaisy",
+      "uniqueId": "nds.com.pokedaisy.app",
+      "description": "Supported extensions: nds, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.pokedaisy.app/com.pokedaisy.app.LaunchActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
       "extra": ""
     },
     {

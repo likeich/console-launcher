@@ -26,5 +26,355 @@
       "killPackageProcessesWarning": false,
       "extra": ""
     }
+  },
+  {
+    "file": "FlashPlayer.json",
+    "insertAfter": "flash.com.issess.flashplayerpro",
+    "player": {
+      "name": "flash - Ruffle (Old)",
+      "uniqueId": "flash.org.ruffle.android",
+      "description": "Supported extensions: ruf, RUF, swf, SWF.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ruf|RUF|swf|SWF)$",
+      "amStartArguments": "-n org.ruffle.android/org.ruffle.android.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "MicrosoftXbox360.json",
+    "insertAfter": "xbox360.ali.Xanite.green",
+    "player": {
+      "name": "xbox360 - Xendroid+",
+      "uniqueId": "xbox360.xendroid.compose.fork",
+      "description": "Supported extensions: iso, zar.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|zar)$",
+      "amStartArguments": "-n xendroid.compose.fork/xendroid.compose.EmulatorHostActivity\n -a android.intent.action.VIEW\n -e game_uri {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Nintendo3DS.json",
+    "insertAfter": "3ds.ra.azahar",
+    "player": {
+      "name": "3ds - Azahar (Debug)",
+      "uniqueId": "3ds.org.azahar_emu.azahar.debug",
+      "description": "Supported extensions: 3ds, app, cci, cxi, zcci, zcxi, cia, 3dsx.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|app|cci|cxi|zcci|zcxi|cia|3dsx)$",
+      "amStartArguments": "-n org.azahar_emu.azahar.debug/org.citra.citra_emu.activities.EmulationActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task\n --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Nintendo3DS.json",
+    "insertAfter": "3ds.org.azahar_emu.azahar.debug",
+    "player": {
+      "name": "3ds - Mandarine Neo",
+      "uniqueId": "3ds.io.github.ptyfyre.mandarine.neo",
+      "description": "Supported extensions: 3ds, 3dsx, cci, cxi, m3u.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|cci|cxi|m3u)$",
+      "amStartArguments": "-n io.github.ptyfyre.mandarine.neo/io.github.ptyfyre.mandarine.neo.activities.EmulationActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task\n --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Nintendo64.json",
+    "insertAfter": "n64.ra.parallel_n64",
+    "player": {
+      "name": "n64 - Mupen64Plus (Joey's Fork)",
+      "uniqueId": "n64.org.mupen64plusae.v3.alpha.debug",
+      "description": "Supported extensions: bin, n64, ndd, u1, v64, z64, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64|zip|7z)$",
+      "amStartArguments": "-n org.mupen64plusae.v3.alpha.debug/paulscode.android.mupen64plusae.SplashActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoDS.json",
+    "insertAfter": "nds.ra.skyemu",
+    "player": {
+      "name": "nds - KH Melon Mix",
+      "uniqueId": "nds.com.nireves333.melonmix",
+      "description": "Supported extensions: nds, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.nireves333.melonmix/me.magnum.melonds.ui.emulator.EmulatorActivity\n -a com.nireves333.melonmix.LAUNCH_ROM\n -e uri {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoDS.json",
+    "insertAfter": "nds.com.nireves333.melonmix",
+    "player": {
+      "name": "nds - WatermelonDS Emufii",
+      "uniqueId": "nds.me.magnum.melondualds.emufii",
+      "description": "Supported extensions: nds, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n me.magnum.melondualds.emufii/me.magnum.melonds.ui.emulator.EmulatorActivity\n -a me.magnum.melondualds.emufii.LAUNCH_ROM\n -e uri {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoDS.json",
+    "insertAfter": "nds.me.magnum.melondualds.emufii",
+    "player": {
+      "name": "nds - PokeDaisy",
+      "uniqueId": "nds.com.pokedaisy.app",
+      "description": "Supported extensions: nds, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.pokedaisy.app/com.pokedaisy.app.LaunchActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoGameBoy.json",
+    "insertAfter": "gb.ra.skyemu",
+    "player": {
+      "name": "gb - GBADuo",
+      "uniqueId": "gb.com.khumam.gbaduo",
+      "description": "Supported extensions: gb, gbc, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip)$",
+      "amStartArguments": "-n com.khumam.gbaduo/com.khumam.gbaduo.library.LaunchActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoGameBoy.json",
+    "insertAfter": "gb.com.khumam.gbaduo",
+    "player": {
+      "name": "gb - PokeDaisy",
+      "uniqueId": "gb.com.pokedaisy.app",
+      "description": "Supported extensions: gb, gbc, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
+      "amStartArguments": "-n com.pokedaisy.app/com.pokedaisy.app.LaunchActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoGameBoyAdvance.json",
+    "insertAfter": "gba.ra.skyemu",
+    "player": {
+      "name": "gba - GBADuo",
+      "uniqueId": "gba.com.khumam.gbaduo",
+      "description": "Supported extensions: gba, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip)$",
+      "amStartArguments": "-n com.khumam.gbaduo/com.khumam.gbaduo.library.LaunchActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoGameBoyAdvance.json",
+    "insertAfter": "gba.com.khumam.gbaduo",
+    "player": {
+      "name": "gba - PokeDaisy",
+      "uniqueId": "gba.com.pokedaisy.app",
+      "description": "Supported extensions: gba, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
+      "amStartArguments": "-n com.pokedaisy.app/com.pokedaisy.app.LaunchActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoGameBoyAdvance.json",
+    "insertAfter": "gba.com.pokedaisy.app",
+    "player": {
+      "name": "gba - GBA DS",
+      "uniqueId": "gba.io.github.kyannon.gbads",
+      "description": "Supported extensions: gba, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
+      "amStartArguments": "-n io.github.kyannon.gbads/io.github.kyannon.gbads.LauncherActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task\n --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoGameBoyColor.json",
+    "insertAfter": "gbc.ra.mgba",
+    "player": {
+      "name": "gbc - GBADuo",
+      "uniqueId": "gbc.com.khumam.gbaduo",
+      "description": "Supported extensions: gb, gbc, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip)$",
+      "amStartArguments": "-n com.khumam.gbaduo/com.khumam.gbaduo.library.LaunchActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoGameBoyColor.json",
+    "insertAfter": "gbc.com.khumam.gbaduo",
+    "player": {
+      "name": "gbc - PokeDaisy",
+      "uniqueId": "gbc.com.pokedaisy.app",
+      "description": "Supported extensions: gb, gbc, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
+      "amStartArguments": "-n com.pokedaisy.app/com.pokedaisy.app.LaunchActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoSwitch.json",
+    "insertAfter": "switch.org.benjisc.android",
+    "player": {
+      "name": "switch - Eden Nightly (Optimized)",
+      "uniqueId": "switch.com.miHoYo.Yuanshen.nightly",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "amStartArguments": "-n com.miHoYo.Yuanshen.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity\n -a android.nfc.action.TECH_DISCOVERED\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoSwitch.json",
+    "insertAfter": "switch.com.miHoYo.Yuanshen.nightly",
+    "player": {
+      "name": "switch - Eden Nightly (Legacy)",
+      "uniqueId": "switch.dev.legacy.eden_emulator.nightly",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "amStartArguments": "-n dev.legacy.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity\n -a android.nfc.action.TECH_DISCOVERED\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "PICO8.json",
+    "insertAfter": "pico8.ra.retro8",
+    "player": {
+      "name": "pico8 - Pixl8",
+      "uniqueId": "pico8.be.codedreams.pixl8",
+      "description": "Supported extensions: p8, png.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
+      "amStartArguments": "-n be.codedreams.pixl8/be.codedreams.pixl8.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "SonyPSPMinis.json",
+    "insertAfter": "pspminis.ra.ppsspp",
+    "player": {
+      "name": "pspminis - PPSSPP Duo",
+      "uniqueId": "pspminis.org.ppsspp.ppssppduo",
+      "description": "Supported extensions: cso, chd, elf, iso, pbp, prx.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
+      "amStartArguments": "-n org.ppsspp.ppssppduo/org.ppsspp.ppsspp.PpssppActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "SonyPlayStation2.json",
+    "insertAfter": "ps2.ra.lrps2",
+    "player": {
+      "name": "ps2 - ARMSX2 (Nightly)",
+      "uniqueId": "ps2.com.armsx2.nightly",
+      "description": "Supported extensions: iso, chd, gz, mdf, bin, ciso, img, cso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|chd|gz|mdf|bin|ciso|img|cso)$",
+      "amStartArguments": "-n com.armsx2.nightly/com.armsx2.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task\n --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Steam.json",
+    "insertAfter": "steam.app.gamenative",
+    "player": {
+      "name": "steam - DroidDeck",
+      "uniqueId": "steam.com.droiddeck.launcher",
+      "description": "DroidDeck",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a com.droiddeck.launcher.LAUNCH_GAME\n -n com.droiddeck.launcher/.FrontEndActivity\n --ei app_id {tags.steamappid}\n --es game_source STEAM",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Steam.json",
+    "insertAfter": "steam.com.droiddeck.launcher",
+    "player": {
+      "name": "steam - DroidDeck (Antutu)",
+      "uniqueId": "steam.com.droiddeck.launcher.antutu",
+      "description": "DroidDeck",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a com.droiddeck.launcher.LAUNCH_GAME\n -n com.antutu.benchmark.full/com.droiddeck.launcher.FrontEndActivity\n --ei app_id {tags.steamappid}\n --es game_source STEAM",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Steam.json",
+    "insertAfter": "steam.com.droiddeck.launcher.antutu",
+    "player": {
+      "name": "steam - DroidDeck (PUBG)",
+      "uniqueId": "steam.com.droiddeck.launcher.pubg",
+      "description": "DroidDeck",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a com.droiddeck.launcher.LAUNCH_GAME\n -n com.tencent.ig/com.droiddeck.launcher.FrontEndActivity\n --ei app_id {tags.steamappid}\n --es game_source STEAM",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Steam.json",
+    "insertAfter": "steam.com.droiddeck.launcher.pubg",
+    "player": {
+      "name": "steam - DroidDeck (Ludashi)",
+      "uniqueId": "steam.com.droiddeck.launcher.ludashi",
+      "description": "DroidDeck",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a com.droiddeck.launcher.LAUNCH_GAME\n -n com.ludashi.benchmark/com.droiddeck.launcher.FrontEndActivity\n --ei app_id {tags.steamappid}\n --es game_source STEAM",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Steam.json",
+    "insertAfter": "steam.com.droiddeck.launcher.ludashi",
+    "player": {
+      "name": "steam - GameHub Lite RC",
+      "uniqueId": "steam.gamehub.lite.rc",
+      "description": "GameHub Lite RC",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a emuready.gamehub.lite.LAUNCH_GAME\n -n emuready.gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es steamAppId {tags.steamappid}\n --ez autoStartGame true",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
   }
 ]

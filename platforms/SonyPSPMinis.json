@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "Sony PSP Minis",
     "uniqueId": "pspminis",
@@ -88,6 +88,16 @@
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO ppsspp\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pspminis - PPSSPP Duo",
+      "uniqueId": "pspminis.org.ppsspp.ppssppduo",
+      "description": "Supported extensions: cso, chd, elf, iso, pbp, prx.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
+      "amStartArguments": "-n org.ppsspp.ppssppduo/org.ppsspp.ppsspp.PpssppActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
       "extra": ""
     }
   ]
