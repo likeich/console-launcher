@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 16,
+  "revisionNumber": 18,
   "platform": {
     "name": "Nintendo 64",
     "uniqueId": "n64",
@@ -60,6 +60,26 @@
       "description": "Supported extensions: bin, n64, ndd, u1, v64, z64.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64)$",
       "amStartArguments": "-n paulscode.android.mupen64plusae/.MainActivity\n -a android.intent.action.VIEW\n -d {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "n64 - Mupen64 Plus AE Turnip",
+      "uniqueId": "n64.org.mupen64plusae.turnip.pwnedbygary",
+      "description": "Supported extensions: bin, n64, ndd, u1, v64, z64.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64)$",
+      "amStartArguments": "-n org.mupen64plusae.turnip.pwnedbygary/paulscode.android.mupen64plusae.SplashActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "n64 - gopher64",
+      "uniqueId": "n64.io.github.gopher64.gopher64",
+      "description": "Supported extensions: bin, n64, ndd, u1, v64, z64.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:n64|v64|z64|zip|7z)$",
+      "amStartArguments": "-n io.github.gopher64.gopher64/.SlintActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -151,6 +171,16 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO parallel_n64\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "n64 - Omnidroid",
+      "uniqueId": "n64.com.omnidroid",
+      "description": "Supported extensions: z64, n64, v64, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:z64|n64|v64|zip|7z)$",
+      "amStartArguments": "-n com.omnidroid/com.omnidroid.app.shared.game.ExternalGameLauncherActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --es SYSTEM n64",
+      "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
     }
