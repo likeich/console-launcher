@@ -128,14 +128,14 @@
     "package_name": "app.gamenative",
     "display_name": "GameNative (Windows/Steam)",
     "publisher": "utkarshdalal",
-    "latest_version_name": "1.2.1",
-    "published_at": "2026-09-13T13:36:34Z",
+    "latest_version_name": "1.4.0",
+    "published_at": "2026-11-05T13:59:50Z",
     "sources": [
       {
         "type": "github_release",
         "repo": "utkarshdalal/GameNative",
         "asset_regex": "(?i)gamenative.*\\.apk",
-        "download_url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.2.1/gamenative-v1.2.1-legacy-xr.apk",
+        "download_url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.4.0/gamenative-v1.4.0-legacy-xr.apk",
         "abi": "arm64-v8a"
       }
     ]
@@ -441,16 +441,7 @@
     "package_name": "org.citron.citron_emu",
     "display_name": "Citron (Nintendo Switch)",
     "publisher": "citron-neo",
-    "latest_version_name": "2026-04-27",
-    "published_at": "2026-04-27T13:57:23Z",
-    "sources": [
-      {
-        "type": "github_release",
-        "repo": "citron-neo/emulator",
-        "asset_regex": "(?i)app-mainline.*\\.apk",
-        "download_url": "https://github.com/citron-neo/emulator/releases/download/2026-04-27/app-mainline-release.apk"
-      }
-    ]
+    "sources": []
   },
   {
     "id": "eka2l1",
