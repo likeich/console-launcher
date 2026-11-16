@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 15,
+  "revisionNumber": 16,
   "platform": {
     "name": "Nintendo - SNES",
     "uniqueId": "snes",
@@ -38,7 +38,7 @@
       "name": "snes - SuperZSNES",
       "uniqueId": "snes.com.zsnes.superzsnes",
       "description": "Supported extensions: bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:bml|bs|bsx|dx2|fig|gb|gbc|gd3|gd7|rom|sfc|smc|st|swc)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bml|bs|bsx|dx2|fig|gb|gbc|gd3|gd7|rom|sfc|smc|st|swc|7z|zip)$",
       "amStartArguments": "-n com.zsnes.superzsnes/com.unity3d.player.UnityPlayerActivity\n-d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,

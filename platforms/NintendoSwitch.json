@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 28,
+  "revisionNumber": 29,
   "platform": {
     "name": "Nintendo Switch",
     "uniqueId": "switch",
@@ -115,7 +115,7 @@
       "name": "switch - lemon",
       "uniqueId": "switch.dev.lemon.lemon_emulator",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp|nsz)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp|nsz|xcz)$",
       "amStartArguments": "-n dev.lemon.lemon_emulator/dev.lemon.lemon_emu.activities.EmulationActivity\n -a android.nfc.action.TECH_DISCOVERED\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,

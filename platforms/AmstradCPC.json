@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 10,
+  "revisionNumber": 12,
   "platform": {
     "name": "Amstrad CPC",
     "uniqueId": "cpc",

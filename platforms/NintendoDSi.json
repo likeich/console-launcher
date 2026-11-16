@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 17,
+  "revisionNumber": 18,
   "platform": {
     "name": "Nintendo DSi",
     "uniqueId": "ndsi",
@@ -89,7 +89,7 @@
       "name": "ndsi - SeedlessDS",
       "uniqueId": "ndsi.com.seedlessds.app",
       "description": null,
-      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z|ids|srl)$",
       "amStartArguments": "-n com.seedlessds.app/.LaunchGame\n-e rom_path {file.path}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": false,

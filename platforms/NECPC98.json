@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 12,
   "platform": {
     "name": "NEC PC-98",
     "uniqueId": "pc98",

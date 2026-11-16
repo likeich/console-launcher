@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 7,
   "platform": {
     "name": "CHIP-8",
     "uniqueId": "chip8",

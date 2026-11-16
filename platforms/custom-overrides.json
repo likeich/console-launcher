@@ -1,0 +1,254 @@
+[
+  {
+    "file": "Nintendo3DS.json",
+    "uniqueId": "3ds.azahar",
+    "set": {
+      "description": "Supported extensions: 3ds, 3dsx, app, cci, cxi, bcci, bcxi, z3dsx, zcci, zcxi."
+    }
+  },
+  {
+    "file": "Nintendo3DS.json",
+    "uniqueId": "3ds.azahar.vanilla",
+    "set": {
+      "description": "Supported extensions: 3ds, 3dsx, app, cci, cxi, bcci, bcxi, z3dsx, zcci, zcxi."
+    }
+  },
+  {
+    "file": "Nintendo3DS.json",
+    "uniqueId": "3ds.io.github.azaharplus.android",
+    "addExtensions": [
+      "3dsx",
+      "app"
+    ],
+    "set": {
+      "description": "Supported extensions: 3ds, 3dsx, app, cci, cxi, zcci, zcxi."
+    }
+  },
+  {
+    "file": "AtariST.json",
+    "uniqueId": "atarist.ra64.hatari",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "AtariST.json",
+    "uniqueId": "atarist.ra32.hatari",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "AtariST.json",
+    "uniqueId": "atarist.ra.hatari",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "FairchildChannelF.json",
+    "uniqueId": "channelf.ra64.freechaf",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "FairchildChannelF.json",
+    "uniqueId": "channelf.ra32.freechaf",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "FairchildChannelF.json",
+    "uniqueId": "channelf.ra.freechaf",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "Chip8.json",
+    "uniqueId": "chip8.ra64.jaxe",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "Chip8.json",
+    "uniqueId": "chip8.ra32.jaxe",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "Chip8.json",
+    "uniqueId": "chip8.ra.jaxe",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "AmstradCPC.json",
+    "uniqueId": "cpc.ra64.cap32",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "AmstradCPC.json",
+    "uniqueId": "cpc.ra32.cap32",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "AmstradCPC.json",
+    "uniqueId": "cpc.ra.cap32",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "DOOMGameEngine.json",
+    "uniqueId": "doom.ra64.prboom",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "DOOMGameEngine.json",
+    "uniqueId": "doom.ra32.prboom",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "DOOMGameEngine.json",
+    "uniqueId": "doom.ra.prboom",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "LowResNX.json",
+    "uniqueId": "lowresnx.ra64.lowresnx",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "LowResNX.json",
+    "uniqueId": "lowresnx.ra32.lowresnx",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "LowResNX.json",
+    "uniqueId": "lowresnx.ra.lowresnx",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "MegaDuck.json",
+    "uniqueId": "megaduck.ra64.sameduck",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "MegaDuck.json",
+    "uniqueId": "megaduck.ra32.sameduck",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "MegaDuck.json",
+    "uniqueId": "megaduck.ra.sameduck",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "NECPC98.json",
+    "uniqueId": "pc98.ra64.np2kai",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "NECPC98.json",
+    "uniqueId": "pc98.ra32.np2kai",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "NECPC98.json",
+    "uniqueId": "pc98.ra.np2kai",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "NECPC98.json",
+    "uniqueId": "pc98.ra64.nekop2",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "NECPC98.json",
+    "uniqueId": "pc98.ra32.nekop2",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "NECPC98.json",
+    "uniqueId": "pc98.ra.nekop2",
+    "addExtensions": [
+      "7z"
+    ]
+  },
+  {
+    "file": "NintendoSNES.json",
+    "uniqueId": "snes.com.zsnes.superzsnes",
+    "addExtensions": [
+      "7z",
+      "zip"
+    ]
+  },
+  {
+    "file": "NintendoDS.json",
+    "uniqueId": "nds.com.pizzaemulators.pbds",
+    "addExtensions": [
+      "rar"
+    ]
+  },
+  {
+    "file": "NintendoDS.json",
+    "uniqueId": "nds.com.seedlessds.app",
+    "addExtensions": [
+      "ids",
+      "srl"
+    ]
+  },
+  {
+    "file": "NintendoDSi.json",
+    "uniqueId": "ndsi.com.seedlessds.app",
+    "addExtensions": [
+      "ids",
+      "srl"
+    ]
+  },
+  {
+    "file": "NintendoSwitch.json",
+    "uniqueId": "switch.dev.lemon.lemon_emulator",
+    "addExtensions": [
+      "xcz"
+    ]
+  }
+]
