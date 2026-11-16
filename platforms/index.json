@@ -13,14 +13,14 @@
       "platformName": "Amstrad CPC",
       "platformShortname": "cpc",
       "platformUniqueId": "cpc",
-      "revisionNumber": 9
+      "revisionNumber": 10
     },
     {
       "filename": "AppleII.json",
       "platformName": "Apple II",
       "platformShortname": "appleii",
       "platformUniqueId": "appleii",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "ArcadeFinalBurnNeo.json",
@@ -55,7 +55,7 @@
       "platformName": "Arcadia 2001",
       "platformShortname": "arcadia",
       "platformUniqueId": "arcadia",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "Arduboy.json",
@@ -111,7 +111,7 @@
       "platformName": "Atari ST",
       "platformShortname": "atarist",
       "platformUniqueId": "atarist",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "Atomiswave.json",
@@ -139,7 +139,7 @@
       "platformName": "CP System I",
       "platformShortname": "cps1",
       "platformUniqueId": "cps1",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "CPS2.json",
@@ -174,7 +174,7 @@
       "platformName": "CHIP-8",
       "platformShortname": "chip8",
       "platformUniqueId": "chip8",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "ColecoVision.json",
@@ -216,7 +216,7 @@
       "platformName": "DOOM Game Engine",
       "platformShortname": "doom",
       "platformUniqueId": "doom",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "DOS.json",
@@ -237,7 +237,7 @@
       "platformName": "Fairchild Channel F",
       "platformShortname": "channelf",
       "platformUniqueId": "channelf",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "FamicomDiskSystem.json",
@@ -279,7 +279,7 @@
       "platformName": "Interton VC 4000",
       "platformShortname": "vc4000",
       "platformUniqueId": "vc4000",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "JavaMe.json",
@@ -293,7 +293,7 @@
       "platformName": "LowRes NX",
       "platformShortname": "lowresnx",
       "platformUniqueId": "lowresnx",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "MSX.json",
@@ -314,7 +314,7 @@
       "platformName": "Mega Duck",
       "platformShortname": "megaduck",
       "platformUniqueId": "megaduck",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "MicrosoftXbox.json",
@@ -349,7 +349,7 @@
       "platformName": "NEC PC-98",
       "platformShortname": "pc98",
       "platformUniqueId": "pc98",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "NECPCFX.json",
@@ -398,7 +398,7 @@
       "platformName": "Nintendo 3DS",
       "platformShortname": "3ds",
       "platformUniqueId": "3ds",
-      "revisionNumber": 27
+      "revisionNumber": 29
     },
     {
       "filename": "Nintendo64.json",
@@ -412,14 +412,14 @@
       "platformName": "Nintendo DS",
       "platformShortname": "nds",
       "platformUniqueId": "nds",
-      "revisionNumber": 24
+      "revisionNumber": 25
     },
     {
       "filename": "NintendoDSi.json",
       "platformName": "Nintendo DSi",
       "platformShortname": "ndsi",
       "platformUniqueId": "ndsi",
-      "revisionNumber": 16
+      "revisionNumber": 17
     },
     {
       "filename": "NintendoEntertainmentSystem.json",
@@ -433,7 +433,7 @@
       "platformName": "Nintendo - Game & Watch",
       "platformShortname": "gw",
       "platformUniqueId": "gw",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "NintendoGameBoy.json",
@@ -461,7 +461,7 @@
       "platformName": "Nintendo - GameCube",
       "platformShortname": "gc",
       "platformUniqueId": "gc",
-      "revisionNumber": 20
+      "revisionNumber": 21
     },
     {
       "filename": "NintendoPokemonMini.json",
@@ -510,7 +510,7 @@
       "platformName": "Nintendo Wii",
       "platformShortname": "wii",
       "platformUniqueId": "wii",
-      "revisionNumber": 18
+      "revisionNumber": 19
     },
     {
       "filename": "NintendoWiiU.json",
@@ -524,7 +524,7 @@
       "platformName": "Nintendo WiiWare",
       "platformShortname": "wiiware",
       "platformUniqueId": "wiiware",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "PICO8.json",

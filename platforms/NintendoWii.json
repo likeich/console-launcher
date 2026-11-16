@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 18,
+  "revisionNumber": 19,
   "platform": {
     "name": "Nintendo Wii",
     "uniqueId": "wii",
@@ -162,6 +162,16 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|wbfs|gcz|rvz|m3u)$",
       "amStartArguments": "-n com.omnidroid/com.omnidroid.app.shared.game.ExternalGameLauncherActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --es SYSTEM wii",
       "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "wii - RetroArch 32 - dolphin",
+      "uniqueId": "wii.ra32.dolphin",
+      "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, m3u, rvz, tgc, wad, wbfs, wia",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|m3u|rvz|tgc|wad|wbfs|wia)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO dolphin\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     }

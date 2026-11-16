@@ -376,5 +376,257 @@
       "killPackageProcessesWarning": false,
       "extra": ""
     }
+  },
+  {
+    "file": "Nintendo3DS.json",
+    "insertAfter": "3ds.io.github.ptyfyre.mandarine.neo",
+    "player": {
+      "name": "3ds - RetroArch 64 - citra2018",
+      "uniqueId": "3ds.ra64.citra2018",
+      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra2018\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Nintendo3DS.json",
+    "insertAfter": "3ds.ra64.citra2018",
+    "player": {
+      "name": "3ds - RetroArch 32 - citra2018",
+      "uniqueId": "3ds.ra32.citra2018",
+      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra2018\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Nintendo3DS.json",
+    "insertAfter": "3ds.ra32.citra2018",
+    "player": {
+      "name": "3ds - RetroArch - citra2018",
+      "uniqueId": "3ds.ra.citra2018",
+      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra2018\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Nintendo3DS.json",
+    "insertAfter": "3ds.ra.citra2018",
+    "player": {
+      "name": "3ds - RetroArch 64 - citra_canary",
+      "uniqueId": "3ds.ra64.citra_canary",
+      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra_canary\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Nintendo3DS.json",
+    "insertAfter": "3ds.ra64.citra_canary",
+    "player": {
+      "name": "3ds - RetroArch 32 - citra_canary",
+      "uniqueId": "3ds.ra32.citra_canary",
+      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra_canary\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Nintendo3DS.json",
+    "insertAfter": "3ds.ra32.citra_canary",
+    "player": {
+      "name": "3ds - RetroArch - citra_canary",
+      "uniqueId": "3ds.ra.citra_canary",
+      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra_canary\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Nintendo3DS.json",
+    "insertAfter": "3ds.ra.citra_canary",
+    "player": {
+      "name": "3ds - RetroArch 32 - citra",
+      "uniqueId": "3ds.ra32.citra",
+      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO citra\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "AppleII.json",
+    "insertAfter": "appleii.ra.mess",
+    "player": {
+      "name": "appleii - RetroArch 32 - mamemess",
+      "uniqueId": "appleii.ra32.mamemess",
+      "description": "Supported extensions: cmd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cmd)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mamemess\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "Arcadia2001.json",
+    "insertAfter": "arcadia.ra.mess",
+    "player": {
+      "name": "arcadia - RetroArch 32 - mamemess",
+      "uniqueId": "arcadia.ra32.mamemess",
+      "description": "Supported extensions: cmd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cmd)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mamemess\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "CPS1.json",
+    "insertAfter": "cps1.ra.fbalpha2012_cps1",
+    "player": {
+      "name": "cps1 - RetroArch 64 - fbalpha",
+      "uniqueId": "cps1.ra64.fbalpha",
+      "description": "Supported extensions: 7z, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO fbalpha\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "CPS1.json",
+    "insertAfter": "cps1.ra64.fbalpha",
+    "player": {
+      "name": "cps1 - RetroArch - fbalpha",
+      "uniqueId": "cps1.ra.fbalpha",
+      "description": "Supported extensions: 7z, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO fbalpha\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoGameCube.json",
+    "insertAfter": "gc.com.omnidroid",
+    "player": {
+      "name": "gc - RetroArch 32 - dolphin",
+      "uniqueId": "gc.ra32.dolphin",
+      "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, m3u, rvz, tgc, wad, wbfs, wia",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|m3u|rvz|tgc|wad|wbfs|wia)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO dolphin\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoGame&Watch.json",
+    "insertAfter": "gw.ra.mamemess",
+    "player": {
+      "name": "gw - RetroArch 32 - mamemess",
+      "uniqueId": "gw.ra32.mamemess",
+      "description": "Supported extensions: mgw.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:mgw|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mamemess\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoDS.json",
+    "insertAfter": "nds.com.pokedaisy.app",
+    "player": {
+      "name": "nds - RetroArch 32 - melondsds",
+      "uniqueId": "nds.ra32.melondsds",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO melondsds\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoDSi.json",
+    "insertAfter": "ndsi.com.seedlessds.app",
+    "player": {
+      "name": "ndsi - RetroArch 32 - melondsds",
+      "uniqueId": "ndsi.ra32.melondsds",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO melondsds\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "IntertonVC4000.json",
+    "insertAfter": "vc4000.ra.mess",
+    "player": {
+      "name": "vc4000 - RetroArch 32 - mamemess",
+      "uniqueId": "vc4000.ra32.mamemess",
+      "description": "Supported extensions: cmd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cmd)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mamemess\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoWii.json",
+    "insertAfter": "wii.com.omnidroid",
+    "player": {
+      "name": "wii - RetroArch 32 - dolphin",
+      "uniqueId": "wii.ra32.dolphin",
+      "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, m3u, rvz, tgc, wad, wbfs, wia",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|m3u|rvz|tgc|wad|wbfs|wia)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO dolphin\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  },
+  {
+    "file": "NintendoWiiWare.json",
+    "insertAfter": "wiiware.com.joeyos.dolphinemu",
+    "player": {
+      "name": "wiiware - RetroArch 32 - dolphin",
+      "uniqueId": "wiiware.ra32.dolphin",
+      "description": "Supported extensions: wad",
+      "acceptedFilenameRegex": "^(.*)\\.(?:wad)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO dolphin\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
   }
 ]

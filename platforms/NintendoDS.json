@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 24,
+  "revisionNumber": 25,
   "platform": {
     "name": "Nintendo DS",
     "uniqueId": "nds",
@@ -333,6 +333,16 @@
       "amStartArguments": "-n com.pokedaisy.app/com.pokedaisy.app.LaunchActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "nds - RetroArch 32 - melondsds",
+      "uniqueId": "nds.ra32.melondsds",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO melondsds\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
       "extra": ""
     },
     {

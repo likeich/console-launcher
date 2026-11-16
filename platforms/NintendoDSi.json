@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 16,
+  "revisionNumber": 17,
   "platform": {
     "name": "Nintendo DSi",
     "uniqueId": "ndsi",
@@ -93,6 +93,16 @@
       "amStartArguments": "-n com.seedlessds.app/.LaunchGame\n-e rom_path {file.path}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - RetroArch 32 - melondsds",
+      "uniqueId": "ndsi.ra32.melondsds",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO melondsds\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
       "extra": ""
     },
     {

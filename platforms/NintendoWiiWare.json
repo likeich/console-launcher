@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 10,
+  "revisionNumber": 11,
   "platform": {
     "name": "Nintendo WiiWare",
     "uniqueId": "wiiware",
@@ -132,6 +132,16 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:wad)$",
       "amStartArguments": "-n com.joeyos.dolphinemu/org.dolphinemu.dolphinemu.ui.main.MainActivity\n -a android.intent.action.MAIN\n -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "wiiware - RetroArch 32 - dolphin",
+      "uniqueId": "wiiware.ra32.dolphin",
+      "description": "Supported extensions: wad",
+      "acceptedFilenameRegex": "^(.*)\\.(?:wad)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO dolphin\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     }
