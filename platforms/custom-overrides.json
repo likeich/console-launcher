@@ -250,12 +250,5 @@
     "addExtensions": [
       "xcz"
     ]
-  },
-  {
-    "file": "SonyPlayStation.json",
-    "uniqueId": "psx.com.github.stenzek.duckstation",
-    "set": {
-      "amStartArguments": "-n com.github.stenzek.duckstation/.EmulationActivity\n-e bootPath {file.uri}\n --activity-clear-task\n --activity-clear-top"
-    }
   }
 ]
