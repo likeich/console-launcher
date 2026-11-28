@@ -128,14 +128,14 @@
     "package_name": "app.gamenative",
     "display_name": "GameNative (Windows/Steam)",
     "publisher": "utkarshdalal",
-    "latest_version_name": "1.2.1",
-    "published_at": "2026-09-13T13:36:34Z",
+    "latest_version_name": "1.4.1",
+    "published_at": "2026-11-25T13:26:32Z",
     "sources": [
       {
         "type": "github_release",
         "repo": "utkarshdalal/GameNative",
         "asset_regex": "(?i)gamenative.*\\.apk",
-        "download_url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.2.1/gamenative-v1.2.1-legacy-xr.apk",
+        "download_url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.4.1/gamenative-v1.4.1-legacy-xr.apk",
         "abi": "arm64-v8a"
       }
     ]
@@ -161,14 +161,14 @@
     "package_name": "io.github.lime3ds.android",
     "display_name": "Azahar (Nintendo 3DS)",
     "publisher": "azahar-emu",
-    "latest_version_name": "2126.2",
-    "published_at": "2026-10-08T23:12:19Z",
+    "latest_version_name": "2127.0.1",
+    "published_at": "2026-11-24T22:55:12Z",
     "sources": [
       {
         "type": "github_release",
         "repo": "azahar-emu/azahar",
         "asset_regex": "(?i)azahar-android-vanilla.*\\.apk",
-        "download_url": "https://github.com/azahar-emu/azahar/releases/download/2126.2/azahar-android-vanilla-2126.2.apk"
+        "download_url": "https://github.com/azahar-emu/azahar/releases/download/2127.0.1/azahar-android-vanilla-2127.0.1.apk"
       },
       {
         "type": "play_store",
@@ -197,16 +197,7 @@
     "package_name": "io.github.mandarine3ds.mandarine",
     "display_name": "Mandarine (Nintendo 3DS)",
     "publisher": "mandarine3ds",
-    "latest_version_name": "r1.3.0",
-    "published_at": "2026-04-15T15:38:08Z",
-    "sources": [
-      {
-        "type": "github_release",
-        "repo": "ptyfyre/mandarine-neo",
-        "asset_regex": "(?i)mandarine.*\\.apk",
-        "download_url": "https://github.com/ptyfyre/mandarine-neo/releases/download/r1.3.0/mandarine-android-universal-20260415-3f023d0.apk"
-      }
-    ]
+    "sources": []
   },
   {
     "id": "dolphin",
@@ -441,16 +432,7 @@
     "package_name": "org.citron.citron_emu",
     "display_name": "Citron (Nintendo Switch)",
     "publisher": "citron-neo",
-    "latest_version_name": "2026-04-27",
-    "published_at": "2026-04-27T13:57:23Z",
-    "sources": [
-      {
-        "type": "github_release",
-        "repo": "citron-neo/emulator",
-        "asset_regex": "(?i)app-mainline.*\\.apk",
-        "download_url": "https://github.com/citron-neo/emulator/releases/download/2026-04-27/app-mainline-release.apk"
-      }
-    ]
+    "sources": []
   },
   {
     "id": "eka2l1",
@@ -784,14 +766,14 @@
     "package_name": "ru.playsoftware.j2meloader",
     "display_name": "J2ME-Loader (J2ME)",
     "publisher": "nikita36078",
-    "latest_version_name": "1.8.2",
-    "published_at": "2024-08-07T20:34:17Z",
+    "latest_version_name": "1.9.0",
+    "published_at": "2026-11-27T10:34:38Z",
     "sources": [
       {
         "type": "github_release",
         "repo": "nikita36078/J2ME-Loader",
         "asset_regex": "(?i)j2me.loader.*open-release\\.apk",
-        "download_url": "https://github.com/nikita36078/J2ME-Loader/releases/download/1.8.2/J2ME_Loader-1.8.2-open-release.apk"
+        "download_url": "https://github.com/nikita36078/J2ME-Loader/releases/download/1.9.0/J2ME_Loader-1.9.0-open-release.apk"
       },
       {
         "type": "play_store",
